@@ -3,58 +3,62 @@ layout: biblioteca
 title: Bibliotecă
 ---
 
-<style>
-  .downloads {
-    display: inline-block;
-  }
-</style>
-
-<div class="ui container">
-  <div class="ui relaxed divided items">
-    {% assign ordered_books = site.teka | sort:"position" %}
-    {% for book in ordered_books %}
-      <div class="item">
-        <div class="ui small image" class="cover-preview">
-          <img src="/assets/images/teka/preview{{ book.relative_path }}.jpg">
+<div class="book-grid">
+  {% assign ordered_books = site.teka | sort:"position" %}
+  {% for book in ordered_books %}
+    <article class="book-card">
+      <div class="book-card__cover">
+        <img
+          src="{{ "/assets/images/teka/preview" | append: book.relative_path | append: ".jpg" | relative_url }}"
+          alt="Coperta publicației {{ book.title }}">
+      </div>
+      <div class="book-card__content">
+        <h2>{{ book.title }}</h2>
+        <p class="book-card__author">{{ book.author }}</p>
+        <div class="book-card__description">
+          {{ book.content }}
         </div>
-        <div class="content">
-          <p class="header">
-            {{ book.title }}
-          </p>
-          <div class="meta">
-            <p>{{ book.author }}</p>
-          </div>
-          <div class="description">
-            {{ book.content }}
-          </div>
-          <div class="ui segment downloads">
-            {%- if book.epub -%}
-              <a href="{{ site.url }}/assets{{ book.url }}/{{ book.epub }}" class="ui blue large label">
-                  <i class="icon cloud download"></i>
-                  .epub
-              </a>
-            {%- endif -%}
-            {%- if book.mobi -%}
-              <a href="{{ site.url }}/assets{{ book.url }}/{{ book.mobi }}" class="ui yellow large label">
-                  <i class="icon cloud download"></i>
-                  .mobi
-              </a>
-            {%- endif -%}
-            {%- if book.pdf -%}
-              <a href="{{ site.url }}/assets{{ book.url }}/{{ book.pdf }}" target='_blank' class="ui red large label">
-                  <i class="icon cloud download"></i>
-                  .pdf
-              </a>
-            {%- endif -%}
-            {%- if book.html -%}
-              <a href="{{ site.url }}/biblioteca/{{ book.html }}" class="ui large label">
-                  <i class="icon eye"></i>
-                  Citește online
-              </a>
-            {%- endif -%}
-          </div>
+        <div class="ui segment downloads" aria-label="Formate disponibile">
+          {%- if book.epub -%}
+            <a
+              href="{{ "/assets" | append: book.url | append: "/" | append: book.epub | relative_url }}"
+              class="ui blue large label"
+              aria-label="Descarcă {{ book.title }} în format EPUB">
+              <i class="icon cloud download" aria-hidden="true"></i>
+              <span>.epub</span>
+            </a>
+          {%- endif -%}
+          {%- if book.mobi -%}
+            <a
+              href="{{ "/assets" | append: book.url | append: "/" | append: book.mobi | relative_url }}"
+              class="ui yellow large label"
+              aria-label="Descarcă {{ book.title }} în format MOBI">
+              <i class="icon cloud download" aria-hidden="true"></i>
+              <span>.mobi</span>
+            </a>
+          {%- endif -%}
+          {%- if book.pdf -%}
+            <a
+              href="{{ "/assets" | append: book.url | append: "/" | append: book.pdf | relative_url }}"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="ui red large label"
+              aria-label="Deschide {{ book.title }} în format PDF">
+              <i class="icon cloud download" aria-hidden="true"></i>
+              <span>.pdf</span>
+            </a>
+          {%- endif -%}
+          {%- if book.html -%}
+            <a
+              href="{{ "/biblioteca/" | append: book.html | relative_url }}"
+              class="ui large label"
+              aria-label="Citește online {{ book.title }}">
+              <i class="icon eye" aria-hidden="true"></i>
+              <span>Citește online</span>
+            </a>
+          {%- endif -%}
         </div>
       </div>
-    {% endfor %}
-  </div>
+    </article>
+  {% endfor %}
 </div>

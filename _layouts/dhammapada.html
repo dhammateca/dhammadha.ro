@@ -3,65 +3,52 @@
 
   {%- include head.html -%}
 
-  <body>
+  <body class="page-body page-layout-dhammapada">
+    <a class="skip-link" href="#main-content">Sari la conținut</a>
 
     {%- include header.html -%}
 
-    <main class='ui container'>
-      <div class='ui segment'>
-        <h3>
-          Khuddaka Nikaya
-          <i class='angle double right icon'></i>
-          Dhammapada
-        </h3>
-        <div class='ui card' id='adi'>
-          <div class='content'>
-            <h5>
-              O Dhammapada pentru Contemplație<br>
-              de Ajahn Munindo
-            </h5>
-          </div>
-          <div class='content'>
-            <div class='ui small feed'>
-              {% for item in site.kn_dhp limit:3 %}
-                <a href='{{ item.url }}#majjhe'>{{ item.title }}</a><br />
-              {% endfor %}
+    <main class="site-main" id="main-content">
+      <section class="section">
+        <div class="site-shell reading-layout">
+          <aside class="toc-card" id="adi">
+            <p class="section-kicker">Khuddaka Nikāya</p>
+            <h1 class="toc-card__title">Dhammapada</h1>
+            <p class="toc-card__subtitle">O Dhammapada pentru Contemplație de Ajahn Munindo</p>
+            <nav aria-label="Cuprins">
+              <div class="toc-list">
+                {% for item in site.kn_dhp %}
+                  <a href="{{ item.url }}#majjhe">
+                    {% if forloop.index <= 3 %}
+                      {{ item.title }}
+                    {% else %}
+                      {{ forloop.index | minus: 3 }}{{ item.name }}. {{ item.title }}
+                    {% endif %}
+                  </a>
+                {% endfor %}
+              </div>
+            </nav>
+          </aside>
+
+          <article class="reading-surface">
+            <div class="reading-prose" id="majjhe">
+              {{ content }}
             </div>
-          </div>
-          <div class='content'>
-            <div class='ui small feed'>
-              {% for item in site.kn_dhp offset:3 %}
-                <a href='{{ item.url }}#majjhe'>{{ forloop.index }}{{ item.name }}. {{ item.title }}</a><br />
-              {% endfor %}
+
+            <div class="reading-meta">
+              <a rel="license" class="cc-badge" href="https://creativecommons.org/licenses/by-nc/3.0/">CC BY-NC 3.0</a>
+              <p>
+                Traducere și adaptare din engleză a textului
+                «<a href="https://www.amaravati.org/dhamma-books/a-dhammapada-for-contemplation/" target="_blank" rel="noreferrer" data-tooltip="© Ajahn Munindo">A Dhammapada for Contemplation</a>»
+              </p>
             </div>
-          </div>
+          </article>
         </div>
-
-        <div class='content' id='majjhe'>
-          {{ content }}
-        </div>
-
-        <a href='#adi' class='fluid ui primary basic button' style='margin-top: 1em;'>
-          Înapoi la cuprins
-        </a>
-
-        <div class='ui divider'></div>
-
-        <small>
-          <a rel='license' href='http://creativecommons.org/licenses/by-nc/3.0/'>
-            <img alt="Licenţa Creative Commons" style="border-width: 0; vertical-align: middle;" src="https://i.creativecommons.org/l/by-nc/3.0/80x15.png" />
-          </a>
-          Traducere și adaptare din engleză a textului
-          «<a href='https://www.amaravati.org/dhamma-books/a-dhammapada-for-contemplation/' target='_blank' data-tooltip='© Ajahn Munindo'>
-            A Dhammapada for Contemplation
-          </a>»
-        </small>
-      </div>
-      <br>
+      </section>
     </main>
 
-    <!-- {%- include footer.html -%} -->
-
+    {%- include footer.html -%}
+    {%- include site-scripts.html -%}
   </body>
 
 </html>

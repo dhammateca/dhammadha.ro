@@ -1,0 +1,72 @@
+<script>
+  (function () {
+    var navToggle = document.querySelector('[data-nav-toggle]');
+    var nav = document.querySelector('[data-nav]');
+    var mobileMedia = window.matchMedia('(max-width: 820px)');
+
+    if (navToggle && nav) {
+      var syncNavState = function () {
+        var isMobile = mobileMedia.matches;
+        if (isMobile) {
+          var expanded = navToggle.getAttribute('aria-expanded') === 'true';
+          nav.hidden = !expanded;
+        } else {
+          nav.hidden = false;
+          navToggle.setAttribute('aria-expanded', 'false');
+        }
+      };
+
+      navToggle.addEventListener('click', function () {
+        var expanded = navToggle.getAttribute('aria-expanded') === 'true';
+        navToggle.setAttribute('aria-expanded', String(!expanded));
+        nav.hidden = expanded;
+      });
+
+      if (mobileMedia.addEventListener) {
+        mobileMedia.addEventListener('change', syncNavState);
+      } else {
+        mobileMedia.addListener(syncNavState);
+      }
+
+      syncNavState();
+    }
+
+    var submenuToggle = document.querySelector('[data-submenu-toggle]');
+    var submenu = document.querySelector('[data-submenu]');
+
+    if (submenuToggle && submenu) {
+      submenu.hidden = true;
+      submenuToggle.addEventListener('click', function () {
+        var expanded = submenuToggle.getAttribute('aria-expanded') === 'true';
+        submenuToggle.setAttribute('aria-expanded', String(!expanded));
+        submenu.hidden = expanded;
+      });
+
+      document.addEventListener('click', function (event) {
+        if (!submenu.contains(event.target) && !submenuToggle.contains(event.target)) {
+          submenuToggle.setAttribute('aria-expanded', 'false');
+          submenu.hidden = true;
+        }
+      });
+    }
+
+    var accordionItems = document.querySelectorAll('[data-accordion-item]');
+    accordionItems.forEach(function (item) {
+      var control = item.querySelector('[data-accordion-control]');
+      var panel = item.querySelector('[data-accordion-panel]');
+      if (!control || !panel) {
+        return;
+      }
+
+      var toggleAccordion = function () {
+        var expanded = control.getAttribute('aria-expanded') === 'true';
+        control.setAttribute('aria-expanded', String(!expanded));
+        panel.hidden = expanded;
+        item.classList.toggle('is-open', !expanded);
+      };
+
+      panel.hidden = true;
+      control.addEventListener('click', toggleAccordion);
+    });
+  }());
+</script>

@@ -2,23 +2,27 @@
 <html lang="{{ page.lang | default: site.lang | default: "ro" }}">
 
   {%- include head.html -%}
-  <body>
+
+  <body class="page-body page-layout-biblioteca">
+    <a class="skip-link" href="#main-content">Sari la conținut</a>
 
     {%- include header.html -%}
 
-    <main class='ui container'>
-      <div class='ui segment'>
-        <h3>
-          {{ page.title }}
-        </h3>
-        <div class='ui divider inverted'></div>
-          {{ content }}
-      </div>
-      <br>
+    <main class="site-main" id="main-content">
+      <section class="section">
+        <div class="site-shell">
+          <header class="page-header reading-shell">
+            <h1>{{ page.title }}</h1>
+          </header>
+          <div class="editorial-surface">
+            {{ content }}
+          </div>
+        </div>
+      </section>
     </main>
 
-    <!-- {%- include footer.html -%} -->
-
+    {%- include footer.html -%}
+    {%- include site-scripts.html -%}
   </body>
 
 </html>

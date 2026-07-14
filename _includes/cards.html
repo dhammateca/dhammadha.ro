@@ -1,10 +1,5 @@
-<a class='card' href={{ item.url }}>
-  <div class='content'>
-    <div class='center aligned header'>
-      {{ item.title }}</div>
-    <div class='right aligned meta'>{{ page.shortname }}{{ item.name }}</div>
-    <div class='description'>
-      {{ item.romanian_title }}
-    </div>
-  </div>
+<a class="text-card" href="{{ item.url | relative_url }}">
+  <p class="text-card__meta">{{ page.shortname }}{{ item.name }}</p>
+  <h2 class="text-card__title">{{ item.title }}</h2>
+  <p class="text-card__description">{{ item.romanian_title }}</p>
 </a>
