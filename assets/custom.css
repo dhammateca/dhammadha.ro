@@ -9,6 +9,11 @@
   padding: 0;
 }
 
+#cover-preview {
+  max-height: 11.3em;
+  overflow: hidden;
+}
+
 .ui.segment {
   background-image: url(/assets/images/vintage-concrete.png);
 }
@@ -42,4 +47,10 @@
 
 footer {
   margin-top: 1em;
+}
+
+.book-cover {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
