@@ -16,7 +16,7 @@
 title: Dhammadha.ro
 email: buddhasasana.ro@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Sutre buddhiste Theravāda și învățățuri din Tradiția Pădurii Thailandeze.
+  Sutre budiste Theravāda și învățățuri din Tradiția Pădurii Thailandeze.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://dhammadha.ro # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
@@ -67,5 +67,20 @@ collections:
   book_basic_method:
     output: true
     permalink: /biblioteca/ajahn-brahm-tehnica-de-baza-a-meditatiei/:name
+  book_divine_mantra:
+    output: true
+    permalink: /biblioteca/ajahn-lee-mantra-divina/:name
   teka:
     output: false
+
+defaults:
+  - scope:
+      path: ""
+      type: "book_basic_method"
+    values:
+      layout: "book"
+  - scope:
+      path: ""
+      type: "book_divine_mantra"
+    values:
+      layout: "book"

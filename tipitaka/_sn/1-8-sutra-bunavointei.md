@@ -21,7 +21,7 @@ modest și fără lăcomie pentru susținători.\\
 Să nu faci cel mai mărunt lucru\\
 pe care cei înțelepți apoi să-l cenzureze.\\
 Gândește: fericire, în tihnă,\\
-fie ca tuturor ființelor să fie inima fericită.\\
+fie ca tuturor ființelor să le fie inima fericită.\\
 Oricare ființe ar fi,\\
 slabe sau puternice, fără excepție,\\
 lungi, mari,\\
