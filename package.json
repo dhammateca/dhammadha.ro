@@ -20,7 +20,7 @@
     "semantic-ui": "^2.5.0"
   },
   "devDependencies": {
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.1",
     "gulp-print": "^5.0.0"
   }
 }
