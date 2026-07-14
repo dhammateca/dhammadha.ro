@@ -1,12 +1,3 @@
 /*******************************
         Global Overrides
 *******************************/
-@fontName          : 'Source Sans Pro';
-@emSize   : 20px;
-@fontSize : 20px;
-
-@h1 : unit((24 / 14), rem);
-@h2 : unit((18 / 14), rem);
-@h3 : unit((15 / 14), rem);
-@h4 : unit((14 / 14), rem);
-@h5 : unit((13 / 14), rem);

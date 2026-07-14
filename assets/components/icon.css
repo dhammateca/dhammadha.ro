@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.4.0 - Icon
+ * # Semantic UI 2.5.0 - Icon
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -58,6 +58,8 @@ i.icon:before {
 i.icon.loading {
   height: 1em;
   line-height: 1;
+}
+i.icon.loading {
   -webkit-animation: icon-loading 2s linear infinite;
           animation: icon-loading 2s linear infinite;
 }
