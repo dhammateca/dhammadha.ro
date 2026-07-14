@@ -2,32 +2,53 @@
 <html lang="{{ page.lang | default: site.lang | default: "ro" }}">
 
   {%- include head.html -%}
+  {%- assign back_url = "/tipitaka" -%}
+  {%- assign back_label = "Tipiṭaka" -%}
+  {%- if page.collection == "mn" -%}
+    {%- assign back_url = "/tipitaka/mn" -%}
+    {%- assign back_label = "Majjhima Nikāya" -%}
+  {%- elsif page.collection == "sn" -%}
+    {%- assign back_url = "/tipitaka/sn" -%}
+    {%- assign back_label = "Saṃyutta Nikāya" -%}
+  {%- elsif page.collection == "an" -%}
+    {%- assign back_url = "/tipitaka/an" -%}
+    {%- assign back_label = "Aṅguttara Nikāya" -%}
+  {%- elsif page.collection == "kn_ud" -%}
+    {%- assign back_url = "/tipitaka/kn/ud" -%}
+    {%- assign back_label = "Udāna" -%}
+  {%- endif -%}
 
-  <body>
+  <body class="page-body page-layout-sutta">
+    <a class="skip-link" href="#main-content">Sari la conținut</a>
 
     {%- include header.html -%}
 
-    <main class='ui container'>
-      <div class='ui segment'>
-        <div class='content' id='majjhe'>
-          {{ content }}
+    <main class="site-main" id="main-content">
+      <section class="section">
+        <div class="site-shell">
+          <article class="reading-shell reading-article">
+            <div class="reading-surface">
+              <div class="reading-prose" id="majjhe">
+                {{ content }}
+              </div>
+              <p class="reading-backnav">
+                <a href="{{ back_url | relative_url }}" class="button button--secondary">Înapoi la {{ back_label }}</a>
+              </p>
+              <div class="reading-meta">
+                <a rel="license" class="cc-badge" href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>
+                <p>
+                  Traducere din engleză a textului
+                  «<a href="{{ page.copyright_url }}" target="_blank" rel="noreferrer" data-tooltip="© Thanissaro Bhikkhu">{{ page.title }}: {{ page.english_title }}</a>»
+                </p>
+              </div>
+            </div>
+          </article>
         </div>
-        <div class='ui divider'></div>
-        <small>
-          <a rel='license' href='http://creativecommons.org/licenses/by-nc/4.0/'>
-            <img alt="Licenţa Creative Commons" style="border-width: 0; vertical-align: middle;" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" />
-          </a>
-          Traducere din engleză a textului
-          «<a href='{{ page.copyright_url }}' target='_blank' data-tooltip='© Thanissaro Bhikkhu'>
-            {{ page.title }}: {{ page.english_title }}
-          </a>»
-        </small>
-      </div>
-      <br>
+      </section>
     </main>
 
-    <!-- {%- include footer.html -%} -->
-
+    {%- include footer.html -%}
+    {%- include site-scripts.html -%}
   </body>
 
 </html>

@@ -3,56 +3,47 @@
 
   {%- include head.html -%}
 
-  <body>
+  <body class="page-body page-layout-book">
+    <a class="skip-link" href="#main-content">Sari la conținut</a>
 
     {%- include header.html -%}
     {% assign col = site[page.collection] %}
     {% assign metadata = col.first %}
 
-    <main class='ui container'>
-      <div class='ui segment'>
-        <h3>
-          {{ metadata.test }}
-        </h3>
-        <div class='ui card' id='adi'>
-          <div class='content'>
-            <h5>
-              {{ metadata.title }}<br>
-              de {{ metadata.author }}
-            </h5>
-          </div>
-          <div class='content'>
-            <div class='ui small feed'>
-              {% for item in col offset:1 %}
-                <a href='{{ item.url }}#majjhe'>{{ item.title }}</a><br />
-              {% endfor %}
+    <main class="site-main" id="main-content">
+      <section class="section">
+        <div class="site-shell reading-layout">
+          <aside class="toc-card" id="adi">
+            <p class="section-kicker">Bibliotecă</p>
+            <h1 class="toc-card__title">{{ metadata.title }}</h1>
+            <p class="toc-card__subtitle">de {{ metadata.author }}</p>
+            <nav aria-label="Cuprins">
+              <div class="toc-list">
+                {% for item in col offset:1 %}
+                  <a href="{{ item.url }}#majjhe">{{ item.title }}</a>
+                {% endfor %}
+              </div>
+            </nav>
+          </aside>
+
+          <article class="reading-surface">
+            <div class="reading-prose" id="majjhe">
+              {{ content }}
             </div>
-          </div>
+
+            <div class="reading-meta">
+              <p>
+                Traducere și adaptare din engleză a textului
+                «<a href="{{ metadata.original_url }}" target="_blank" rel="noreferrer" data-tooltip="© {{ metadata.copyright }}, {{ metadata.year }}">{{ metadata.original_title }}</a>»
+              </p>
+            </div>
+          </article>
         </div>
-
-        <div class='content' id='majjhe'>
-          {{ content }}
-        </div>
-
-        <a href='#adi' class='fluid ui primary basic button' style='margin-top: 1em;'>
-          Înapoi la cuprins
-        </a>
-
-        <div class='ui divider'></div>
-
-        <small>
-          <i class='large copyright icon'></i>
-          Traducere și adaptare din engleză a textului
-          «<a href='{{ metadata.original_url }}' target='_blank' data-tooltip='© {{ metadata.copyright}}, {{ metadata.year }}'>
-            {{ metadata.original_title }}
-          </a>»
-        </small>
-      </div>
-      <br>
+      </section>
     </main>
 
-    <!-- {%- include footer.html -%} -->
-
+    {%- include footer.html -%}
+    {%- include site-scripts.html -%}
   </body>
 
 </html>

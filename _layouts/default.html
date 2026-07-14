@@ -3,16 +3,17 @@
 
   {%- include head.html -%}
 
-  <body>
+  <body class="page-body{% if page.url == '/' %} page-home{% endif %} page-layout-{{ page.layout | default: 'default' | slugify }}">
+    <a class="skip-link" href="#main-content">Sari la conținut</a>
 
     {%- include header.html -%}
 
-    <main class='ui container'>
+    <main class="site-main" id="main-content">
       {{ content }}
     </main>
 
-
-    {% comment %} {%- include footer.html -%} {% endcomment %}
+    {%- include footer.html -%}
+    {%- include site-scripts.html -%}
 
   </body>
 

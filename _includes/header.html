@@ -1,72 +1,66 @@
-<div class='ui stackable container menu' style='margin-top: 1em;'>
-  <div class='item' id='logo-container'>
-    <a href='/'>
-      <img class='logo' src='/assets/images/yantra.png'>
-    </a>
-  </div>
-  <a class='ui dropdown item'>
-    <i class='caret square down icon'></i>
-    Tipiṭaka
-    <div class='menu'>
-      <div class='header'>Sutta Piṭaka</div>
-        <div class='item disabled'>Dīgha Nikāya</div>
-        <div class='item' data-value='mn'>Majjhima Nikāya</div>
-        <div class='item' data-value='sn'>Saṃyutta Nikāya</div>
-        <div class='item' data-value='an'>Aṅguttara Nikāya</div>
-        <div class='item'>
-          <i class='angle down icon'></i>
-          <span class='text'>Khuddaka Nikāya</span>
-          <div class='menu'>
-            <div class='item disabled'>Khuddakapāṭha</div>
-            <div class='item' data-value='kn/dhammapada'>Dhammapada</div>
-            <div class='item' data-value='kn/ud'>Udāna</div>
-            <div class='item disabled'>Sutta Nipāta</div>
-            <!-- <div class='item disabled'>Itivuttaka</div>
-            <div class='item disabled'>Vimanavatthu</div>
-            <div class='item disabled'>Petavatthu</div>
-            <div class='item disabled'>Theragatha</div>
-            <div class='item disabled'>Therigatha</div>
-            <div class='item disabled'>Jataka</div>
-            <div class='item disabled'>Niddesa</div>
-            <div class='item disabled'>Patisambhidamagga</div>
-            <div class='item disabled'>Apadana</div>
-            <div class='item disabled'>Buddhavamsa</div>
-            <div class='item disabled'>Cariyapitaka</div>
-            <div class='item disabled'>Nettippakarana</div>
-            <div class='item disabled'>Petakopadesa</div>
-            <div class='item disabled'>Milindapañha</div> -->
-          </div>
-        </div>
-        <div class='divider'></div>
-        <div class='header'>Vinaya Piṭaka</div>
-        <div class='divider'></div>
-        <div class='header'>Abhidhamma Piṭaka</div>
-    </div>
-  </a>
-  <a class='item' href='/biblioteca'>
-    <i class='book icon'></i>
-    Bibliotecă
-  </a>
-  <a class='item' href='/meditatie'>
-    <i class='heartbeat icon'></i>
-    Meditație
-  </a>
-    <a class='right item' href='mailto:&#98;&#117;ddhasasana.ro+s&#64;gmail.com'>
-    <i class='envelope icon'></i>
-    Contact
-  </a>
-</div>
-</div>
+{%- assign current_url = page.url | default: "/" -%}
+{%- assign is_home = current_url == "/" -%}
+{%- assign is_tipitaka = current_url contains "/tipitaka" -%}
+{%- assign is_biblioteca = current_url contains "/biblioteca" -%}
+{%- assign is_meditatie = current_url contains "/meditatie" -%}
+{%- assign is_contact = current_url contains "/contact" -%}
 
-<script type='text/javascript'>
-  $('.ui.dropdown')
-  .dropdown({
-    duration: 400,
-    direction: 'downward',
-    action: function(_, value) {
-      var path = '/tipitaka/' + value;
-      $(location).attr('href', path);
-    }
-  })
-  ;
-</script>
+<header class="site-header">
+  <div class="site-shell site-header__inner">
+    <a class="site-brand" href="{{ "/" | relative_url }}" aria-label="Dhammadha.ro - pagina principală">
+      <img class="site-brand__mark" src="{{ "/assets/images/yantra.png" | relative_url }}" alt="Simbol Dhammadha.ro">
+      <span class="site-brand__text">Dhammadha.ro</span>
+    </a>
+
+    <button
+      class="site-nav-toggle"
+      type="button"
+      aria-expanded="false"
+      aria-controls="site-nav"
+      data-nav-toggle>
+      <span class="site-nav-toggle__label">Meniu</span>
+      <span class="site-nav-toggle__icon" aria-hidden="true"></span>
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="Navigație principală" data-nav hidden>
+      <ul class="site-nav__list">
+        <li class="site-nav__item site-nav__item--has-children">
+          <button
+            class="site-nav__link site-nav__submenu-toggle{% if is_tipitaka %} is-active{% endif %}"
+            type="button"
+            aria-expanded="false"
+            aria-controls="tipitaka-menu"
+            data-submenu-toggle>
+            <span>Tipiṭaka</span>
+            <span class="site-nav__chevron" aria-hidden="true"></span>
+          </button>
+          <div class="site-nav__submenu" id="tipitaka-menu" data-submenu hidden>
+            <div class="site-nav__submenu-group">
+              <p class="site-nav__submenu-title">Sutta Piṭaka</p>
+              <a href="{{ "/tipitaka/mn" | relative_url }}">Majjhima Nikāya</a>
+              <a href="{{ "/tipitaka/sn" | relative_url }}">Saṃyutta Nikāya</a>
+              <a href="{{ "/tipitaka/an" | relative_url }}">Aṅguttara Nikāya</a>
+              <a href="{{ "/tipitaka/kn/dhammapada" | relative_url }}">Dhammapada</a>
+              <a href="{{ "/tipitaka/kn/ud" | relative_url }}">Udāna</a>
+            </div>
+            <div class="site-nav__submenu-group">
+              <p class="site-nav__submenu-title">În pregătire</p>
+              <span>Dīgha Nikāya</span>
+              <span>Khuddakapāṭha</span>
+              <span>Sutta Nipāta</span>
+            </div>
+          </div>
+        </li>
+        <li class="site-nav__item">
+          <a class="site-nav__link{% if is_biblioteca %} is-active{% endif %}" href="{{ "/biblioteca" | relative_url }}">Bibliotecă</a>
+        </li>
+        <li class="site-nav__item">
+          <a class="site-nav__link{% if is_meditatie %} is-active{% endif %}" href="{{ "/meditatie" | relative_url }}">Meditație</a>
+        </li>
+        <li class="site-nav__item">
+          <a class="site-nav__link{% if is_contact %} is-active{% endif %}" href="{{ "/contact" | relative_url }}">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

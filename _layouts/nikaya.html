@@ -2,34 +2,34 @@
 <html lang="{{ page.lang | default: site.lang | default: "ro" }}">
 
   {%- include head.html -%}
-  <style>
-    .ui.cards {
-      justify-content: space-evenly;
-    }
-  </style>
-  <body>
+
+  <body class="page-body page-layout-nikaya">
+    <a class="skip-link" href="#main-content">Sari la conținut</a>
 
     {%- include header.html -%}
 
-    <main class='ui container'>
-      <div class='ui segment'>
-        <h3>
-          {% if page.parent_title %}
-          {{ page.parent_title }}
-            <i class='angle double right icon'></i>
-          {% endif %}
-          {{ page.title }}
-        </h3>
-        <div class='ui divider'></div>
-        <div class='ui cards'>
-          {{ content }}
+    <main class="site-main" id="main-content">
+      <section class="section">
+        <div class="site-shell">
+          <header class="page-header reading-shell">
+            {%- if page.parent_title -%}
+              <p class="section-kicker">{{ page.parent_title }}</p>
+            {%- else -%}
+              <p class="section-kicker">Tipiṭaka</p>
+            {%- endif -%}
+            <h1>{{ page.title }}</h1>
+          </header>
+          <div class="editorial-surface">
+            <div class="text-card-grid">
+              {{ content }}
+            </div>
+          </div>
         </div>
-      </div>
-      <br>
+      </section>
     </main>
 
-    <!-- {%- include footer.html -%} -->
-
+    {%- include footer.html -%}
+    {%- include site-scripts.html -%}
   </body>
 
 </html>
