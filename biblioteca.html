@@ -7,19 +7,15 @@ title: Bibliotecă
   .downloads {
     display: inline-block;
   }
-
-  #book-cover {
-    max-height: 11.3em;
-    overflow: hidden;
-  }
 </style>
 
 <div class="ui container">
   <div class="ui relaxed divided items">
-    {% for book in site.teka %}
+    {% assign ordered_books = site.teka | sort:"position" %}
+    {% for book in ordered_books %}
       <div class="item">
-        <div class="ui small image" id="book-cover">
-          <img src="/assets/images/{{ book.url }}.jpg">
+        <div class="ui small image" class="cover-preview">
+          <img src="/assets/images/teka/preview{{ book.relative_path }}.jpg">
         </div>
         <div class="content">
           <p class="header">
@@ -45,7 +41,7 @@ title: Bibliotecă
               </a>
             {%- endif -%}
             {%- if book.pdf -%}
-              <a href="{{ site.url }}/assets{{ book.url }}/{{ book.pdf }}" class="ui red large label">
+              <a href="{{ site.url }}/assets{{ book.url }}/{{ book.pdf }}" target='_blank' class="ui red large label">
                   <i class="icon cloud download"></i>
                   .pdf
               </a>
