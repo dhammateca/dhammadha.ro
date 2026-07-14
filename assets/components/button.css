@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.4.0 - Button
+ * # Semantic UI 2.5.0 - Button
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -925,6 +925,36 @@
   text-align: center;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+
+/* Loading */
+.ui.labeled.icon.button > .icon.loading {
+  -webkit-animation: none;
+          animation: none;
+}
+.ui.labeled.icon.button > .icon.loading:before {
+  -webkit-animation: labeled-button-icon-loading 2s linear infinite;
+          animation: labeled-button-icon-loading 2s linear infinite;
+}
+@-webkit-keyframes labeled-button-icon-loading {
+  from {
+    -webkit-transform: translateY(-50%) rotate(0deg);
+            transform: translateY(-50%) rotate(0deg);
+  }
+  to {
+    -webkit-transform: translateY(-50%) rotate(360deg);
+            transform: translateY(-50%) rotate(360deg);
+  }
+}
+@keyframes labeled-button-icon-loading {
+  from {
+    -webkit-transform: translateY(-50%) rotate(0deg);
+            transform: translateY(-50%) rotate(0deg);
+  }
+  to {
+    -webkit-transform: translateY(-50%) rotate(360deg);
+            transform: translateY(-50%) rotate(360deg);
+  }
 }
 .ui.labeled.icon.buttons .button > .icon {
   border-radius: 0em;

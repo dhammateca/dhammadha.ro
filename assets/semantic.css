@@ -1,16 +1,16 @@
  /*
- * # Semantic UI - 2.4.0
+ * # Semantic UI - 2.5.0
  * https://github.com/Semantic-Org/Semantic-UI
  * http://www.semantic-ui.com/
  *
- * Copyright 2014 Contributors
+ * Copyright 2026 Contributors
  * Released under the MIT license
  * http://opensource.org/licenses/MIT
  *
  */
 @import url('https://fonts.googleapis.com/css?family=Source Sans Pro:400,700,400italic,700italic&subset=latin');
 /*!
- * # Semantic UI 2.4.0 - Reset
+ * # Semantic UI 2.5.0 - Reset
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -541,7 +541,7 @@ template {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.4.0 - Site
+ * # Semantic UI 2.5.0 - Site
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -760,7 +760,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.4.0 - Button
+ * # Semantic UI 2.5.0 - Button
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -1786,6 +1786,42 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
   text-align: center;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+/* Loading */
+
+.ui.labeled.icon.button > .icon.loading {
+  -webkit-animation: none;
+  animation: none;
+}
+
+.ui.labeled.icon.button > .icon.loading:before {
+  -webkit-animation: labeled-button-icon-loading 2s linear infinite;
+  animation: labeled-button-icon-loading 2s linear infinite;
+}
+
+@-webkit-keyframes labeled-button-icon-loading {
+  from {
+    -webkit-transform: translateY(-50%) rotate(0deg);
+    transform: translateY(-50%) rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: translateY(-50%) rotate(360deg);
+    transform: translateY(-50%) rotate(360deg);
+  }
+}
+
+@keyframes labeled-button-icon-loading {
+  from {
+    -webkit-transform: translateY(-50%) rotate(0deg);
+    transform: translateY(-50%) rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: translateY(-50%) rotate(360deg);
+    transform: translateY(-50%) rotate(360deg);
+  }
 }
 
 .ui.labeled.icon.buttons .button > .icon {
@@ -5121,7 +5157,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.4.0 - Container
+ * # Semantic UI 2.5.0 - Container
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -5269,7 +5305,6 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 
 .ui.justified.container {
   text-align: justify;
-  -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
 }
@@ -5282,7 +5317,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.4.0 - Divider
+ * # Semantic UI 2.5.0 - Divider
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -5549,7 +5584,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.4.0 - Flag
+ * # Semantic UI 2.5.0 - Flag
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -6826,7 +6861,7 @@ i.flag.zimbabwe:before {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.4.0 - Header
+ * # Semantic UI 2.5.0 - Header
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -7162,7 +7197,6 @@ h5.ui.header .sub.header {
 
 .ui.inverted.attached.header {
   background: #545454 -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.05)));
-  background: #545454 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   background: #545454 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -7171,7 +7205,6 @@ h5.ui.header .sub.header {
 
 .ui.inverted.block.header {
   background: #545454 -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.05)));
-  background: #545454 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   background: #545454 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -7653,7 +7686,7 @@ a.ui.inverted.grey.header:hover {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.4.0 - Icon
+ * # Semantic UI 2.5.0 - Icon
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -7711,6 +7744,9 @@ i.icon:before {
 i.icon.loading {
   height: 1em;
   line-height: 1;
+}
+
+i.icon.loading {
   -webkit-animation: icon-loading 2s linear infinite;
   animation: icon-loading 2s linear infinite;
 }
@@ -13805,7 +13841,7 @@ i.icon.youtube.square {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.4.0 - Image
+ * # Semantic UI 2.5.0 - Image
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -14127,7 +14163,7 @@ img.ui.bordered.image {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.4.0 - Input
+ * # Semantic UI 2.5.0 - Input
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -14699,7 +14735,7 @@ img.ui.bordered.image {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.4.0 - Label
+ * # Semantic UI 2.5.0 - Label
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -16130,7 +16166,7 @@ a.ui.basic.label:hover {
          Site Overrides
 *******************************/
 /*!
- * # Semantic UI 2.4.0 - List
+ * # Semantic UI 2.5.0 - List
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -17209,7 +17245,7 @@ ol.ui.horizontal.list li:before,
     User Variable Overrides
 *******************************/
 /*!
- * # Semantic UI 2.4.0 - Loader
+ * # Semantic UI 2.5.0 - Loader
  * http://github.com/semantic-org/semantic-ui/
  *
  *
