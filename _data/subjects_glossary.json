@@ -1,0 +1,1037 @@
+{
+  "title": "Glosar",
+  "generated_at": "2026-07-14T20:35:49.905Z",
+  "total_entries": 105,
+  "sections": [
+    {
+      "letter": "A",
+      "items": [
+        {
+          "term": "Adhiṭṭhāna",
+          "slug": "adhitthana",
+          "description_en": "determination, resolution",
+          "letter": "A",
+          "source": "suttacentral",
+          "description_ro": "hotărâre, rezoluție.",
+          "description_ro_html": "hotărâre, rezoluție."
+        },
+        {
+          "term": "Ādīnava",
+          "slug": "adinava",
+          "description_en": "drawbacks, dangers. See also Gradual instruction.",
+          "letter": "A",
+          "source": "suttacentral",
+          "description_ro_html": "dezavantaje, pericole.",
+          "description_ro": "dezavantaje, pericole."
+        },
+        {
+          "term": "Ānāpānassati",
+          "slug": "anapanasati",
+          "description_en": "mindfulness of breathing",
+          "letter": "A",
+          "source": "suttacentral",
+          "description_ro_html": "atenția asupra respirației.",
+          "description_ro": "atenția asupra respirației."
+        },
+        {
+          "term": "Anattā",
+          "slug": "anatta",
+          "description_en": "not-self. See also Tilakkhaṇa (three characteristics of existence)",
+          "letter": "A",
+          "source": "suttacentral",
+          "description_ro": "non-sine. Vezi și Tilakkhaṇa.",
+          "description_ro_html": "non-sine. Vezi și <a href=\"#tilakkhana\">Tilakkhaṇa</a>."
+        },
+        {
+          "term": "Apāya-mukha",
+          "slug": "apaya-mukha",
+          "description_en": "path to deprivation",
+          "letter": "A",
+          "source": "suttacentral",
+          "description_ro_html": "desfrânare.",
+          "description_ro": "desfrânare."
+        },
+        {
+          "term": "Appamāda",
+          "slug": "appamada",
+          "description_en": "heedfulness, diligence",
+          "letter": "A",
+          "source": "suttacentral",
+          "description_ro": "atenție, sârguință.",
+          "description_ro_html": "atenție, sârguință."
+        },
+        {
+          "term": "appamādo",
+          "description_ro": "lucid.",
+          "description_en": "",
+          "description_ro_html": "lucid.",
+          "slug": "appamado",
+          "letter": "A",
+          "source": "local"
+        },
+        {
+          "term": "araha",
+          "description_ro": "vrednic.",
+          "description_en": "",
+          "description_ro_html": "vrednic.",
+          "slug": "araha",
+          "letter": "A",
+          "source": "local"
+        },
+        {
+          "term": "Arahant",
+          "slug": "arahant",
+          "description_en": "fully-awakened being. See also Buddha; Nibbāna.",
+          "letter": "A",
+          "source": "suttacentral",
+          "description_ro": "ființă pe deplin trezită. Vezi și Buddha; Nibbāna.",
+          "description_ro_html": "ființă pe deplin trezită. Vezi și <a href=\"#buddha\">Buddha</a>; <a href=\"#nibbana\">Nibbāna</a>."
+        },
+        {
+          "term": "Ariya-aṭṭhaṅgika-magga",
+          "slug": "ariya-atthangika-magga",
+          "description_en": "See Noble Eightfold Path.",
+          "letter": "A",
+          "source": "suttacentral",
+          "description_ro": "calea de opt părți nobilă.",
+          "description_ro_html": "calea de opt părți nobilă."
+        },
+        {
+          "term": "āsava",
+          "description_ro": "scursuri.",
+          "description_en": "",
+          "description_ro_html": "scursuri.",
+          "slug": "asava",
+          "letter": "A",
+          "source": "local"
+        },
+        {
+          "term": "Aṭṭha-sīla",
+          "slug": "attha-sila",
+          "description_en": "the eight precepts. See Precepts.",
+          "letter": "A",
+          "source": "suttacentral",
+          "description_ro": "cele opt precepte.",
+          "description_ro_html": "cele opt precepte."
+        },
+        {
+          "term": "Aṭṭhasīla",
+          "slug": "atthasila",
+          "description_en": "the Eight Precepts (for lay men and women)",
+          "letter": "A",
+          "source": "suttacentral",
+          "description_ro_html": "cele opt precepte (pentru laici).",
+          "description_ro": "cele opt precepte (pentru laici)."
+        },
+        {
+          "term": "Avijjā",
+          "slug": "avijja",
+          "description_en": "ignorance. See also Kilesa (defilements); Paṭicca-samuppāda (dependent origination).",
+          "letter": "A",
+          "source": "suttacentral",
+          "description_ro": "ignoranță. Vezi și Kilesa; Paṭicca-samuppāda.",
+          "description_ro_html": "ignoranță. Vezi și <a href=\"#kilesa\">Kilesa</a>; <a href=\"#ps\">Paṭicca-samuppāda</a>."
+        },
+        {
+          "term": "Ayoniso manasikāra",
+          "slug": "ayoniso",
+          "description_en": "See also Yoniso manasikāra (appropriate attention).",
+          "letter": "A",
+          "source": "suttacentral",
+          "description_ro": "reflecție înțeleaptă.",
+          "description_ro_html": "reflecție înțeleaptă."
+        }
+      ]
+    },
+    {
+      "letter": "B",
+      "items": [
+        {
+          "term": "Bala",
+          "slug": "bala",
+          "description_en": "the five strengths. See also Bodhipakkhiya-dhamma.",
+          "letter": "B",
+          "source": "suttacentral",
+          "description_ro": "cele cinci puncte forte.",
+          "description_ro_html": "cele cinci puncte forte."
+        },
+        {
+          "term": "Bhava",
+          "slug": "bhava",
+          "description_en": "existence, life, realm of rebirth. See also Paṭicca-samuppāda (dependent origination).",
+          "letter": "B",
+          "source": "suttacentral",
+          "description_ro": "existența, viața, tărâmul renașterii. Vezi și Paṭicca-samuppāda.",
+          "description_ro_html": "existența, viața, tărâmul renașterii. Vezi și <a href=\"#ps\">Paṭicca-samuppāda</a>."
+        },
+        {
+          "term": "Bhikkhunī",
+          "slug": "bhikkhuni",
+          "description_en": "See Monastic Life.",
+          "letter": "B",
+          "source": "suttacentral",
+          "description_ro": "Viața monahală.",
+          "description_ro_html": "Viața monahală."
+        },
+        {
+          "term": "Bojjhaṅga",
+          "slug": "bojjhanga",
+          "description_en": "factors leading to awakening. See also Bodhipakkhiya-dhamma.",
+          "letter": "B",
+          "source": "suttacentral",
+          "description_ro": "factori care conduc la trezire.",
+          "description_ro_html": "factori care conduc la trezire."
+        },
+        {
+          "term": "Brahmavihāra",
+          "slug": "brahmavihara",
+          "description_en": "Divine abodes; sublime states. See also Mettā; Karuṇā; Muditā; Upekkhā.",
+          "letter": "B",
+          "source": "suttacentral",
+          "description_ro": "Locuințe divine; stări sublime. Vezi și Mettā; Karuṇā; Muditā; Upekkhā.",
+          "description_ro_html": "Locuințe divine; stări sublime. Vezi și <a href=\"#metta\">Mettā</a>; <a href=\"#karuna\">Karuṇā</a>; <a href=\"#mudita\">Muditā</a>; <a href=\"#upekkha\">Upekkhā</a>."
+        },
+        {
+          "term": "Buddha",
+          "slug": "buddha",
+          "description_en": "See also Arahant.",
+          "letter": "B",
+          "source": "suttacentral",
+          "description_ro": "ființă trezită pe deplin.",
+          "description_ro_html": "ființă trezită pe deplin."
+        }
+      ]
+    },
+    {
+      "letter": "D",
+      "items": [
+        {
+          "term": "Dāna",
+          "slug": "dana",
+          "description_en": "giving; charity. See also Gradual instruction; Pāramī.",
+          "letter": "D",
+          "source": "suttacentral",
+          "description_ro": "dăruirea; caritate.",
+          "description_ro_html": "dăruirea; caritate."
+        },
+        {
+          "term": "Dasa-sīla",
+          "slug": "dasa-sila",
+          "description_en": "the ten precepts. See Sīla (ethics, morality).",
+          "letter": "D",
+          "source": "suttacentral",
+          "description_ro": "cele zece precepte. Vezi Sīla.",
+          "description_ro_html": "cele zece precepte. Vezi <a href=\"#sila\">Sīla</a>."
+        },
+        {
+          "term": "Dasasīla",
+          "slug": "dasasila",
+          "description_en": "the Ten Precepts (for novice monks and nuns)",
+          "letter": "D",
+          "source": "suttacentral",
+          "description_ro": "cele zece precepte (pentru călugări și călugărițe novice).",
+          "description_ro_html": "cele zece precepte (pentru călugări și călugărițe novice)."
+        },
+        {
+          "term": "Dhamma",
+          "slug": "dhamma",
+          "description_en": "See also Teaching the Dhamma.",
+          "letter": "D",
+          "source": "suttacentral",
+          "description_ro": "învățătura, natura, legea, adevărul.",
+          "description_ro_html": "învățătura, natura, legea, adevărul."
+        },
+        {
+          "term": "Dhana",
+          "slug": "dhana",
+          "description_en": "treasures. See also Wealth.",
+          "letter": "D",
+          "source": "suttacentral",
+          "description_ro": "comori.",
+          "description_ro_html": "comori."
+        },
+        {
+          "term": "Dhātu",
+          "slug": "dhatu",
+          "description_en": "properties, elements",
+          "letter": "D",
+          "source": "suttacentral",
+          "description_ro": "proprietăți, elemente.",
+          "description_ro_html": "proprietăți, elemente."
+        },
+        {
+          "term": "Diṭṭhi",
+          "slug": "ditthi",
+          "description_en": "views. See also Questions.",
+          "letter": "D",
+          "source": "suttacentral",
+          "description_ro": "vederi.",
+          "description_ro_html": "vederi."
+        },
+        {
+          "term": "Dukkha",
+          "slug": "dukkha",
+          "description_en": "suffering. See also Paṭicca-samuppāda (dependent origination); Tilakkhaṇa (three characteristics of conditioned phenomena).",
+          "letter": "D",
+          "source": "suttacentral",
+          "description_ro": "suferință. Vezi și Paṭicca-samuppāda; Tilakkhaṇa.",
+          "description_ro_html": "suferință. Vezi și <a href=\"#ps\">Paṭicca-samuppāda</a>; <a href=\"#tilakkhana\">Tilakkhaṇa</a>."
+        }
+      ]
+    },
+    {
+      "letter": "H",
+      "items": [
+        {
+          "term": "Hiri",
+          "slug": "hiri",
+          "description_en": "conscience, moral shame. See also Ottappa (moral dread).",
+          "letter": "H",
+          "source": "suttacentral",
+          "description_ro": "conștiință. Vezi și Ottappa.",
+          "description_ro_html": "conștiință. Vezi și <a href=\"#ottappa\">Ottappa</a>."
+        }
+      ]
+    },
+    {
+      "letter": "I",
+      "items": [
+        {
+          "term": "Iddhipada",
+          "slug": "iddhipada",
+          "description_en": "the four bases of power. See also Bodhipakkhiya-dhamma.",
+          "letter": "I",
+          "source": "suttacentral",
+          "description_ro": "cele patru baze ale puterii.",
+          "description_ro_html": "cele patru baze ale puterii."
+        },
+        {
+          "term": "Indriya",
+          "slug": "indriya",
+          "description_en": "five mental faculties. See also Bodhipakkhiya-dhamma. Look under:",
+          "letter": "I",
+          "source": "suttacentral",
+          "description_ro": "cinci facultăți mentale.",
+          "description_ro_html": "cinci facultăți mentale."
+        }
+      ]
+    },
+    {
+      "letter": "J",
+      "items": [
+        {
+          "term": "Jāti",
+          "slug": "jati",
+          "description_en": "birth. See also Aging; Death; Illness; Rebirth.",
+          "letter": "J",
+          "source": "suttacentral",
+          "description_ro": "naștere.",
+          "description_ro_html": "naștere."
+        },
+        {
+          "term": "Jhāna",
+          "slug": "jhana",
+          "description_en": "meditative absorption. See also Immersion; Nīvaraṇa (Hindrances); Noble silence; Samatha (tranquillity, calm).",
+          "letter": "J",
+          "source": "suttacentral",
+          "description_ro": "absorbție meditativă. Vezi și Nīvaraṇa; Samatha.",
+          "description_ro_html": "absorbție meditativă. Vezi și <a href=\"#nivarana\">Nīvaraṇa</a>; <a href=\"#samatha\">Samatha</a>."
+        }
+      ]
+    },
+    {
+      "letter": "K",
+      "items": [
+        {
+          "term": "Kalyanamittatā",
+          "slug": "kalyanamittata",
+          "description_en": "good friendship See also Teaching the Dhamma.",
+          "letter": "K",
+          "source": "suttacentral",
+          "description_ro": "prietenie bună.",
+          "description_ro_html": "prietenie bună."
+        },
+        {
+          "term": "Kamma",
+          "slug": "kamma",
+          "description_en": "karma; intentional action. See also Devas; Hell; Planes of Existence, Thirty-one; Rebirth; Sagga (heaven).",
+          "letter": "K",
+          "source": "suttacentral",
+          "description_ro": "karma; acțiune intenționată. Vezi și Sagga.",
+          "description_ro_html": "karma; acțiune intenționată. Vezi și <a href=\"#sagga\">Sagga</a>."
+        },
+        {
+          "term": "kamp",
+          "description_ro": "a tremura, a zdruncina.",
+          "description_en": "",
+          "description_ro_html": "a tremura, a zdruncina.",
+          "slug": "kamp",
+          "letter": "K",
+          "source": "local"
+        },
+        {
+          "term": "Karuṇā",
+          "slug": "karuna",
+          "description_en": "compassion. See also Brahmavihāra.",
+          "letter": "K",
+          "source": "suttacentral",
+          "description_ro": "compasiune. Vezi și Brahmavihāra.",
+          "description_ro_html": "compasiune. Vezi și <a href=\"#brahmavihara\">Brahmavihāra</a>."
+        },
+        {
+          "term": "Kāyagatāsati",
+          "slug": "kayagatasati",
+          "description_en": "mindfulness of the body See also Satipaṭṭhāna (mindfulness meditation).",
+          "letter": "K",
+          "source": "suttacentral",
+          "description_ro": "luciditatea pogorâtă în corp. Vezi și Satipaṭṭhāna.",
+          "description_ro_html": "luciditatea pogorâtă în corp. Vezi și <a href=\"#satipatthana\">Satipaṭṭhāna</a>."
+        },
+        {
+          "term": "Khandha",
+          "slug": "khandha",
+          "description_en": "the five grasping aggregates. See also Body; Upādāna (clinging); Vipassanā (insight).",
+          "letter": "K",
+          "source": "suttacentral",
+          "description_ro": "cele cinci agregate ale însușirii. Vezi și Upādāna; Vipassanā.",
+          "description_ro_html": "cele cinci agregate ale însușirii. Vezi și <a href=\"#upadana\">Upādāna</a>; <a href=\"#vipassana\">Vipassanā</a>."
+        },
+        {
+          "term": "Khanti",
+          "slug": "khanti",
+          "description_en": "patience, forbearance. See also Anger; Pāramīs.",
+          "letter": "K",
+          "source": "suttacentral",
+          "description_ro": "răbdare. Vezi și Pāramīs.",
+          "description_ro_html": "răbdare. Vezi și <a href=\"#parami\">Pāramīs</a>."
+        },
+        {
+          "term": "Kilesa",
+          "slug": "kilesa",
+          "description_en": "defilements, corruptions—passion (lobha), aversion (dosa), and delusion (moha)—in their various forms. See also Anger; Āsava; Avijjā (ignorance); Nīvaraṇa (hindrances).",
+          "letter": "K",
+          "source": "suttacentral",
+          "description_ro": "pângăriri, corupții – pasiune (lobha), aversiune (dosa) și amăgire (moha) – în diferitele lor forme. Vezi și āsava; Avijjā; Nīvaraṇa.",
+          "description_ro_html": "pângăriri, corupții – pasiune (lobha), aversiune (dosa) și amăgire (moha) – în diferitele lor forme. Vezi și <a href=\"#asava\">āsava</a>; <a href=\"#avijja\">Avijjā</a>; <a href=\"#nivarana\">Nīvaraṇa</a>."
+        },
+        {
+          "term": "Kusala",
+          "slug": "kusala",
+          "description_en": "skillfulness, wholesomeness. See also Manners; Sīla (virtue).",
+          "letter": "K",
+          "source": "suttacentral",
+          "description_ro": "pricepere, bunătate. Vezi și Sīla.",
+          "description_ro_html": "pricepere, bunătate. Vezi și <a href=\"#sila\">Sīla</a>."
+        }
+      ]
+    },
+    {
+      "letter": "L",
+      "items": [
+        {
+          "term": "Lokadhamma",
+          "slug": "lokadhamma",
+          "description_en": "worldly conditions",
+          "letter": "L",
+          "source": "suttacentral",
+          "description_ro": "condițiile lumești.",
+          "description_ro_html": "condițiile lumești."
+        }
+      ]
+    },
+    {
+      "letter": "M",
+      "items": [
+        {
+          "term": "Māna",
+          "slug": "mana",
+          "description_en": "conceit",
+          "letter": "M",
+          "source": "suttacentral",
+          "description_ro": "vanitate.",
+          "description_ro_html": "vanitate."
+        },
+        {
+          "term": "Māra",
+          "slug": "mara",
+          "description_en": "Ten armies of: Snp 3.2",
+          "letter": "M",
+          "source": "suttacentral",
+          "description_ro": "Moartea. Regele Morții.",
+          "description_ro_html": "Moartea. Regele Morții."
+        },
+        {
+          "term": "Maraṇassati",
+          "slug": "maranassati",
+          "description_en": "mindfulness of death. See also Death; Illness; Satipaṭṭhāna (kinds of mindfulness meditation).",
+          "letter": "M",
+          "source": "suttacentral",
+          "description_ro": "Recolecția asupra morții. Vezi și Satipaṭṭhāna.",
+          "description_ro_html": "Recolecția asupra morții. Vezi și <a href=\"#satipatthana\">Satipaṭṭhāna</a>."
+        },
+        {
+          "term": "Mettā",
+          "slug": "metta",
+          "description_en": "goodwill, loving-kindness. See also Brahmavihāra; Pāramīs.",
+          "letter": "M",
+          "source": "suttacentral",
+          "description_ro": "bunăvoință, bunătate pașnică. Vezi și Brahmavihāra; Pāramīs.",
+          "description_ro_html": "bunăvoință, bunătate pașnică. Vezi și <a href=\"#brahmavihara\">Brahmavihāra</a>; <a href=\"#parami\">Pāramīs</a>."
+        },
+        {
+          "term": "Muditā",
+          "slug": "mudita",
+          "description_en": "appreciative/sympathetic joy. See also Brahmavihāra.",
+          "letter": "M",
+          "source": "suttacentral",
+          "description_ro": "bucurie apreciativă/compătimitoare. Vezi și Brahmavihāra.",
+          "description_ro_html": "bucurie apreciativă/compătimitoare. Vezi și <a href=\"#brahmavihara\">Brahmavihāra</a>."
+        }
+      ]
+    },
+    {
+      "letter": "N",
+      "items": [
+        {
+          "term": "Nama-rūpa",
+          "slug": "namarupa",
+          "description_en": "name-and-form, mind-and-matter, mentality-materiality. See also Paṭicca-samuppāda (dependent origination).",
+          "letter": "N",
+          "source": "suttacentral",
+          "description_ro": "nume-și-formă, minte-și-materie, mentalitate-materialitate. Vezi și Paṭicca-samuppāda.",
+          "description_ro_html": "nume-și-formă, minte-și-materie, mentalitate-materialitate. Vezi și <a href=\"#ps\">Paṭicca-samuppāda</a>."
+        },
+        {
+          "term": "Nekkhamma",
+          "slug": "nekkhamma",
+          "description_en": "renunciation. See also Celibacy; Gradual instruction; Pāramīs; Restraint; Sensuality.",
+          "letter": "N",
+          "source": "suttacentral",
+          "description_ro": "renunțare. Vezi și Pāramīs.",
+          "description_ro_html": "renunțare. Vezi și <a href=\"#parami\">Pāramīs</a>."
+        },
+        {
+          "term": "Nibbāna",
+          "slug": "nibbana",
+          "description_en": "extinguishment, quenching. See also Arahant; Awakening; Deathless; Parinibbana; Stream-entry; Vimutti (release).",
+          "letter": "N",
+          "source": "suttacentral",
+          "description_ro": "stingere, extincție. Vezi și Arahant; Parinibbana; Vimutti.",
+          "description_ro_html": "stingere, extincție. Vezi și <a href=\"#arahant\">Arahant</a>; <a href=\"#parinibbana\">Parinibbana</a>; <a href=\"#vimutti\">Vimutti</a>."
+        },
+        {
+          "term": "Nibbidā",
+          "slug": "nibbida",
+          "description_en": "disenchantment, aversion, and weariness with regard to conditioned phenomena. See also Asubha.",
+          "letter": "N",
+          "source": "suttacentral",
+          "description_ro": "dezamăgirea, aversiunea și oboseala față de fenomenele condiționate.",
+          "description_ro_html": "dezamăgirea, aversiunea și oboseala față de fenomenele condiționate."
+        },
+        {
+          "term": "Nirvāṇa",
+          "slug": "nirvana",
+          "description_en": "See Nibbāna.",
+          "letter": "N",
+          "source": "suttacentral",
+          "description_ro": "Vezi Nibbāna.",
+          "description_ro_html": "Vezi <a href=\"#nibbana\">Nibbāna</a>."
+        },
+        {
+          "term": "Nīvaraṇa",
+          "slug": "nivarana",
+          "description_en": "hindrances. See also Anger; Desire; Jhāna; Kilesa.",
+          "letter": "N",
+          "source": "suttacentral",
+          "description_ro": "obstacole. Vezi și Jhāna; Kilesa.",
+          "description_ro_html": "obstacole. Vezi și <a href=\"#jhana\">Jhāna</a>; <a href=\"#kilesa\">Kilesa</a>."
+        }
+      ]
+    },
+    {
+      "letter": "O",
+      "items": [
+        {
+          "term": "Ottappa",
+          "slug": "ottappa",
+          "description_en": "prudence, discretion; concern for the results of evil actions. See also Hiri (conscience).",
+          "letter": "O",
+          "source": "suttacentral",
+          "description_ro": "prudență, discreție; preocupare pentru rezultatele acțiunilor rele. Vezi și Hiri.",
+          "description_ro_html": "prudență, discreție; preocupare pentru rezultatele acțiunilor rele. Vezi și <a href=\"#hiri\">Hiri</a>."
+        }
+      ]
+    },
+    {
+      "letter": "P",
+      "items": [
+        {
+          "term": "Pañca-sīla",
+          "slug": "panca-sila",
+          "description_en": "the five precepts. See Precepts",
+          "letter": "P",
+          "source": "suttacentral",
+          "description_ro": "cele cinci precepte.",
+          "description_ro_html": "cele cinci precepte."
+        },
+        {
+          "term": "Pañcasīla",
+          "slug": "pancasila",
+          "description_en": "the Five Precepts (for lay men and women)",
+          "letter": "P",
+          "source": "suttacentral",
+          "description_ro": "cele cinci precepte (pentru laici și femei).",
+          "description_ro_html": "cele cinci precepte (pentru laici și femei)."
+        },
+        {
+          "term": "Paññā",
+          "slug": "panna",
+          "description_en": "discernment, wisdom. See also Pāramīs; Wise person.",
+          "letter": "P",
+          "source": "suttacentral",
+          "description_ro": "discernământ, înțelepciune. Vezi și Pāramīs.",
+          "description_ro_html": "discernământ, înțelepciune. Vezi și <a href=\"#parami\">Pāramīs</a>."
+        },
+        {
+          "term": "Papañca",
+          "slug": "papanca",
+          "description_en": "complication, objectification, proliferation",
+          "letter": "P",
+          "source": "suttacentral",
+          "description_ro": "complicare, obiectivare, proliferare.",
+          "description_ro_html": "complicare, obiectivare, proliferare."
+        },
+        {
+          "term": "Pāramīs",
+          "slug": "parami",
+          "description_en": "perfections.",
+          "letter": "P",
+          "source": "suttacentral",
+          "description_ro": "perfecțiuni.",
+          "description_ro_html": "perfecțiuni."
+        },
+        {
+          "term": "Parinibbana",
+          "slug": "parinibbana",
+          "description_en": "total release; complete liberation. See also Nibbāna.",
+          "letter": "P",
+          "source": "suttacentral",
+          "description_ro": "eliberare totală; eliberare completă. Vezi și Nibbāna.",
+          "description_ro_html": "eliberare totală; eliberare completă. Vezi și <a href=\"#nibbana\">Nibbāna</a>."
+        },
+        {
+          "term": "Parisā",
+          "slug": "parisa",
+          "description_en": "The Buddha’s following",
+          "letter": "P",
+          "source": "suttacentral",
+          "description_ro": "urmăritorii lui Buddha.",
+          "description_ro_html": "urmăritorii lui Buddha."
+        },
+        {
+          "term": "Pasāda",
+          "slug": "pasada",
+          "description_en": "clarity and serene confidence. See also Emotion; Saṁvega.",
+          "letter": "P",
+          "source": "suttacentral",
+          "description_ro": "claritate și încredere senină. Vezi și Saṁvega.",
+          "description_ro_html": "claritate și încredere senină. Vezi și <a href=\"#samvega\">Saṁvega</a>."
+        },
+        {
+          "term": "Paṭicca-samuppāda",
+          "slug": "ps",
+          "description_en": "dependent origination. See also Saṁsāra.",
+          "letter": "P",
+          "source": "suttacentral",
+          "description_ro": "originare dependentă. Vezi și Saṁsāra.",
+          "description_ro_html": "originare dependentă. Vezi și <a href=\"#samsara\">Saṁsāra</a>."
+        },
+        {
+          "term": "Pātimokkha",
+          "slug": "patimokkha",
+          "description_en": "monks’ and nuns’ rules of conduct. See Vinaya.",
+          "letter": "P",
+          "source": "suttacentral",
+          "description_ro": "regulile de conduită ale călugărilor și călugărițelor. Vezi Vinaya.",
+          "description_ro_html": "regulile de conduită ale călugărilor și călugărițelor. Vezi <a href=\"#vinaya\">Vinaya</a>."
+        },
+        {
+          "term": "Phassa",
+          "slug": "phassa",
+          "description_en": "contact. See also Paṭicca-samuppāda (dependent origination).",
+          "letter": "P",
+          "source": "suttacentral",
+          "description_ro": "contact. Vezi și Paṭicca-samuppāda.",
+          "description_ro_html": "contact. Vezi și <a href=\"#ps\">Paṭicca-samuppāda</a>."
+        },
+        {
+          "term": "Pīti",
+          "slug": "piti",
+          "description_en": "rapture; bliss. See also Jhāna.",
+          "letter": "P",
+          "source": "suttacentral",
+          "description_ro": "extaziere; exaltare. Vezi și Jhāna.",
+          "description_ro_html": "extaziere; exaltare. Vezi și <a href=\"#jhana\">Jhāna</a>."
+        },
+        {
+          "term": "Puñña",
+          "slug": "punna",
+          "description_en": "merit, inner wealth, inner goodness",
+          "letter": "P",
+          "source": "suttacentral",
+          "description_ro": "merit, bogăție interioară, bunătate interioară.",
+          "description_ro_html": "merit, bogăție interioară, bunătate interioară."
+        }
+      ]
+    },
+    {
+      "letter": "S",
+      "items": [
+        {
+          "term": "Sacca",
+          "slug": "sacca",
+          "description_en": "truthfulness. See also Pāramīs.",
+          "letter": "S",
+          "source": "suttacentral",
+          "description_ro": "adevăr, veridicitatea. Vezi și Pāramīs.",
+          "description_ro_html": "adevăr, veridicitatea. Vezi și <a href=\"#parami\">Pāramīs</a>."
+        },
+        {
+          "term": "Saddhā",
+          "slug": "saddha",
+          "description_en": "faith; conviction",
+          "letter": "S",
+          "source": "suttacentral",
+          "description_ro": "credință; încredere.",
+          "description_ro_html": "credință; încredere."
+        },
+        {
+          "term": "Sagga",
+          "slug": "sagga",
+          "description_en": "heaven realms. See also Devas; Gradual instruction; Hell; Kamma; Planes of Existence, Thirty-one.",
+          "letter": "S",
+          "source": "suttacentral",
+          "description_ro": "rai, tărâmurile cerului. Vezi și Kamma.",
+          "description_ro_html": "rai, tărâmurile cerului. Vezi și <a href=\"#kamma\">Kamma</a>."
+        },
+        {
+          "term": "Sakkāya-diṭṭhi",
+          "slug": "sakkaya",
+          "description_en": "self-identity view, personality-belief. See also Diṭṭhi (views).",
+          "letter": "S",
+          "source": "suttacentral",
+          "description_ro": "viziunea identității de sine, credința în personalitate. Vezi și Diṭṭhi.",
+          "description_ro_html": "viziunea identității de sine, credința în personalitate. Vezi și <a href=\"#ditthi\">Diṭṭhi</a>."
+        },
+        {
+          "term": "Saḷāyatana",
+          "slug": "salayatana",
+          "description_en": "the six sense fields. See also Paṭicca-samuppāda (dependent origination); Sensuality.",
+          "letter": "S",
+          "source": "suttacentral",
+          "description_ro": "cele șase câmpuri senzoriale. Vezi și Paṭicca-samuppāda.",
+          "description_ro_html": "cele șase câmpuri senzoriale. Vezi și <a href=\"#ps\">Paṭicca-samuppāda</a>."
+        },
+        {
+          "term": "Samādhi",
+          "slug": "samadhi",
+          "description_en": "immersion, coalescence, convergence, oneness. Often mistranslated as “concentration”. See also Jhāna; Samatha (tranquillity, calm).",
+          "letter": "S",
+          "source": "suttacentral",
+          "description_ro": "concentrare, focus, imersiune, coalescență, convergență, unicitate. Adesea tradus greșit ca „concentrare”. Vezi și Jhāna; Samatha.",
+          "description_ro_html": "concentrare, focus, imersiune, coalescență, convergență, unicitate. Adesea tradus greșit ca „concentrare”. Vezi și <a href=\"#jhana\">Jhāna</a>; <a href=\"#samatha\">Samatha</a>."
+        },
+        {
+          "term": "Samatha",
+          "slug": "samatha",
+          "description_en": "tranquillity, calm. See also Samādhi (immersion); Vipassanā (insight).",
+          "letter": "S",
+          "source": "suttacentral",
+          "description_ro": "liniște, calm. Vezi și Samādhi; Vipassanā.",
+          "description_ro_html": "liniște, calm. Vezi și <a href=\"#samadhi\">Samādhi</a>; <a href=\"#vipassana\">Vipassanā</a>."
+        },
+        {
+          "term": "Sammāppadhāna",
+          "slug": "sammappadhana",
+          "description_en": "the four right exertions. See also Bodhipakkhiya-dhamma; Viriya (persistence, effort).",
+          "letter": "S",
+          "source": "suttacentral",
+          "description_ro": "cele patru eforturi corecte. Vezi și Viriya.",
+          "description_ro_html": "cele patru eforturi corecte. Vezi și <a href=\"#viriya\">Viriya</a>."
+        },
+        {
+          "term": "Sampajañña",
+          "slug": "sampajanna",
+          "description_en": "situational awarenes, alertness, clear comprehension",
+          "letter": "S",
+          "source": "suttacentral",
+          "description_ro": "conștientizare situațională, vigilență, înțelegere clară.",
+          "description_ro_html": "conștientizare situațională, vigilență, înțelegere clară."
+        },
+        {
+          "term": "Saṁsāra",
+          "slug": "samsara",
+          "description_en": "the round of rebirth. See also Kamma (intentional action); Paṭicca-samuppāda (dependent origination); Planes of Existence, Thirty-one.",
+          "letter": "S",
+          "source": "suttacentral",
+          "description_ro": "ciclul renașterii. Vezi și Kamma; Paṭicca-samuppāda.",
+          "description_ro_html": "ciclul renașterii. Vezi și <a href=\"#kamma\">Kamma</a>; <a href=\"#ps\">Paṭicca-samuppāda</a>."
+        },
+        {
+          "term": "saṁvega",
+          "description_ro": "descurajare.",
+          "description_en": "",
+          "description_ro_html": "descurajare.",
+          "slug": "samvega",
+          "letter": "S",
+          "source": "local"
+        },
+        {
+          "term": "Saṅgha",
+          "slug": "sangha",
+          "description_en": "1. Monastic community; 2. Community of Noble (Awakened) Ones. See also Monastic life; Tiratana (Triple Gem).",
+          "letter": "S",
+          "source": "suttacentral",
+          "description_ro": "1. Comunitatea monahală; 2. Comunitatea Celor Treziți. Vezi și Tirataṇa.",
+          "description_ro_html": "1. Comunitatea monahală; 2. Comunitatea Celor Treziți. Vezi și <a href=\"#tiratana\">Tirataṇa</a>."
+        },
+        {
+          "term": "Saṅkhāra",
+          "slug": "sankhara",
+          "description_en": "choices, intentions, acts, conditions, causes. See also Khandha (clinging-aggregates); Paṭicca-samuppāda (dependent origination).",
+          "letter": "S",
+          "source": "suttacentral",
+          "description_ro": "alegeri, intenții, condiționări, prejudecăți. Vezi și Khandha; Paṭicca-samuppāda.",
+          "description_ro_html": "alegeri, intenții, condiționări, prejudecăți. Vezi și <a href=\"#khandha\">Khandha</a>; <a href=\"#ps\">Paṭicca-samuppāda</a>."
+        },
+        {
+          "term": "Saññā",
+          "slug": "sanna",
+          "description_en": "perception, naming, labeling. See also Khandha (clinging-aggregates).",
+          "letter": "S",
+          "source": "suttacentral",
+          "description_ro": "percepție, memorie, denumire, etichetare. Vezi și Khandha.",
+          "description_ro_html": "percepție, memorie, denumire, etichetare. Vezi și <a href=\"#khandha\">Khandha</a>."
+        },
+        {
+          "term": "saññamo",
+          "description_ro": "înfrânare.",
+          "description_en": "",
+          "description_ro_html": "înfrânare.",
+          "slug": "sannamo",
+          "letter": "S",
+          "source": "local"
+        },
+        {
+          "term": "Sati",
+          "slug": "sati",
+          "description_en": "mindfulness. See also Meditation; Satipaṭṭhāna.",
+          "letter": "S",
+          "source": "suttacentral",
+          "description_ro": "luciditate, atenție. Vezi și Satipaṭṭhāna.",
+          "description_ro_html": "luciditate, atenție. Vezi și <a href=\"#satipatthana\">Satipaṭṭhāna</a>."
+        },
+        {
+          "term": "Satipaṭṭhāna",
+          "slug": "satipatthana",
+          "description_en": "kinds of mindfulness meditation; foundations or establishments of mindfulness. See also Ānāpānassati (mindfulness of breathing); Bodhipakkhiya-dhamma; kāyagatāsati (mindfulness of the body); Maraṇassati (mindfulness of death); Sati (mindfulness).",
+          "letter": "S",
+          "source": "suttacentral",
+          "description_ro": "tipuri de meditație mindfulness; fundamente sau stabilimente ale mindfulness-ului. Vezi și Ānāpānassati; Kāyagatāsati; Maraṇassati; Sati.",
+          "description_ro_html": "tipuri de meditație mindfulness; fundamente sau stabilimente ale mindfulness-ului. Vezi și <a href=\"#anapanasati\">Ānāpānassati</a>; <a href=\"#kayagatasati\">Kāyagatāsati</a>; <a href=\"#maranassati\">Maraṇassati</a>; <a href=\"#sati\">Sati</a>."
+        },
+        {
+          "term": "sevanā",
+          "description_ro": "întovărășire.",
+          "description_en": "",
+          "description_ro_html": "întovărășire.",
+          "slug": "sevana",
+          "letter": "S",
+          "source": "local"
+        },
+        {
+          "term": "Sīla",
+          "slug": "sila",
+          "description_en": "virtue; morality; ethics; behavior. See also Gradual instruction; Manners; Pāramīs; Precepts; Uposatha.",
+          "letter": "S",
+          "source": "suttacentral",
+          "description_ro": "virtute; moralitate; etică; comportament. Vezi și Pāramīs.",
+          "description_ro_html": "virtute; moralitate; etică; comportament. Vezi și <a href=\"#parami\">Pāramīs</a>."
+        }
+      ]
+    },
+    {
+      "letter": "T",
+      "items": [
+        {
+          "term": "Taṇhā",
+          "slug": "tanha",
+          "description_en": "craving. See also Kilesa (defilements); Paṭicca-samuppāda (dependent origination); Sensuality.",
+          "letter": "T",
+          "source": "suttacentral",
+          "description_ro": "râvnă. Vezi și Kilesa; Paṭicca-samuppāda.",
+          "description_ro_html": "râvnă. Vezi și <a href=\"#kilesa\">Kilesa</a>; <a href=\"#ps\">Paṭicca-samuppāda</a>."
+        },
+        {
+          "term": "Tevijjā",
+          "slug": "tevijja",
+          "description_en": "Threefold knowledge realized by the Buddha during his Awakening. See also Buddha.",
+          "letter": "T",
+          "source": "suttacentral",
+          "description_ro": "Cunoașterea triplă realizată de Buddha în timpul Trezirii sale. Vezi și Buddha.",
+          "description_ro_html": "Cunoașterea triplă realizată de Buddha în timpul Trezirii sale. Vezi și <a href=\"#buddha\">Buddha</a>."
+        },
+        {
+          "term": "thera",
+          "description_ro": "venerabil, senior, domn.",
+          "description_en": "",
+          "description_ro_html": "venerabil, senior, domn.",
+          "slug": "thera",
+          "letter": "T",
+          "source": "local"
+        },
+        {
+          "term": "Tilakkhaṇa",
+          "slug": "tilakkhana",
+          "description_en": "the three characteristics of existence. See also Vipassanā (insight).",
+          "letter": "T",
+          "source": "suttacentral",
+          "description_ro": "cele trei caracteristici ale existenței. Vezi și Vipassanā.",
+          "description_ro_html": "cele trei caracteristici ale existenței. Vezi și <a href=\"#vipassana\">Vipassanā</a>."
+        },
+        {
+          "term": "Tirataṇa",
+          "slug": "tiratana",
+          "description_en": "the Triple Gem. See also Refuge.",
+          "letter": "T",
+          "source": "suttacentral",
+          "description_ro": "triplul giuvaier.",
+          "description_ro_html": "triplul giuvaier."
+        },
+        {
+          "term": "Tisaraṇa",
+          "slug": "tisarana",
+          "description_en": "the Threefold Refuge",
+          "letter": "T",
+          "source": "suttacentral",
+          "description_ro": "refugiul triplu.",
+          "description_ro_html": "refugiul triplu."
+        }
+      ]
+    },
+    {
+      "letter": "U",
+      "items": [
+        {
+          "term": "Upādāna",
+          "slug": "upadana",
+          "description_en": "clinging. See also Khandha; Paṭicca-samuppāda (dependent origination).",
+          "letter": "U",
+          "source": "suttacentral",
+          "description_ro": "atașament. Vezi și Khandha; Paṭicca-samuppāda.",
+          "description_ro_html": "atașament. Vezi și <a href=\"#khandha\">Khandha</a>; <a href=\"#ps\">Paṭicca-samuppāda</a>."
+        },
+        {
+          "term": "Upekkhā",
+          "slug": "upekkha",
+          "description_en": "equanimity. See also Brahmavihāra; Pāramīs;",
+          "letter": "U",
+          "source": "suttacentral",
+          "description_ro": "echidistanță. Vezi și Brahmavihāra; Pāramīs.",
+          "description_ro_html": "echidistanță. Vezi și <a href=\"#brahmavihara\">Brahmavihāra</a>; <a href=\"#parami\">Pāramīs</a>."
+        }
+      ]
+    },
+    {
+      "letter": "V",
+      "items": [
+        {
+          "term": "Vedanā",
+          "slug": "vedana",
+          "description_en": "feeling. See also Khandha (clinging-aggregates); Pain; Paṭicca-samuppāda (dependent origination).",
+          "letter": "V",
+          "source": "suttacentral",
+          "description_ro": "sentiment, calitate afectivă. Vezi și Khandha; Paṭicca-samuppāda.",
+          "description_ro_html": "sentiment, calitate afectivă. Vezi și <a href=\"#khandha\">Khandha</a>; <a href=\"#ps\">Paṭicca-samuppāda</a>."
+        },
+        {
+          "term": "Vimutti",
+          "slug": "vimutti",
+          "description_en": "release, deliverance. See also Awakening.",
+          "letter": "V",
+          "source": "suttacentral",
+          "description_ro": "izbăvire, salvare.",
+          "description_ro_html": "izbăvire, salvare."
+        },
+        {
+          "term": "Vinaya",
+          "slug": "vinaya",
+          "description_en": "See also Monastic Life.",
+          "letter": "V",
+          "source": "suttacentral",
+          "description_ro": "Viața monahală.",
+          "description_ro_html": "Viața monahală."
+        },
+        {
+          "term": "Viññāṇa",
+          "slug": "vinnana",
+          "description_en": "consciousness. See also Khandha (clinging-aggregates); Paṭicca-samuppāda (dependent origination).",
+          "letter": "V",
+          "source": "suttacentral",
+          "description_ro": "conștiință. Vezi și Khandha; Paṭicca-samuppāda.",
+          "description_ro_html": "conștiință. Vezi și <a href=\"#khandha\">Khandha</a>; <a href=\"#ps\">Paṭicca-samuppāda</a>."
+        },
+        {
+          "term": "Vipassanā",
+          "slug": "vipassana",
+          "description_en": "insight. See also Samatha (tranquillity); Tilakkhaṇa (three characteristics of existence).",
+          "letter": "V",
+          "source": "suttacentral",
+          "description_ro": "introspecție. Vezi și Samatha; Tilakkhaṇa.",
+          "description_ro_html": "introspecție. Vezi și <a href=\"#samatha\">Samatha</a>; <a href=\"#tilakkhana\">Tilakkhaṇa</a>."
+        },
+        {
+          "term": "Virāga",
+          "slug": "viraga",
+          "description_en": "dispassion",
+          "letter": "V",
+          "source": "suttacentral",
+          "description_ro": "nepătimirea.",
+          "description_ro_html": "nepătimirea."
+        },
+        {
+          "term": "Viriya",
+          "slug": "viriya",
+          "description_en": "effort, energy. See also Pāramīs; Saṁvega; Sloth and Drowsiness (thīna-middha).",
+          "letter": "V",
+          "source": "suttacentral",
+          "description_ro": "efort, energie. Vezi și Pāramīs; Saṁvega.",
+          "description_ro_html": "efort, energie. Vezi și <a href=\"#parami\">Pāramīs</a>; <a href=\"#samvega\">Saṁvega</a>."
+        },
+        {
+          "term": "Viveka",
+          "slug": "viveka",
+          "description_en": "seclusion, solitude. See also Wilderness.",
+          "letter": "V",
+          "source": "suttacentral",
+          "description_ro": "izolare, singurătate.",
+          "description_ro_html": "izolare, singurătate."
+        }
+      ]
+    },
+    {
+      "letter": "XYZ",
+      "items": [
+        {
+          "term": "Yoniso manasikāra",
+          "slug": "yoniso",
+          "description_en": "appropriate attention; wise reflection. See also the first six of the Ten Recollections; Questions.",
+          "letter": "XYZ",
+          "source": "suttacentral",
+          "description_ro": "atenție adecvată; reflecție înțeleaptă.",
+          "description_ro_html": "atenție adecvată; reflecție înțeleaptă."
+        }
+      ]
+    }
+  ]
+}

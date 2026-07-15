@@ -1,0 +1,54 @@
+---
+layout: biblioteca
+title: Glosar
+permalink: /glosar
+---
+
+<div class="glossary-page">
+  <nav class="glossary-index" aria-label="Index alfabetic">
+    {% for section in site.data.subjects_glossary.sections %}
+      <a href="#glossary-{{ section.letter | downcase }}">{{ section.letter }}</a>
+    {% endfor %}
+  </nav>
+
+  <div class="glossary-sections">
+    {% for section in site.data.subjects_glossary.sections %}
+      <section class="glossary-section" id="glossary-{{ section.letter | downcase }}">
+        <h2>{{ section.letter }}</h2>
+        <dl class="glossary-list">
+          {% for entry in section.items %}
+            <div class="glossary-entry">
+              <dt id="{{ entry.slug }}">{{ entry.term }}</dt>
+              {% if entry.description_ro_html and entry.description_ro_html != "" %}
+                <dd>{{ entry.description_ro_html }}</dd>
+              {% elsif entry.description_ro and entry.description_ro != "" %}
+                <dd>{{ entry.description_ro }}</dd>
+              {% else %}
+                <dd>{{ entry.description_en }}</dd>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </dl>
+      </section>
+    {% endfor %}
+  </div>
+
+  <section class="glossary-notes">
+    <p>
+      Aceasta este o versiune adaptată a indexului general de subiecte de la
+      <a href="https://www.accesstoinsight.org/index-subject.html" target="_blank" rel="noreferrer">Access to Insight</a>,
+      prelucrată ulterior de SuttaCentral. Adaptarea păstrează doar trimiterile directe la textele budiste timpurii, actualizează unele definiții și convertește trimiterile către convențiile SuttaCentral.
+    </p>
+    <p>
+      Pe lângă acest nucleu, glosarul de față include și termeni compilați local din notele de lucru și din traducerile materialelor deja publicate pe acest site.
+    </p>
+  </section>
+
+  <section class="glossary-license">
+    <blockquote>
+      © 2007 Access to Insight. Textul acestei pagini („General Index”, de Access to Insight) este licențiat sub
+      <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer">Creative Commons Attribution 4.0 International</a>.
+    </blockquote>
+    <p>Aceeași licență se aplică și versiunii modificate publicate de SuttaCentral în 2018.</p>
+  </section>
+</div>

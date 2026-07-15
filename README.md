@@ -10,9 +10,11 @@ gulp build
 ```
 
 ## Run
+```sh
+./scripts/dev.sh
 ```
-jekyll serve
-```
+
+This serves the site on `0.0.0.0:4000`, so it works both on this Mac at `http://127.0.0.1:4000/` and from other devices on your local network at the printed `http://<your-lan-ip>:4000/` URL.
 
 ## Update
 ```
