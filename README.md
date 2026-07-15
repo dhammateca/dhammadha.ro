@@ -10,38 +10,11 @@ gulp build
 ```
 
 ## Run
-```
-jekyll serve
-```
-
-## Local hostname
-
-Serve this site locally at `http://mini.test/` with:
-
 ```sh
-./scripts/dev-mini-test.sh
+./scripts/dev.sh
 ```
 
-This uses plain HTTP for the local hostname, so Caddy does not try to issue a TLS certificate for `mini.test`.
-
-If `caddy` is not installed yet, run Jekyll only at `http://127.0.0.1:4000/` with:
-
-```sh
-./scripts/dev-jekyll-local.sh
-```
-
-Add this hosts entry once:
-
-```sh
-127.0.0.1 mini.test
-```
-
-If you want to run the pieces separately:
-
-```sh
-bundle exec jekyll serve --config _config.yml,_config.local.yml --host 127.0.0.1 --port 4000
-caddy run --config Caddyfile
-```
+This serves the site on `0.0.0.0:4000`, so it works both on this Mac at `http://127.0.0.1:4000/` and from other devices on your local network at the printed `http://<your-lan-ip>:4000/` URL.
 
 ## Update
 ```
