@@ -98,7 +98,7 @@ h6 {
 }
 
 h1 {
-  font-size: clamp(2.4rem, 5vw, 4.2rem);
+  font-size: clamp(2rem, 4vw, 3.4rem);
 }
 
 h2 {
@@ -547,6 +547,150 @@ small,
 .glossary-page {
   display: grid;
   gap: 2rem;
+}
+
+.uposatha-calendar {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.uposatha-calendar__hero,
+.uposatha-calendar__panel {
+  padding: clamp(1.25rem, 3vw, 2rem);
+}
+
+.uposatha-calendar__next {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  line-height: 1.45;
+}
+
+.uposatha-calendar__meta {
+  margin-top: 0.85rem;
+}
+
+.uposatha-calendar__toolbar {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 1rem;
+  align-items: center;
+}
+
+.uposatha-calendar__title-wrap {
+  text-align: center;
+}
+
+.uposatha-calendar__title-wrap .section-kicker {
+  margin-bottom: 0.45rem;
+}
+
+.uposatha-calendar__actions {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0 1.5rem;
+}
+
+.uposatha-month__weekdays,
+.uposatha-month__grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 0.75rem;
+  grid-auto-rows: 1fr;
+}
+
+.uposatha-month__weekdays {
+  margin-bottom: 0.75rem;
+}
+
+.uposatha-month__weekday {
+  padding: 0.45rem 0.35rem;
+  color: var(--color-text-muted);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.uposatha-month__cell {
+  height: 100%;
+  min-height: 8.5rem;
+  padding: 0.7rem;
+  border: 1px solid var(--color-border);
+  border-radius: 18px;
+  background: rgba(255, 253, 248, 0.92);
+}
+
+.uposatha-month__cell--empty {
+  border-style: dashed;
+  background: rgba(238, 224, 194, 0.3);
+}
+
+.uposatha-month__cell.has-event {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(255, 248, 236, 0.96)),
+    var(--color-surface);
+}
+
+.uposatha-month__cell.is-uposatha {
+  border-color: var(--color-accent);
+  box-shadow: 0 12px 28px rgba(109, 63, 29, 0.1);
+}
+
+.uposatha-month__cell.is-today {
+  outline: 2px solid rgba(135, 80, 38, 0.55);
+  outline-offset: 2px;
+}
+
+.uposatha-month__date,
+.uposatha-list__date {
+  margin: 0 0 0.55rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.uposatha-month__phase,
+.uposatha-list__phase {
+  margin: 0 0 0.45rem;
+  font-family: var(--font-serif);
+  font-size: 0.98rem;
+}
+
+.uposatha-month__detail,
+.uposatha-month__notes,
+.uposatha-list__summary,
+.uposatha-list__notes,
+.uposatha-list__empty {
+  margin: 0;
+  color: var(--color-text-muted);
+  font-size: 0.88rem;
+  line-height: 1.4;
+}
+
+.uposatha-month__notes,
+.uposatha-list__notes {
+  margin-top: 0.55rem;
+}
+
+.uposatha-calendar__list {
+  display: none;
+}
+
+.uposatha-list__item {
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--color-border);
+  border-radius: 18px;
+  background: rgba(255, 253, 248, 0.94);
+}
+
+.uposatha-list__item + .uposatha-list__item {
+  margin-top: 0.85rem;
+}
+
+.uposatha-list__item.is-uposatha {
+  border-color: var(--color-accent);
 }
 
 .glossary-intro p,
@@ -1052,6 +1196,22 @@ footer {
   .book-card__cover {
     max-width: 220px;
   }
+
+  .uposatha-calendar__toolbar {
+    grid-template-columns: 1fr;
+  }
+
+  .uposatha-calendar__title-wrap {
+    order: -1;
+  }
+
+  .uposatha-calendar__toolbar .button {
+    width: 100%;
+  }
+
+  .uposatha-month__cell {
+    min-height: 7.75rem;
+  }
 }
 
 @media only screen and (max-width: 560px) {
@@ -1102,6 +1262,14 @@ footer {
   .ui.button.button,
   .book-card__download {
     width: 100%;
+  }
+
+  .uposatha-calendar__month {
+    display: none;
+  }
+
+  .uposatha-calendar__list {
+    display: block;
   }
 }
 

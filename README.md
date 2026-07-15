@@ -22,6 +22,21 @@ bundle update
 npm update
 ```
 
+## Uposatha calendar
+
+The site includes a native Romanian Uposatha calendar page at `/calendar-uposatha/`.
+
+Calendar data is generated locally from the sibling `../splendidmoons` repository:
+
+```sh
+./scripts/generate_uposatha_calendar.sh
+```
+
+This writes:
+
+- `_data/uposatha.json`
+- `assets/calendars/uposatha-ro.ics`
+
 ## License
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
