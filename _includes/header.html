@@ -5,6 +5,7 @@
 {%- assign is_meditatie = current_url contains "/meditatie" -%}
 {%- assign is_contact = current_url contains "/contact" -%}
 {%- assign is_glosar = current_url contains "/glosar" -%}
+{%- assign is_calendar = current_url contains "/calendar-uposatha" -%}
 
 <header class="site-header">
   <div class="site-shell site-header__inner">
@@ -60,6 +61,9 @@
         </li>
         <li class="site-nav__item">
           <a class="site-nav__link{% if is_glosar %} is-active{% endif %}" href="{{ "/glosar" | relative_url }}">Glosar</a>
+        </li>
+        <li class="site-nav__item">
+          <a class="site-nav__link{% if is_calendar %} is-active{% endif %}" href="{{ "/calendar-uposatha" | relative_url }}">Calendar</a>
         </li>
         <li class="site-nav__item">
           <a class="site-nav__link{% if is_contact %} is-active{% endif %}" href="{{ "/contact" | relative_url }}">Contact</a>

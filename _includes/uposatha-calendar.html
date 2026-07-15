@@ -1,0 +1,57 @@
+<div class="uposatha-calendar" data-uposatha-calendar>
+  <section class="info-card uposatha-calendar__hero" aria-labelledby="uposatha-next-title">
+    <p class="section-kicker">Calendar lunar</p>
+    <h2 id="uposatha-next-title">Următoarea zi Uposatha</h2>
+    <p class="uposatha-calendar__next" data-uposatha-next>
+      Calendarul se încarcă...
+    </p>
+    <p class="uposatha-calendar__meta">
+      Datele sunt generate local cu calculele Mahānikāya și afișate în limba română.
+    </p>
+    <div class="inline-actions">
+      <a class="button ui button" href="{{ "/assets/calendars/uposatha-ro.ics" | relative_url }}">
+        <i class="calendar alternate outline icon" aria-hidden="true"></i>
+        Abonare ICS
+      </a>
+    </div>
+  </section>
+
+  <section class="info-card uposatha-calendar__panel" aria-labelledby="uposatha-calendar-title">
+    <div class="uposatha-calendar__toolbar">
+      <button
+        type="button"
+        class="button ui button"
+        data-calendar-previous
+        aria-label="Luna precedentă">
+        <i class="chevron left icon" aria-hidden="true"></i>
+        Luna precedentă
+      </button>
+
+      <div class="uposatha-calendar__title-wrap">
+        <p class="section-kicker">Navigare</p>
+        <h2 id="uposatha-calendar-title" data-calendar-title></h2>
+      </div>
+
+      <button
+        type="button"
+        class="button ui button"
+        data-calendar-next
+        aria-label="Luna următoare">
+        Luna următoare
+        <i class="chevron right icon" aria-hidden="true"></i>
+      </button>
+    </div>
+
+    <div class="uposatha-calendar__actions">
+      <button type="button" class="button ui button" data-calendar-today>Astăzi</button>
+    </div>
+
+    <div class="uposatha-calendar__month" data-calendar-month-view></div>
+    <div class="uposatha-calendar__list" data-calendar-list-view></div>
+  </section>
+</div>
+
+<script id="uposatha-calendar-data" type="application/json">
+  {{ site.data.uposatha | jsonify }}
+</script>
+<script src="{{ "/assets/js/uposatha-calendar.js" | relative_url }}" defer></script>
