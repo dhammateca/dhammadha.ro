@@ -74,6 +74,11 @@ const normalizeEntryKey = (value) =>
     .toLowerCase()
     .trim();
 
+const referenceAliases = new Map([
+  ["paramis", "pāramī, pāramitā"],
+  ["pali", "Pāḷi"],
+]);
+
 const cleanupImportedTerm = (value) => {
   const term = stripHtml(value).replace(/:$/, "").trim();
 
@@ -192,16 +197,16 @@ const normalizeLetter = (value) => {
 };
 
 const localEntries = [
-  { term: "appamādo", description_ro: "lucid" },
-  { term: "āsava", description_ro: "scursuri" },
-  { term: "araha", description_ro: "vrednic" },
-  { term: "kamp", description_ro: "a tremura, a zdruncina" },
-  { term: "sevanā", description_ro: "urma, întovărăși, a-și face de lucru(?)" },
-  { term: "saññamo", description_ro: "înfrânare" },
-  { term: "saṁvega", description_ro: "descurajare" },
-  { term: "thera", description_ro: "venerabil" },
-  { term: "vi", description_ro: "răzleț" },
-  { term: "vi-", description_ro: "dis-", slug: "vi-prefix" },
+  { term: "appamādo", description_ro: "Lucid." },
+  { term: "āsava", description_ro: "Scursuri." },
+  { term: "araha", description_ro: "Vrednic." },
+  { term: "kamp", description_ro: "A tremura, a zdruncina." },
+  { term: "sevanā", description_ro: "Urma, întovărăși, a-și face de lucru(?)." },
+  { term: "saññamo", description_ro: "Înfrânare." },
+  { term: "saṁvega", description_ro: "Descurajare." },
+  { term: "thera", description_ro: "Venerabil." },
+  { term: "vi", description_ro: "Răzleț." },
+  { term: "vi-", description_ro: "Dis-.", slug: "vi-prefix" },
 ].map((entry) => ({
   ...entry,
   description_en: "",
@@ -213,18 +218,26 @@ const localEntries = [
 
 const descriptionOverrides = new Map(
   [
-    ["Anattā", "non-sine. Vezi și Tilakkhaṇa (trei caracteristici ale existenței)"],
-    ["Ariya-aṭṭhaṅgika-magga", "calea de opt părți nobilă"],
-    ["Hiri", "conștiință. Vezi și Ottappa (prudență morală)"],
-    ["Mettā", "bunăvoință, bunătate pașnică. Vezi și Brahmavihāra; Pāramīs."],
-    ["Pīti", "extaziere; exaltare. Vezi și Jhāna."],
-    ["Saṅgha", "1. Obștea monahală; 2. Comunitatea Celor Treziți. Vezi și Monastic life; Tirataṇa (Tripla Giuvaierie)."],
-    ["Taṇhā", "râvnă. Vezi și Kilesa (pângăriri); Paṭicca-samuppāda (origine dependentă); Sensuality."],
-    ["Upekkhā", "echidistanță. Vezi și Brahmavihāra; Pāramīs;"],
-    ["Vimutti", "izbăvire. Vezi și Awakening."],
+    ["Anattā", "Non-sine. Vezi și Tilakkhaṇa (trei caracteristici ale existenței)"],
+    ["Ariya-aṭṭhaṅgika-magga", "Calea de opt părți nobilă"],
+    ["Avijjā", "Neconștientizare; ignoranţă; conștientizare întunecată; amăgire despre natura minții."],
+    ["Deva / devatā", "Zeu. Literal, „unul strălucitor” - un locuitor al tărâmurilor cerești."],
+    ["Buddha", "Numele dat celui care redescoperă pentru el însuși calea eliberatoare a Dhammei, după o lungă perioadă în care a fost uitată de lume. Potrivit tradiției, un lung șir de Buddha se întinde în trecutul îndepărtat. Cel mai recent Buddha s-a născut Siddhattha Gotama în India în secolul al VI-lea î.Hr. Un tânăr bine educat și bogat, el și-a renunțat la familia și moștenirea princiară în floarea vieții sale pentru a căuta adevărata libertate și sfârșitul suferinței (dukkha). După șapte ani de austerități în pădure, a redescoperit „calea de mijloc” și și-a atins scopul, devenind Buddha."],
+    ["Hiri", "Conștiință. Vezi și Ottappa (prudență morală)"],
+    ["Mettā", "Bunăvoință, bunătate pașnică. Vezi și Brahmavihāra; Pāramīs."],
+    ["Nekkhamma", "Renunţare; literal, „libertatea de poftă senzuală”. Unul dintre cei zece pāramīs."],
+    ["Paññā-vimutti", "Izbăvire. Vezi și Awakening."],
+    ["Pīti", "Extaziere; exaltare. Vezi și Jhāna."],
+    ["Paññā", "Discernământ; perspicacitate; înţelepciune; inteligență; bunul simț; ingeniozitate. Una dintre cele zece perfecțiuni (pāramīs)."],
+    ["Saṅgha", "Obștea monahală; Comunitatea Celor Treziți. Vezi și Monastic life; Tirataṇa (Tripla Giuvaierie)."],
+    ["Sāvaka", "Literal, „ascultător”. Un discipol al lui Buddha, în special un discipol nobil."],
+    ["Sacca", "Adevărul. Una dintre cele zece perfecțiuni (pāramīs)."],
+    ["Taṇhā", "Râvnă. Vezi și Kilesa (pângăriri); Paṭicca-samuppāda (origine dependentă); Sensuality."],
+    ["Upekkhā", "Echidistanță. Vezi și Brahmavihāra; Pāramīs."],
+    ["Vimutti", "Izbăvire. Vezi și Awakening."],
     ["Vinaya", "Viața monahală."],
-    ["Viññāṇa", "conștiință. Vezi și Khandha (agregatele atașamentului); Paṭicca-samuppāda (origine dependentă)."],
-    ["Vipassanā", "introspecție. Vezi și Samatha (liniște); Tilakkhaṇa (trei caracteristici ale existenței)."],
+    ["Viññāṇa", "Conștiință. Vezi și Khandha (agregatele atașamentului); Paṭicca-samuppāda (origine dependentă)."],
+    ["Vipassanā", "Introspecție. Vezi și Samatha (liniște); Tilakkhaṇa (trei caracteristici ale existenței)."],
   ].map(([term, description]) => [normalizeEntryKey(term), description])
 );
 
@@ -418,9 +431,17 @@ function findLinkedSlug(reference, slugMap) {
 
   for (const candidate of candidates) {
     const normalized = normalizeLookupKey(candidate);
+    const aliasTarget = referenceAliases.get(normalized);
 
     if (slugMap.has(normalized)) {
       return slugMap.get(normalized);
+    }
+
+    if (aliasTarget) {
+      const aliasKey = normalizeLookupKey(aliasTarget);
+      if (slugMap.has(aliasKey)) {
+        return slugMap.get(aliasKey);
+      }
     }
   }
 
@@ -463,13 +484,151 @@ function resolveCanonicalDescription(entry, slugMap, entryBySlug, seen = new Set
   return resolveCanonicalDescription(entryBySlug.get(target.slug), slugMap, entryBySlug, seen);
 }
 
+function linkReferenceToken(token, slugMap) {
+  const trimmed = token.trim();
+  if (!trimmed) {
+    return token;
+  }
+
+  const parentheticalMatch = trimmed.match(/^(.+?)(\s*\([^)]*\))$/);
+  const baseTerm = parentheticalMatch ? parentheticalMatch[1].trim() : trimmed;
+  const parenthetical = parentheticalMatch ? parentheticalMatch[2] : "";
+  const target = findLinkedSlug(baseTerm, slugMap) || findLinkedSlug(trimmed, slugMap);
+
+  if (!target) {
+    return token;
+  }
+
+  const leadingWhitespace = token.match(/^\s*/)?.[0] || "";
+  const trailingWhitespace = token.match(/\s*$/)?.[0] || "";
+  return `${leadingWhitespace}<a href="#${target.slug}">${escapeHtml(baseTerm)}</a>${escapeHtml(parenthetical)}${trailingWhitespace}`;
+}
+
+function linkReferenceSpan(span, slugMap) {
+  const parts = span.split(/(\s*;\s*|\s*,\s*|\s+și\s+)/);
+  const linkedTokens = [];
+
+  for (let index = 0; index < parts.length; index += 2) {
+    const linkedToken = linkReferenceToken(parts[index], slugMap);
+    if (linkedToken !== parts[index]) {
+      linkedTokens.push({
+        token: linkedToken,
+        separator: parts[index - 1] || "",
+      });
+    }
+  }
+
+  if (!linkedTokens.length) {
+    return {
+      html: "",
+      linkedCount: 0,
+    };
+  }
+
+  return {
+    html: linkedTokens
+      .map((item, index) => `${index === 0 ? "" : item.separator}${item.token}`)
+      .join(""),
+    linkedCount: linkedTokens.length,
+  };
+}
+
+function cleanupReferenceArtifacts(html) {
+  return html
+    .replace(/\(\s*\)/g, "")
+    .replace(/\s+([,.;:!?])/g, "$1")
+    .replace(/([.;:!?])\s*([.;:!?])/g, "$1")
+    .replace(/\s{2,}/g, " ")
+    .replace(/^\s*[.;,:]\s*/, "")
+    .trim();
+}
+
+function linkParentheticalGlossaryRefs(html, slugMap) {
+  const segments = html.split(/(<a [\s\S]*?<\/a>)/);
+
+  return segments
+    .map((segment) => {
+      if (segment.startsWith("<a ")) {
+        return segment;
+      }
+
+      return segment.replace(/\(([^()<>]+)\)/g, (match, inside) => {
+        const trimmed = inside.trim();
+        if (!trimmed || /^vezi\b/i.test(trimmed)) {
+          return match;
+        }
+
+        const target = findLinkedSlug(trimmed, slugMap);
+        if (!target) {
+          return match;
+        }
+
+        return `(vezi <a href="#${target.slug}">${escapeHtml(target.term)}</a>)`;
+      });
+    })
+    .join("");
+}
+
+function linkInlineReferences(html, slugMap) {
+  const segments = html.split(/(<a [\s\S]*?<\/a>)/);
+
+  return segments
+    .map((segment) => {
+      if (segment.startsWith("<a ")) {
+        return segment;
+      }
+
+      let result = "";
+      let cursor = 0;
+      const markerPattern = /\b(Vezi(?: și)?|vezi(?: și)?)(:?)\s+/g;
+      let markerMatch;
+
+      while ((markerMatch = markerPattern.exec(segment)) !== null) {
+        const [matchedText, marker, colon] = markerMatch;
+        const start = markerMatch.index + matchedText.length;
+        const markerIsParenthetical = segment[markerMatch.index - 1] === "(";
+        let end = segment.length;
+
+        for (let index = start; index < segment.length; index += 1) {
+          const char = segment[index];
+          if (char === "." || char === "]" || (markerIsParenthetical && char === ")")) {
+            end = index;
+            break;
+          }
+        }
+
+        const span = segment.slice(start, end);
+        const { html: linkedSpan, linkedCount } = linkReferenceSpan(span, slugMap);
+
+        result += segment.slice(cursor, markerMatch.index);
+
+        if (!linkedCount) {
+          if (markerIsParenthetical && result.endsWith("(")) {
+            result = result.slice(0, -1);
+            cursor = end + 1;
+            markerPattern.lastIndex = end + 1;
+            continue;
+          }
+        } else {
+          result += `${marker}${colon} ${linkedSpan}`;
+        }
+
+        cursor = end;
+        markerPattern.lastIndex = end;
+      }
+
+      return result + segment.slice(cursor);
+    })
+    .join("");
+}
+
 function buildDescriptionHtml(entry, slugMap, entryBySlug) {
   const english = entry.description_en || "";
   const romanian = entry.description_ro || english;
   const match = english.match(/^(.*?)(See also|See)\s+(.+?)(?:\.)?$/);
 
   if (!match) {
-    return escapeHtml(romanian);
+    return cleanupReferenceArtifacts(linkParentheticalGlossaryRefs(linkInlineReferences(escapeHtml(romanian), slugMap), slugMap));
   }
 
   const seeMarkerMatch = romanian.match(/(?:^|[.!?])\s*(Vezi(?: și)?|Vezi,\s*de asemenea)\b/i);
@@ -490,7 +649,7 @@ function buildDescriptionHtml(entry, slugMap, entryBySlug) {
   if (!linkedReferences.length) {
     const trimmedIntro = intro || escapeHtml(romanian.replace(/\s*Vezi(?: și)?[\s\S]*$/i, "").replace(/\s*Vezi,\s*de asemenea[\s\S]*$/i, "").trim().replace(/[;,:\-–]\s*$/, ""));
     if (trimmedIntro) {
-      return trimmedIntro;
+      return cleanupReferenceArtifacts(linkParentheticalGlossaryRefs(linkInlineReferences(trimmedIntro, slugMap), slugMap));
     }
 
     const directRomanianReference = romanian
@@ -498,18 +657,18 @@ function buildDescriptionHtml(entry, slugMap, entryBySlug) {
       .replace(/^Vezi,\s*de asemenea\s+/i, "")
       .trim();
 
-    return escapeHtml(directRomanianReference);
+    return cleanupReferenceArtifacts(linkParentheticalGlossaryRefs(linkInlineReferences(escapeHtml(directRomanianReference), slugMap), slugMap));
   }
 
   if (!intro && linkedReferences.length === 1) {
     const target = findLinkedSlug(references[0], slugMap);
     const canonicalDescription = resolveCanonicalDescription(entryBySlug.get(target?.slug), slugMap, entryBySlug);
     if (canonicalDescription) {
-      return canonicalDescription;
+      return cleanupReferenceArtifacts(linkParentheticalGlossaryRefs(linkInlineReferences(canonicalDescription, slugMap), slugMap));
     }
   }
 
-  return `${intro ? `${intro} ` : ""}${prefix}${linkedReferences.join("; ")}.`;
+  return cleanupReferenceArtifacts(linkParentheticalGlossaryRefs(linkInlineReferences(`${intro ? `${intro} ` : ""}${prefix}${linkedReferences.join("; ")}.`, slugMap), slugMap));
 }
 
 async function main() {
