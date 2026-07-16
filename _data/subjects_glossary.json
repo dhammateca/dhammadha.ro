@@ -23,8 +23,8 @@
           "description_en": "Teacher; mentor. See kalyāṇamitta.",
           "letter": "A",
           "source": "accesstoinsight",
-          "description_ro": "Profesor; mentor Vezi kalyāṇamitta.",
-          "description_ro_html": "Profesor; mentor Vezi <a href=\"#kalyanamitta\">kalyāṇamitta</a>."
+          "description_ro": "Profesor; mentor. Vezi kalyāṇamitta.",
+          "description_ro_html": "Profesor; mentor. Vezi <a href=\"#kalyanamitta\">kalyāṇamitta</a>."
         },
         {
           "term": "adhiṭṭhāna",
@@ -32,8 +32,8 @@
           "description_en": "Determination; resolution. One of the ten perfections (pāramīs).",
           "letter": "A",
           "source": "accesstoinsight",
-          "description_ro": "Determinare; rezoluţie. Una dintre cele zece perfecțiuni (pāramīs).",
-          "description_ro_html": "Determinare; rezoluţie. Una dintre cele zece perfecțiuni (pāramīs)."
+          "description_ro": "Determinare; rezoluţie. Una dintre cele zece perfecțiuni (vezi pāramīs).",
+          "description_ro_html": "Determinare; rezoluţie. Una dintre cele zece perfecțiuni (vezi <a href=\"#parami\">pāramīs</a>)."
         },
         {
           "term": "akāliko",
@@ -59,8 +59,8 @@
           "description_en": "Not-self; ownerless.",
           "letter": "A",
           "source": "accesstoinsight",
-          "description_ro": "non-sine. Vezi și Tilakkhaṇa (trei caracteristici ale existenței)",
-          "description_ro_html": "non-sine. Vezi și Tilakkhaṇa (trei caracteristici ale existenței)"
+          "description_ro": "Non-sine.",
+          "description_ro_html": "Non-sine."
         },
         {
           "term": "anupubbī-kathā",
@@ -82,18 +82,18 @@
         },
         {
           "term": "appamādo",
-          "description_ro": "lucid",
+          "description_ro": "Lucid.",
           "description_en": "",
-          "description_ro_html": "lucid",
+          "description_ro_html": "Lucid.",
           "slug": "appamado",
           "letter": "A",
           "source": "local"
         },
         {
           "term": "araha",
-          "description_ro": "vrednic",
+          "description_ro": "Vrednic.",
           "description_en": "",
-          "description_ro_html": "vrednic",
+          "description_ro_html": "Vrednic.",
           "slug": "araha",
           "letter": "A",
           "source": "local"
@@ -104,8 +104,8 @@
           "description_en": "A \"worthy one\" or \"pure one\"; a person whose mind is free of defilement (see kilesa), who has abandoned all ten of the fetters that bind the mind to the cycle of rebirth (see saṁyojana), whose heart is free of mental effluents (see āsava), and who is thus not destined for further rebirth. A title for the Buddha and the highest level of his noble disciples.",
           "letter": "A",
           "source": "accesstoinsight",
-          "description_ro": "Un „vrednic” sau „curat”; o persoană a cărei minte este liberă de pângărire (vezi kilesa), care a abandonat toate cele zece cătușele care leagă mintea de ciclul renașterii (vezi saṁyojana), a cărei inimă este liberă de efluenți mentale (vezi āsava) și care, prin urmare, nu este destinată unei renașteri ulterioare. Un titlu pentru Buddha și cel mai înalt nivel al nobililor săi discipoli.",
-          "description_ro_html": "Un „vrednic” sau „curat”; o persoană a cărei minte este liberă de pângărire (vezi kilesa), care a abandonat toate cele zece cătușele care leagă mintea de ciclul renașterii (vezi saṁyojana), a cărei inimă este liberă de efluenți mentale (vezi āsava) și care, prin urmare, nu este destinată unei renașteri ulterioare. Un titlu pentru Buddha și cel mai înalt nivel al nobililor săi discipoli."
+          "description_ro": "Vrednic (în sensul absolut, nu doar o persoană virtuoasă); o persoană a cărei minți este liberă de pângărire (vezi kilesa). Un titlu pentru Buddha și discipolii Lui nobili, ajunși la cel mai înalt nivel al iluminării.",
+          "description_ro_html": "Vrednic (în sensul absolut, nu doar o persoană virtuoasă); o persoană a cărei minți este liberă de pângărire (vezi <a href=\"#kilesa\">kilesa</a>). Un titlu pentru Buddha și discipolii Lui nobili, ajunși la cel mai înalt nivel al iluminării."
         },
         {
           "term": "ārammaṇa",
@@ -118,9 +118,9 @@
         },
         {
           "term": "āsava",
-          "description_ro": "scursuri",
+          "description_ro": "Scursuri.",
           "description_en": "",
-          "description_ro_html": "scursuri",
+          "description_ro_html": "Scursuri.",
           "slug": "asava",
           "letter": "A",
           "source": "local"
@@ -131,8 +131,8 @@
           "description_en": "Unawareness; ignorance; obscured awareness; delusion about the nature of the mind. See also moha.",
           "letter": "A",
           "source": "accesstoinsight",
-          "description_ro": "neconștientizare; ignoranţă; conștientizare întunecată; amăgire despre natura minții",
-          "description_ro_html": "neconștientizare; ignoranţă; conștientizare întunecată; amăgire despre natura minții"
+          "description_ro": "Neconștientizare; ignoranţă; conștientizare întunecată; amăgire despre natura minții.",
+          "description_ro_html": "Neconștientizare; ignoranţă; conștientizare întunecată; amăgire despre natura minții."
         },
         {
           "term": "āyatana",
@@ -163,8 +163,8 @@
           "description_en": "Mental cultivation or development; meditation. The third of the three grounds for meritorious action. See also dāna and sīla.",
           "letter": "B",
           "source": "accesstoinsight",
-          "description_ro": "Cultivarea sau dezvoltarea mentală; meditaţie. Al treilea dintre cele trei motive de acțiune meritorie",
-          "description_ro_html": "Cultivarea sau dezvoltarea mentală; meditaţie. Al treilea dintre cele trei motive de acțiune meritorie"
+          "description_ro": "Cultivarea sau dezvoltarea mentală; meditaţie. Al treilea dintre cele trei motive de acțiune meritorie.",
+          "description_ro_html": "Cultivarea sau dezvoltarea mentală; meditaţie. Al treilea dintre cele trei motive de acțiune meritorie."
         },
         {
           "term": "bhikkhunī",
@@ -172,8 +172,8 @@
           "description_en": "A Buddhist nun; a woman who has given up the householder's life to live a life of heightened virtue (see sīla) in accordance with the Vinaya in general, and the Pātimokkha rules in particular. See saṅgha, parisā, upasampadā.",
           "letter": "B",
           "source": "accesstoinsight",
-          "description_ro": "O călugăriță budistă; o femeie care a renunțat la viața gospodărului pentru a trăi o viață de virtute sporită (vezi sīla) în conformitate cu Vinaya în general și cu regulile Pātimokkha în special",
-          "description_ro_html": "O călugăriță budistă; o femeie care a renunțat la viața gospodărului pentru a trăi o viață de virtute sporită (vezi sīla) în conformitate cu Vinaya în general și cu regulile Pātimokkha în special"
+          "description_ro": "O călugăriță budistă; o femeie care a renunțat la viața gospodărului pentru a trăi o viață de virtute sporită (vezi sīla) în conformitate cu Vinaya în general și cu regulile Pātimokkha în special.",
+          "description_ro_html": "O călugăriță budistă; o femeie care a renunțat la viața gospodărului pentru a trăi o viață de virtute sporită (vezi <a href=\"#sila\">sīla</a>) în conformitate cu Vinaya în general și cu regulile Pātimokkha în special."
         },
         {
           "term": "bodhi-pakkhiya-dhammā",
@@ -181,8 +181,8 @@
           "description_en": "\"Wings to Awakening\" - seven sets of principles that are conducive to Awakening and that, according to the Buddha, form the heart of his teaching: [1] the four frames of reference (see satipaṭṭhāna); [2] four right exertions (sammappadhāna) - the effort to prevent unskillful states from arising in the mind, to abandon whatever unskillful states have already arisen, to give rise to the good, and to maintain the good that has arisen; [3] four bases of success (iddhipāda) - desire, persistence, intentness, circumspection; [4] five dominant factors (indriya) - conviction, persistence, mindfulness, concentration, discernment; [5] five strengths (bala) - identical with [4]; [6] seven factors for Awakening (bojjhaṅga) - mindfulness, investigation of phenomena, persistence, rapture (see pīti), serenity, concentration, equanimity; and [7] the eightfold path (magga) - Right View, Right Attitude, Right Speech, Right Activity, Right Livelihood, Right Effort, Right Mindfulness, Right Concentration.",
           "letter": "B",
           "source": "accesstoinsight",
-          "description_ro": "„Aripi spre Trezire” - șapte seturi de principii care sunt favorabile Trezirii și care, conform lui Buddha, formează inima învățăturii sale: [1] cele patru cadre de referință (vezi satipaṭṭhāna); [2] patru eforturi corecte (sammappadhāna) - efortul de a preveni apariția stărilor de neîndeplinire în minte, de a abandona orice stări de neîndeplinire au apărut deja, de a da naștere binelui și de a menține binele care a apărut; [3] patru baze ale succesului (iddhipāda) - dorința, persistența, intenția, circumspecția; [4] cinci factori dominanti (indriya) - convingere, persistență, atenție, concentrare, discernământ; [5] cinci forțe (bala) - identice cu [4]; [6] șapte factori pentru Trezire (bojjhaṅga) - atenție, investigarea fenomenelor, persistență, răpire (vezi pīti), seninătate, concentrare, equanimitate; și [7] calea de opt ori (magga) - Vedere corectă, Atitudine corectă, Vorbire corectă, Activitate corectă, Trai corectă, Efort corect, Mindfulness corect, Concentrare corectă.",
-          "description_ro_html": "„Aripi spre Trezire” - șapte seturi de principii care sunt favorabile Trezirii și care, conform lui Buddha, formează inima învățăturii sale: [1] cele patru cadre de referință (vezi satipaṭṭhāna); [2] patru eforturi corecte (sammappadhāna) - efortul de a preveni apariția stărilor de neîndeplinire în minte, de a abandona orice stări de neîndeplinire au apărut deja, de a da naștere binelui și de a menține binele care a apărut; [3] patru baze ale succesului (iddhipāda) - dorința, persistența, intenția, circumspecția; [4] cinci factori dominanti (indriya) - convingere, persistență, atenție, concentrare, discernământ; [5] cinci forțe (bala) - identice cu [4]; [6] șapte factori pentru Trezire (bojjhaṅga) - atenție, investigarea fenomenelor, persistență, răpire (vezi pīti), seninătate, concentrare, equanimitate; și [7] calea de opt ori (magga) - Vedere corectă, Atitudine corectă, Vorbire corectă, Activitate corectă, Trai corectă, Efort corect, Mindfulness corect, Concentrare corectă."
+          "description_ro": "„Aripi spre Trezire” - șapte seturi de principii care sunt favorabile Trezirii și care, conform lui Buddha, formează inima învățăturii sale: [1] cele patru cadre de referință (vezi satipaṭṭhāna); [2] patru eforturi corecte (sammappadhāna) - efortul de a preveni apariția stărilor de neîndeplinire în minte, de a abandona orice stări de neîndeplinire au apărut deja, de a da naștere binelui și de a menține binele care a apărut; [3] patru baze ale succesului (iddhipāda) - dorința, persistența, intenția, circumspecția; [4] cinci factori dominanti (vezi indriya) - convingere, persistență, atenție, concentrare, discernământ; [5] cinci forțe (bala) - identice cu [4]; [6] șapte factori pentru Trezire (bojjhaṅga) - atenție, investigarea fenomenelor, persistență, răpire (vezi pīti), seninătate, concentrare, equanimitate; și [7] calea de opt ori (magga) - Vedere corectă, Atitudine corectă, Vorbire corectă, Activitate corectă, Trai corectă, Efort corect, Mindfulness corect, Concentrare corectă.",
+          "description_ro_html": "„Aripi spre Trezire” - șapte seturi de principii care sunt favorabile Trezirii și care, conform lui Buddha, formează inima învățăturii sale: [1] cele patru cadre de referință (vezi <a href=\"#satipatthana\">satipaṭṭhāna</a>); [2] patru eforturi corecte (sammappadhāna) - efortul de a preveni apariția stărilor de neîndeplinire în minte, de a abandona orice stări de neîndeplinire au apărut deja, de a da naștere binelui și de a menține binele care a apărut; [3] patru baze ale succesului (iddhipāda) - dorința, persistența, intenția, circumspecția; [4] cinci factori dominanti (vezi <a href=\"#indriya\">indriya</a>) - convingere, persistență, atenție, concentrare, discernământ; [5] cinci forțe (bala) - identice cu [4]; [6] șapte factori pentru Trezire (bojjhaṅga) - atenție, investigarea fenomenelor, persistență, răpire (vezi <a href=\"#piti\">pīti</a>), seninătate, concentrare, equanimitate; și [7] calea de opt ori (magga) - Vedere corectă, Atitudine corectă, Vorbire corectă, Activitate corectă, Trai corectă, Efort corect, Mindfulness corect, Concentrare corectă."
         },
         {
           "term": "brahmā",
@@ -208,8 +208,8 @@
           "description_en": "The name given to one who rediscovers for himself the liberating path of Dhamma, after a long period of its having been forgotten by the world. According to tradition, a long line of Buddhas stretches off into the distant past. The most recent Buddha was born Siddhattha Gotama in India in the sixth century BCE. A well-educated and wealthy young man, he relinquished his family and his princely inheritance in the prime of his life to search for true freedom and an end to suffering (dukkha). After seven years of austerities in the forest, he rediscovered the \"middle way\" and achieved his goal, becoming Buddha.",
           "letter": "B",
           "source": "accesstoinsight",
-          "description_ro": "Numele dat celui care redescoperă pentru el însuși calea eliberatoare a Dhammei, după o lungă perioadă în care a fost uitată de lume. Potrivit tradiției, un lung șir de Buddha se întinde în trecutul îndepărtat. Cel mai recent Buddha sa născut Siddhattha Gotama în India în secolul al VI-lea î.Hr. Un tânăr bine educat și bogat, el și-a renunțat la familia și moștenirea princiară în floarea vieții sale pentru a căuta adevărata libertate și sfârșitul suferinței (dukkha). După șapte ani de austerități în pădure, a redescoperit „calea de mijloc” și și-a atins scopul, devenind Buddha.",
-          "description_ro_html": "Numele dat celui care redescoperă pentru el însuși calea eliberatoare a Dhammei, după o lungă perioadă în care a fost uitată de lume. Potrivit tradiției, un lung șir de Buddha se întinde în trecutul îndepărtat. Cel mai recent Buddha sa născut Siddhattha Gotama în India în secolul al VI-lea î.Hr. Un tânăr bine educat și bogat, el și-a renunțat la familia și moștenirea princiară în floarea vieții sale pentru a căuta adevărata libertate și sfârșitul suferinței (dukkha). După șapte ani de austerități în pădure, a redescoperit „calea de mijloc” și și-a atins scopul, devenind Buddha."
+          "description_ro": "Numele dat celui care redescoperă pentru el însuși calea eliberatoare a Dhammei, după o lungă perioadă în care a fost uitată de lume. Potrivit tradiției, un lung șir de Buddha se întinde în trecutul îndepărtat. Cel mai recent Buddha s-a născut Siddhattha Gotama în India în secolul al VI-lea î.Hr. Un tânăr bine educat și bogat, el și-a renunțat la familia și moștenirea princiară în floarea vieții sale pentru a căuta adevărata libertate și sfârșitul suferinței (vezi dukkha). După șapte ani de austerități în pădure, a redescoperit „calea de mijloc” și și-a atins scopul, devenind Buddha.",
+          "description_ro_html": "Numele dat celui care redescoperă pentru el însuși calea eliberatoare a Dhammei, după o lungă perioadă în care a fost uitată de lume. Potrivit tradiției, un lung șir de Buddha se întinde în trecutul îndepărtat. Cel mai recent Buddha s-a născut Siddhattha Gotama în India în secolul al VI-lea î.Hr. Un tânăr bine educat și bogat, el și-a renunțat la familia și moștenirea princiară în floarea vieții sale pentru a căuta adevărata libertate și sfârșitul suferinței (vezi <a href=\"#dukkha\">dukkha</a>). După șapte ani de austerități în pădure, a redescoperit „calea de mijloc” și și-a atins scopul, devenind Buddha."
         }
       ]
     },
@@ -237,7 +237,7 @@
           "letter": "D",
           "source": "accesstoinsight",
           "description_ro": "Dăruire, liberalitate; ofrandă, pomană. Mai exact, darea ordinului monahal a oricăruia dintre cele patru cerințe. Mai general, înclinația de a da, fără a aștepta vreo formă de rambursare de la destinatar. Dana este prima temă din sistemul de pregătire treptată a lui Buddha (vezi anupubbī-kathā), prima dintre cele zece pāramīs, una dintre cele șapte comori (vezi dhana) și primul dintre cele trei temeiuri pentru acțiune meritorie (vezi sīla și bhāvanā).",
-          "description_ro_html": "Dăruire, liberalitate; ofrandă, pomană. Mai exact, darea ordinului monahal a oricăruia dintre cele patru cerințe. Mai general, înclinația de a da, fără a aștepta vreo formă de rambursare de la destinatar. Dana este prima temă din sistemul de pregătire treptată a lui Buddha (vezi anupubbī-kathā), prima dintre cele zece pāramīs, una dintre cele șapte comori (vezi dhana) și primul dintre cele trei temeiuri pentru acțiune meritorie (vezi sīla și bhāvanā)."
+          "description_ro_html": "Dăruire, liberalitate; ofrandă, pomană. Mai exact, darea ordinului monahal a oricăruia dintre cele patru cerințe. Mai general, înclinația de a da, fără a aștepta vreo formă de rambursare de la destinatar. Dana este prima temă din sistemul de pregătire treptată a lui Buddha (vezi <a href=\"#anupubbi\">anupubbī-kathā</a>), prima dintre cele zece pāramīs, una dintre cele șapte comori (vezi <a href=\"#dhana\">dhana</a>) și primul dintre cele trei temeiuri pentru acțiune meritorie (vezi <a href=\"#sila\">sīla</a> și <a href=\"#bhavana\">bhāvanā</a>)."
         },
         {
           "term": "deva / devatā",
@@ -245,8 +245,8 @@
           "description_en": "Literally, \"shining one\" - an inhabitant of the heavenly realms (see sagga and sugati).",
           "letter": "D",
           "source": "accesstoinsight",
-          "description_ro": "Zeu. Literal, „unul strălucitor” - un locuitor al tărâmurilor cerești (vezi sagga și sugati).",
-          "description_ro_html": "Zeu. Literal, „unul strălucitor” - un locuitor al tărâmurilor cerești (vezi sagga și sugati)."
+          "description_ro": "Zeu. Literal, „unul strălucitor” - un locuitor al tărâmurilor cerești.",
+          "description_ro_html": "Zeu. Literal, „unul strălucitor” - un locuitor al tărâmurilor cerești."
         },
         {
           "term": "dhamma",
@@ -263,8 +263,8 @@
           "description_en": "Treasure(s). The seven qualities of conviction (saddhā), virtue (sīla), conscience & concern (hiri-ottappa), learning (suta), generosity (dāna), and wisdom (paññā).",
           "letter": "D",
           "source": "accesstoinsight",
-          "description_ro": "Comoara(e). Cele șapte calități ale convingerii (saddhā), virtuții (sīla), conștiinței și preocupării (hiri-ottappa), învățării (suta), generozității (dāna) și înțelepciunii (paññā).",
-          "description_ro_html": "Comoara(e). Cele șapte calități ale convingerii (saddhā), virtuții (sīla), conștiinței și preocupării (hiri-ottappa), învățării (suta), generozității (dāna) și înțelepciunii (paññā)."
+          "description_ro": "Comoara(e). Cele șapte calități ale convingerii (vezi saddhā), virtuții (vezi sīla), conștiinței și preocupării (hiri-ottappa), învățării (suta), generozității (vezi dāna) și înțelepciunii (vezi paññā).",
+          "description_ro_html": "Comoara(e). Cele șapte calități ale convingerii (vezi <a href=\"#saddha\">saddhā</a>), virtuții (vezi <a href=\"#sila\">sīla</a>), conștiinței și preocupării (hiri-ottappa), învățării (suta), generozității (vezi <a href=\"#dana\">dāna</a>) și înțelepciunii (vezi <a href=\"#panna\">paññā</a>)."
         },
         {
           "term": "dhātu",
@@ -364,8 +364,8 @@
           "description_en": "Faculties; mental factors. In the suttas the term can refer either to the six sense media (āyatana) or to the five mental factors of saddhā (conviction), viriya (persistence), sati (mindfulness), samādhi (concentration), and paññā (discernment); see bodhi-pakkhiya-dhammā.",
           "letter": "I",
           "source": "accesstoinsight",
-          "description_ro": "Facultăţi; factori mentali. În sutta, termenul se poate referi fie la mediile cu șase simțuri (āyatana), fie la cei cinci factori mentali: saddha (convingere), viriya (persistență), sati (conștientizare), samādhi (concentrare) și paññā (discernământ); vezi bodhi-pakkhiya-dhamma.",
-          "description_ro_html": "Facultăţi; factori mentali. În sutta, termenul se poate referi fie la mediile cu șase simțuri (āyatana), fie la cei cinci factori mentali: saddha (convingere), viriya (persistență), sati (conștientizare), samādhi (concentrare) și paññā (discernământ); vezi bodhi-pakkhiya-dhamma."
+          "description_ro": "Facultăţi; factori mentali. În sutta, termenul se poate referi fie la mediile cu șase simțuri (vezi āyatana), fie la cei cinci factori mentali: saddha (convingere), viriya (persistență), sati (conștientizare), samādhi (concentrare) și paññā (discernământ); vezi bodhi-pakkhiya-dhamma.",
+          "description_ro_html": "Facultăţi; factori mentali. În sutta, termenul se poate referi fie la mediile cu șase simțuri (vezi <a href=\"#ayatana\">āyatana</a>), fie la cei cinci factori mentali: saddha (convingere), viriya (persistență), sati (conștientizare), samādhi (concentrare) și paññā (discernământ); vezi <a href=\"#bodhi-pakkhiya-dhamma\">bodhi-pakkhiya-dhamma</a>."
         }
       ]
     },
@@ -379,7 +379,7 @@
           "letter": "J",
           "source": "accesstoinsight",
           "description_ro": "Absorbție mentală. O stare de concentrare puternică concentrată pe o singură senzație fizică (care are ca rezultat rūpa jhāna) sau noțiune mentală (care are ca rezultat arūpa jhāna). Dezvoltarea jhāna apare din suspendarea temporară a celor cinci obstacole (vezi nīvaraṇa) prin dezvoltarea a cinci factori mentali: vitakka (gândire direcționată), vicāra (evaluare), pīti (răpire), sukha (plăcere) și ekaggatārammana (unicitatea preocupării).",
-          "description_ro_html": "Absorbție mentală. O stare de concentrare puternică concentrată pe o singură senzație fizică (care are ca rezultat rūpa jhāna) sau noțiune mentală (care are ca rezultat arūpa jhāna). Dezvoltarea jhāna apare din suspendarea temporară a celor cinci obstacole (vezi nīvaraṇa) prin dezvoltarea a cinci factori mentali: vitakka (gândire direcționată), vicāra (evaluare), pīti (răpire), sukha (plăcere) și ekaggatārammana (unicitatea preocupării)."
+          "description_ro_html": "Absorbție mentală. O stare de concentrare puternică concentrată pe o singură senzație fizică (care are ca rezultat rūpa jhāna) sau noțiune mentală (care are ca rezultat arūpa jhāna). Dezvoltarea jhāna apare din suspendarea temporară a celor cinci obstacole (vezi <a href=\"#nivarana\">nīvaraṇa</a>) prin dezvoltarea a cinci factori mentali: vitakka (gândire direcționată), vicāra (evaluare), pīti (răpire), sukha (plăcere) și ekaggatārammana (unicitatea preocupării)."
         }
       ]
     },
@@ -401,8 +401,8 @@
           "description_en": "Strings of sensuality. The objects of the five physical senses: visible objects, sounds, aromas, flavors, and tactile sensations. Usually refers to sense experiences that, like the strings (guṇa) of a lute when plucked, give rise to pleasurable feelings (vedanā).",
           "letter": "K",
           "source": "accesstoinsight",
-          "description_ro": "Corzi de senzualitate. Obiectele celor cinci simțuri fizice: obiecte vizibile, sunete, arome, arome și senzații tactile. De obicei, se referă la experiențele senzoriale care, ca și corzile (guṇa) ale unei lăute atunci când sunt ciupite, dau naștere la sentimente plăcute (vedanā).",
-          "description_ro_html": "Corzi de senzualitate. Obiectele celor cinci simțuri fizice: obiecte vizibile, sunete, arome, arome și senzații tactile. De obicei, se referă la experiențele senzoriale care, ca și corzile (guṇa) ale unei lăute atunci când sunt ciupite, dau naștere la sentimente plăcute (vedanā)."
+          "description_ro": "Corzi de senzualitate. Obiectele celor cinci simțuri fizice: obiecte vizibile, sunete, arome, arome și senzații tactile. De obicei, se referă la experiențele senzoriale care, ca și corzile (guṇa) ale unei lăute atunci când sunt ciupite, dau naștere la sentimente plăcute (vezi vedanā).",
+          "description_ro_html": "Corzi de senzualitate. Obiectele celor cinci simțuri fizice: obiecte vizibile, sunete, arome, arome și senzații tactile. De obicei, se referă la experiențele senzoriale care, ca și corzile (guṇa) ale unei lăute atunci când sunt ciupite, dau naștere la sentimente plăcute (vezi <a href=\"#vedana\">vedanā</a>)."
         },
         {
           "term": "kamma",
@@ -419,14 +419,14 @@
           "description_en": "Literally, \"basis of work\" or \"place of work.\" The word refers to the \"occupation\" of a meditating monk: namely, the contemplation of certain meditation themes by which the forces of defilement (kilesa), craving (taṇhā), and ignorance (avijjā) may be uprooted from the mind. In the ordination procedure, every new monk is taught five basic kammaṭṭhāna that form the basis for contemplation of the body: hair of the head (kesā), hair of the body (lomā), nails (nakhā), teeth (dantā), and skin (taco). By extension, the kammaṭṭhāna include all the forty classical meditation themes. Although every meditator may be said to engage in kammaṭṭhāna, the term is most often used to identify the particular Thai forest tradition lineage that was founded by Phra Ajaan Mun and Phra Ajaan Sao.",
           "letter": "K",
           "source": "accesstoinsight",
-          "description_ro": "Literal, „baza muncii” sau „locul de muncă”. Cuvântul se referă la „ocupația” unui călugăr care medita: și anume, contemplarea anumitor teme de meditație prin care forțele întinarii (kilesa), pofta (taṇhā) și ignoranța (avijjā) pot fi smulse din minte. În procedura de hirotonire, fiecare călugăr nou este învățat cinci kamaṭṭhāna de bază care formează baza pentru contemplarea corpului: părul capului (kesā), părul corpului (lomā), unghiile (nakhā), dinții (dantā) și pielea (taco). Prin extensie, kamaṭṭhāna includ toate cele patruzeci de teme de meditație clasică. Deși se poate spune că fiecare meditator se angajează în kamaṭṭhāna, termenul este cel mai adesea folosit pentru a identifica descendența tradiției forestiere thailandeze care a fost fondată de Phra Ajaan Mun și Phra Ajaan Sao.",
-          "description_ro_html": "Literal, „baza muncii” sau „locul de muncă”. Cuvântul se referă la „ocupația” unui călugăr care medita: și anume, contemplarea anumitor teme de meditație prin care forțele întinarii (kilesa), pofta (taṇhā) și ignoranța (avijjā) pot fi smulse din minte. În procedura de hirotonire, fiecare călugăr nou este învățat cinci kamaṭṭhāna de bază care formează baza pentru contemplarea corpului: părul capului (kesā), părul corpului (lomā), unghiile (nakhā), dinții (dantā) și pielea (taco). Prin extensie, kamaṭṭhāna includ toate cele patruzeci de teme de meditație clasică. Deși se poate spune că fiecare meditator se angajează în kamaṭṭhāna, termenul este cel mai adesea folosit pentru a identifica descendența tradiției forestiere thailandeze care a fost fondată de Phra Ajaan Mun și Phra Ajaan Sao."
+          "description_ro": "Literal, „baza muncii” sau „locul de muncă”. Cuvântul se referă la „ocupația” unui călugăr care medita: și anume, contemplarea anumitor teme de meditație prin care forțele întinarii (vezi kilesa), pofta (vezi taṇhā) și ignoranța (vezi avijjā) pot fi smulse din minte. În procedura de hirotonire, fiecare călugăr nou este învățat cinci kamaṭṭhāna de bază care formează baza pentru contemplarea corpului: părul capului (kesā), părul corpului (lomā), unghiile (nakhā), dinții (dantā) și pielea (taco). Prin extensie, kamaṭṭhāna includ toate cele patruzeci de teme de meditație clasică. Deși se poate spune că fiecare meditator se angajează în kamaṭṭhāna, termenul este cel mai adesea folosit pentru a identifica descendența tradiției forestiere thailandeze care a fost fondată de Phra Ajaan Mun și Phra Ajaan Sao.",
+          "description_ro_html": "Literal, „baza muncii” sau „locul de muncă”. Cuvântul se referă la „ocupația” unui călugăr care medita: și anume, contemplarea anumitor teme de meditație prin care forțele întinarii (vezi <a href=\"#kilesa\">kilesa</a>), pofta (vezi <a href=\"#tanha\">taṇhā</a>) și ignoranța (vezi <a href=\"#avijja\">avijjā</a>) pot fi smulse din minte. În procedura de hirotonire, fiecare călugăr nou este învățat cinci kamaṭṭhāna de bază care formează baza pentru contemplarea corpului: părul capului (kesā), părul corpului (lomā), unghiile (nakhā), dinții (dantā) și pielea (taco). Prin extensie, kamaṭṭhāna includ toate cele patruzeci de teme de meditație clasică. Deși se poate spune că fiecare meditator se angajează în kamaṭṭhāna, termenul este cel mai adesea folosit pentru a identifica descendența tradiției forestiere thailandeze care a fost fondată de Phra Ajaan Mun și Phra Ajaan Sao."
         },
         {
           "term": "kamp",
-          "description_ro": "a tremura, a zdruncina",
+          "description_ro": "A tremura, a zdruncina.",
           "description_en": "",
-          "description_ro_html": "a tremura, a zdruncina",
+          "description_ro_html": "A tremura, a zdruncina.",
           "slug": "kamp",
           "letter": "K",
           "source": "local"
@@ -437,8 +437,8 @@
           "description_en": "Compassion; sympathy; the aspiration to find a way to be truly helpful to oneself and others. One of the four \"sublime abodes\" (brahma-vihāra).",
           "letter": "K",
           "source": "accesstoinsight",
-          "description_ro": "Compasiune; simpatie; aspirația de a găsi o modalitate de a fi cu adevărat de ajutor pentru sine și pentru ceilalți. Una dintre cele patru „locuințe sublime” (brahma-vihāra).",
-          "description_ro_html": "Compasiune; simpatie; aspirația de a găsi o modalitate de a fi cu adevărat de ajutor pentru sine și pentru ceilalți. Una dintre cele patru „locuințe sublime” (brahma-vihāra)."
+          "description_ro": "Compasiune; simpatie; aspirația de a găsi o modalitate de a fi cu adevărat de ajutor pentru sine și pentru ceilalți. Una dintre cele patru „locuințe sublime” (vezi brahma-vihāra).",
+          "description_ro_html": "Compasiune; simpatie; aspirația de a găsi o modalitate de a fi cu adevărat de ajutor pentru sine și pentru ceilalți. Una dintre cele patru „locuințe sublime” (vezi <a href=\"#brahma-vihara\">brahma-vihāra</a>)."
         },
         {
           "term": "kaṭhina",
@@ -456,7 +456,7 @@
           "letter": "K",
           "source": "accesstoinsight",
           "description_ro": "Corp. De obicei se referă la corpul fizic (rūpa-kāya; vezi rūpa), dar uneori se referă la corpul mental (nāma-kāya; vezi nāma).",
-          "description_ro_html": "Corp. De obicei se referă la corpul fizic (rūpa-kāya; vezi rūpa), dar uneori se referă la corpul mental (nāma-kāya; vezi nāma)."
+          "description_ro_html": "Corp. De obicei se referă la corpul fizic (rūpa-kāya; vezi <a href=\"#rupa\">rūpa</a>), dar uneori se referă la corpul mental (nāma-kāya; vezi <a href=\"#nama\">nāma</a>)."
         },
         {
           "term": "kāyagatā-sati",
@@ -465,7 +465,7 @@
           "letter": "K",
           "source": "accesstoinsight",
           "description_ro": "Mindfulness cufundat în corp. Acesta este un termen general care acoperă mai multe teme de meditație: păstrarea respirației în minte; a fi atent la postura corpului; a fi atent la activitățile cuiva; analiza corpului în părțile sale; analizarea corpului în proprietățile sale fizice (vezi dhātu); contemplând faptul că trupul este inevitabil supus morții și dezintegrarii.",
-          "description_ro_html": "Mindfulness cufundat în corp. Acesta este un termen general care acoperă mai multe teme de meditație: păstrarea respirației în minte; a fi atent la postura corpului; a fi atent la activitățile cuiva; analiza corpului în părțile sale; analizarea corpului în proprietățile sale fizice (vezi dhātu); contemplând faptul că trupul este inevitabil supus morții și dezintegrarii."
+          "description_ro_html": "Mindfulness cufundat în corp. Acesta este un termen general care acoperă mai multe teme de meditație: păstrarea respirației în minte; a fi atent la postura corpului; a fi atent la activitățile cuiva; analiza corpului în părțile sale; analizarea corpului în proprietățile sale fizice (vezi <a href=\"#dhatu\">dhātu</a>); contemplând faptul că trupul este inevitabil supus morții și dezintegrarii."
         },
         {
           "term": "khandha",
@@ -474,7 +474,7 @@
           "letter": "K",
           "source": "accesstoinsight",
           "description_ro": "Morman; grup; agregat. Componentele fizice și mentale ale personalității și ale experienței senzoriale în general. Cele cinci baze ale agățarii (vezi upadāna). Vezi: nāma (fenomen mental), rūpa (fenomen fizic), vedanā (sentiment), saññā (percepție), saṅkhāra (conformități mentale) și viññāṇa (conștiință).",
-          "description_ro_html": "Morman; grup; agregat. Componentele fizice și mentale ale personalității și ale experienței senzoriale în general. Cele cinci baze ale agățarii (vezi upadāna). Vezi: nāma (fenomen mental), rūpa (fenomen fizic), vedanā (sentiment), saññā (percepție), saṅkhāra (conformități mentale) și viññāṇa (conștiință)."
+          "description_ro_html": "Morman; grup; agregat. Componentele fizice și mentale ale personalității și ale experienței senzoriale în general. Cele cinci baze ale agățarii (vezi <a href=\"#upadana\">upadāna</a>). Vezi: <a href=\"#nama\">nāma</a> (fenomen mental), <a href=\"#rupa\">rūpa</a> (fenomen fizic), <a href=\"#vedana\">vedanā</a> (sentiment), <a href=\"#sanna\">saññā</a> (percepție), <a href=\"#sankhara\">saṅkhāra</a> (conformități mentale) și <a href=\"#vinnana\">viññāṇa</a> (conștiință)."
         },
         {
           "term": "khanti",
@@ -482,8 +482,8 @@
           "description_en": "Patience; forbearance. One of the ten perfections (pāramīs).",
           "letter": "K",
           "source": "accesstoinsight",
-          "description_ro": "Răbdare; toleranţă. Una dintre cele zece perfecțiuni (pāramīs).",
-          "description_ro_html": "Răbdare; toleranţă. Una dintre cele zece perfecțiuni (pāramīs)."
+          "description_ro": "Răbdare; toleranţă. Una dintre cele zece perfecțiuni (vezi pāramīs).",
+          "description_ro_html": "Răbdare; toleranţă. Una dintre cele zece perfecțiuni (vezi <a href=\"#parami\">pāramīs</a>)."
         },
         {
           "term": "kilesa",
@@ -500,8 +500,8 @@
           "description_en": "Wholesome, skillful, good, meritorious. An action characterized by this moral quality (kusala-kamma) is bound to result (eventually) in happiness and a favorable outcome. Actions characterized by its opposite (akusala-kamma) lead to sorrow. See kamma.",
           "letter": "K",
           "source": "accesstoinsight",
-          "description_ro": "Sănătos, priceput, bun, merituos. O acțiune caracterizată de această calitate morală (kusala-kamma) este obligată să aibă ca rezultat (în cele din urmă) fericire și un rezultat favorabil. Acțiunile caracterizate de opusul său (akusala-kamma) duc la întristare Vezi kamma.",
-          "description_ro_html": "Sănătos, priceput, bun, merituos. O acțiune caracterizată de această calitate morală (kusala-kamma) este obligată să aibă ca rezultat (în cele din urmă) fericire și un rezultat favorabil. Acțiunile caracterizate de opusul său (akusala-kamma) duc la întristare Vezi <a href=\"#kamma\">kamma</a>."
+          "description_ro": "Sănătos, priceput, bun, merituos. O acțiune caracterizată de această calitate morală (kusala-kamma) este obligată să aibă ca rezultat (în cele din urmă) fericire și un rezultat favorabil. Acțiunile caracterizate de opusul său (akusala-kamma) duc la întristare. Vezi kamma.",
+          "description_ro_html": "Sănătos, priceput, bun, merituos. O acțiune caracterizată de această calitate morală (kusala-kamma) este obligată să aibă ca rezultat (în cele din urmă) fericire și un rezultat favorabil. Acțiunile caracterizate de opusul său (akusala-kamma) duc la întristare. Vezi <a href=\"#kamma\">kamma</a>."
         }
       ]
     },
@@ -514,8 +514,8 @@
           "description_en": "See ti-lakkhaṇa.",
           "letter": "L",
           "source": "accesstoinsight",
-          "description_ro": "Trei caracteristici inerente tuturor fenomenelor condiționate - a fi inconstant (anicca), stresant (dukkha) și a nu-sine (anattā).",
-          "description_ro_html": "Trei caracteristici inerente tuturor fenomenelor condiționate - a fi inconstant (anicca), stresant (dukkha) și a nu-sine (anattā)."
+          "description_ro": "Trei caracteristici inerente tuturor fenomenelor condiționate - a fi inconstant (anicca), stresant (vezi dukkha) și a nu-sine (vezi anattā).",
+          "description_ro_html": "Trei caracteristici inerente tuturor fenomenelor condiționate - a fi inconstant (anicca), stresant (vezi <a href=\"#dukkha\">dukkha</a>) și a nu-sine (vezi <a href=\"#anatta\">anattā</a>)."
         },
         {
           "term": "lokavidū",
@@ -564,8 +564,8 @@
           "description_en": "Loving-kindness; goodwill. One of the ten perfections (pāramīs) and one of the four \"sublime abodes\" (brahma-vihāra).",
           "letter": "M",
           "source": "accesstoinsight",
-          "description_ro": "bunăvoință, bunătate pașnică. Vezi și Brahmavihāra; Pāramīs.",
-          "description_ro_html": "bunăvoință, bunătate pașnică. Vezi și Brahmavihāra; Pāramīs."
+          "description_ro": "Bunăvoință, bunătate pașnică.",
+          "description_ro_html": "Bunăvoință, bunătate pașnică."
         },
         {
           "term": "muditā",
@@ -573,8 +573,8 @@
           "description_en": "Appreciative/sympathetic joy. Taking delight in one's own goodness and that of others. One of the four \"sublime abodes\" (brahma-vihāra).",
           "letter": "M",
           "source": "accesstoinsight",
-          "description_ro": "Bucurie apreciativă/compătimitoare. Să te bucuri de bunătatea proprie și a celorlalți. Una dintre cele patru „locuințe sublime” (brahma-vihāra).",
-          "description_ro_html": "Bucurie apreciativă/compătimitoare. Să te bucuri de bunătatea proprie și a celorlalți. Una dintre cele patru „locuințe sublime” (brahma-vihāra)."
+          "description_ro": "Bucurie apreciativă/compătimitoare. Să te bucuri de bunătatea proprie și a celorlalți. Una dintre cele patru „locuințe sublime” (vezi brahma-vihāra).",
+          "description_ro_html": "Bucurie apreciativă/compătimitoare. Să te bucuri de bunătatea proprie și a celorlalți. Una dintre cele patru „locuințe sublime” (vezi <a href=\"#brahma-vihara\">brahma-vihāra</a>)."
         },
         {
           "term": "mūla",
@@ -582,8 +582,8 @@
           "description_en": "Literally, \"root.\" The fundamental conditions in the mind that determine the moral quality - skillful (kusala) or unskillful (akusala) - of one's intentional actions (see kamma). The three unskillful roots are lobha (greed), dosa (aversion), and moha (delusion); the skillful roots are their opposites. See kilesa (defilements).",
           "letter": "M",
           "source": "accesstoinsight",
-          "description_ro": "Literal, „rădăcină”. Condițiile fundamentale din minte care determină calitatea morală - priceput (kusala) sau nepricepător (akusala) - a acțiunilor intenționate (vezi kamma). Cele trei rădăcini lipsite de pricepere sunt lobha (lacomie), dosa (aversiune) și moha (amăgire); rădăcinile iscusite sunt contrariile lor Vezi kilesa.",
-          "description_ro_html": "Literal, „rădăcină”. Condițiile fundamentale din minte care determină calitatea morală - priceput (kusala) sau nepricepător (akusala) - a acțiunilor intenționate (vezi kamma). Cele trei rădăcini lipsite de pricepere sunt lobha (lacomie), dosa (aversiune) și moha (amăgire); rădăcinile iscusite sunt contrariile lor Vezi <a href=\"#kilesa\">kilesa</a>."
+          "description_ro": "Literal, „rădăcină”. Condițiile fundamentale din minte care determină calitatea morală - priceput (vezi kusala) sau nepricepător (akusala) - a acțiunilor intenționate (vezi kamma). Cele trei rădăcini lipsite de pricepere sunt lobha (lacomie), dosa (aversiune) și moha (amăgire); rădăcinile iscusite sunt contrariile lor. Vezi kilesa.",
+          "description_ro_html": "Literal, „rădăcină”. Condițiile fundamentale din minte care determină calitatea morală - priceput (vezi <a href=\"#kusala\">kusala</a>) sau nepricepător (akusala) - a acțiunilor intenționate (vezi <a href=\"#kamma\">kamma</a>). Cele trei rădăcini lipsite de pricepere sunt lobha (lacomie), dosa (aversiune) și moha (amăgire); rădăcinile iscusite sunt contrariile lor. Vezi <a href=\"#kilesa\">kilesa</a>."
         }
       ]
     },
@@ -614,8 +614,8 @@
           "description_en": "Name-and-form; mind-and-matter; mentality-physicality. The union of mental phenomena (nāma) and physical phenomena (rūpa), conditioned by consciousness (viññāṇa) in the causal chain of dependent co-arising (paṭicca-samuppāda).",
           "letter": "N",
           "source": "accesstoinsight",
-          "description_ro": "Nume și formă; minte-și-materie; mentalitate-fizic. Unirea fenomenelor mentale (nāma) și a fenomenelor fizice (rūpa), condiționate de conștiință (viññāṇa) în lanțul cauzal al co-apariției dependente (paṭicca-samuppāda).",
-          "description_ro_html": "Nume și formă; minte-și-materie; mentalitate-fizic. Unirea fenomenelor mentale (nāma) și a fenomenelor fizice (rūpa), condiționate de conștiință (viññāṇa) în lanțul cauzal al co-apariției dependente (paṭicca-samuppāda)."
+          "description_ro": "Nume și formă; minte-și-materie; mentalitate-fizic. Unirea fenomenelor mentale (vezi nāma) și a fenomenelor fizice (vezi rūpa), condiționate de conștiință (vezi viññāṇa) în lanțul cauzal al co-apariției dependente (vezi paṭicca-samuppāda).",
+          "description_ro_html": "Nume și formă; minte-și-materie; mentalitate-fizic. Unirea fenomenelor mentale (vezi <a href=\"#nama\">nāma</a>) și a fenomenelor fizice (vezi <a href=\"#rupa\">rūpa</a>), condiționate de conștiință (vezi <a href=\"#vinnana\">viññāṇa</a>) în lanțul cauzal al co-apariției dependente (vezi <a href=\"#ps\">paṭicca-samuppāda</a>)."
         },
         {
           "term": "nekkhamma",
@@ -623,8 +623,8 @@
           "description_en": "Renunciation; literally, \"freedom from sensual lust.\" One of the ten pāramīs.",
           "letter": "N",
           "source": "accesstoinsight",
-          "description_ro": "Renunţare; literal, „libertatea de pofta senzuală”. Unul dintre cei zece pāramīs.",
-          "description_ro_html": "Renunţare; literal, „libertatea de pofta senzuală”. Unul dintre cei zece pāramīs."
+          "description_ro": "Renunţare; literal, „libertatea de poftă senzuală”. Unul dintre cei zece pāramīs.",
+          "description_ro_html": "Renunţare; literal, „libertatea de poftă senzuală”. Unul dintre cei zece pāramīs."
         },
         {
           "term": "nibbāna",
@@ -633,7 +633,7 @@
           "letter": "N",
           "source": "accesstoinsight",
           "description_ro": "Eliberare; literal, „dezlegarea” minții de efluenții mentale (vezi āsava), pângăriri (vezi kilesa) și runda renașterii (vezi vaṭṭa) și de tot ceea ce poate fi descris sau definit. Deoarece acest termen denotă, de asemenea, stingerea unui incendiu, are conotațiile de calmare, răcire și pace. (Conform fizicii predate pe vremea lui Buddha, un foc care arde prind sau aderă la combustibilul său; atunci când este stins, este nelegat.) „Nibbāna totală” în unele contexte denotă experiența Trezirii; în altele, moartea definitivă a unui arahant.",
-          "description_ro_html": "Eliberare; literal, „dezlegarea” minții de efluenții mentale (vezi āsava), pângăriri (vezi kilesa) și runda renașterii (vezi vaṭṭa) și de tot ceea ce poate fi descris sau definit. Deoarece acest termen denotă, de asemenea, stingerea unui incendiu, are conotațiile de calmare, răcire și pace. (Conform fizicii predate pe vremea lui Buddha, un foc care arde prind sau aderă la combustibilul său; atunci când este stins, este nelegat.) „Nibbāna totală” în unele contexte denotă experiența Trezirii; în altele, moartea definitivă a unui arahant."
+          "description_ro_html": "Eliberare; literal, „dezlegarea” minții de efluenții mentale (vezi <a href=\"#asava\">āsava</a>), pângăriri (vezi <a href=\"#kilesa\">kilesa</a>) și runda renașterii (vezi <a href=\"#vatta\">vaṭṭa</a>) și de tot ceea ce poate fi descris sau definit. Deoarece acest termen denotă, de asemenea, stingerea unui incendiu, are conotațiile de calmare, răcire și pace. (Conform fizicii predate pe vremea lui Buddha, un foc care arde prind sau aderă la combustibilul său; atunci când este stins, este nelegat.) „Nibbāna totală” în unele contexte denotă experiența Trezirii; în altele, moartea definitivă a unui arahant."
         },
         {
           "term": "nibbidā",
@@ -641,8 +641,8 @@
           "description_en": "Disenchantment; aversion; disgust; weariness. The skillful turning-away of the mind from the conditioned samsaric world towards the unconditioned, the transcendent - nibbāna",
           "letter": "N",
           "source": "accesstoinsight",
-          "description_ro": "Descântare; aversiune; dezgust; oboseală. Îndepărtarea abil a minții de la lumea condiționată samsaric către necondiționat, transcendent - nibbāna",
-          "description_ro_html": "Descântare; aversiune; dezgust; oboseală. Îndepărtarea abil a minții de la lumea condiționată samsaric către necondiționat, transcendent - nibbāna"
+          "description_ro": "Descântare; aversiune; dezgust; oboseală. Îndepărtarea abil a minții de la lumea condiționată samsaric către necondiționat, transcendent - nibbāna.",
+          "description_ro_html": "Descântare; aversiune; dezgust; oboseală. Îndepărtarea abil a minții de la lumea condiționată samsaric către necondiționat, transcendent - nibbāna."
         },
         {
           "term": "nīvaraṇa",
@@ -664,8 +664,8 @@
           "description_en": "\"Going forth (from home to the homeless life)\"; ordination as a samaṇera (samaṇeri), or novice monk (nun). See upasampadā.",
           "letter": "P",
           "source": "accesstoinsight",
-          "description_ro": "„Ieșirea (de acasă la viața fără adăpost)”; hirotonire ca samaṇera (samaṇeri) sau călugăr novice (călugăriță) Vezi upasampadā.",
-          "description_ro_html": "„Ieșirea (de acasă la viața fără adăpost)”; hirotonire ca samaṇera (samaṇeri) sau călugăr novice (călugăriță) Vezi <a href=\"#upasampada\">upasampadā</a>."
+          "description_ro": "„Ieșirea (de acasă la viața fără adăpost)”; hirotonire ca samaṇera (samaṇeri) sau călugăr novice (călugăriță). Vezi upasampadā.",
+          "description_ro_html": "„Ieșirea (de acasă la viața fără adăpost)”; hirotonire ca samaṇera (samaṇeri) sau călugăr novice (călugăriță). Vezi <a href=\"#upasampada\">upasampadā</a>."
         },
         {
           "term": "Pāḷi",
@@ -674,7 +674,7 @@
           "letter": "P",
           "source": "accesstoinsight",
           "description_ro": "Canonul textelor (vezi Tipiṭaka) păstrat de tradiția Theravāda și, prin extensie, limba în care sunt compuse aceste texte.",
-          "description_ro_html": "Canonul textelor (vezi Tipiṭaka) păstrat de tradiția Theravāda și, prin extensie, limba în care sunt compuse aceste texte."
+          "description_ro_html": "Canonul textelor (vezi <a href=\"#tipitaka\">Tipiṭaka</a>) păstrat de tradiția Theravāda și, prin extensie, limba în care sunt compuse aceste texte."
         },
         {
           "term": "paññā",
@@ -682,8 +682,8 @@
           "description_en": "Discernment; insight; wisdom; intelligence; common sense; ingenuity. One of the ten perfections (pāramīs).",
           "letter": "P",
           "source": "accesstoinsight",
-          "description_ro": "Discernământ; perspicacitate; înţelepciune; inteligenta; bunul simț; ingeniozitate. Una dintre cele zece perfecțiuni (pāramīs).",
-          "description_ro_html": "Discernământ; perspicacitate; înţelepciune; inteligenta; bunul simț; ingeniozitate. Una dintre cele zece perfecțiuni (pāramīs)."
+          "description_ro": "Discernământ; perspicacitate; înţelepciune; inteligență; bunul simț; ingeniozitate. Una dintre cele zece perfecțiuni (vezi pāramīs).",
+          "description_ro_html": "Discernământ; perspicacitate; înţelepciune; inteligență; bunul simț; ingeniozitate. Una dintre cele zece perfecțiuni (vezi <a href=\"#parami\">pāramīs</a>)."
         },
         {
           "term": "paññā-vimutti",
@@ -691,8 +691,8 @@
           "description_en": "See vimutti.",
           "letter": "P",
           "source": "accesstoinsight",
-          "description_ro": "izbăvire. Vezi și Awakening.",
-          "description_ro_html": "izbăvire. Vezi și Awakening."
+          "description_ro": "Izbăvire.",
+          "description_ro_html": "Izbăvire."
         },
         {
           "term": "papañca",
@@ -700,8 +700,8 @@
           "description_en": "Complication, proliferation, objectification. The tendency of the mind to proliferate issues from the sense of \"self.\" This term can also be translated as self-reflexive thinking, reification, falsification, distortion, elaboration, or exaggeration. In the discourses, it is frequently used in analyses of the psychology of conflict. [MORE]",
           "letter": "P",
           "source": "accesstoinsight",
-          "description_ro": "Complicație, proliferare, obiectivare. Tendința minții de a prolifera probleme din sensul de „sine”. Acest termen poate fi tradus și ca gândire autoreflexivă, reificare, falsificare, denaturare, elaborare sau exagerare. În discursuri, este folosit frecvent în analizele psihologiei conflictului. [MAI MULT]",
-          "description_ro_html": "Complicație, proliferare, obiectivare. Tendința minții de a prolifera probleme din sensul de „sine”. Acest termen poate fi tradus și ca gândire autoreflexivă, reificare, falsificare, denaturare, elaborare sau exagerare. În discursuri, este folosit frecvent în analizele psihologiei conflictului. [MAI MULT]"
+          "description_ro": "Complicație, proliferare, obiectivare. Tendința minții de a prolifera probleme din sensul de „sine”. Acest termen poate fi tradus și ca gândire autoreflexivă, reificare, falsificare, denaturare, elaborare sau exagerare. În discursuri, este folosit frecvent în analizele psihologiei conflictului. [MAI MULT].",
+          "description_ro_html": "Complicație, proliferare, obiectivare. Tendința minții de a prolifera probleme din sensul de „sine”. Acest termen poate fi tradus și ca gândire autoreflexivă, reificare, falsificare, denaturare, elaborare sau exagerare. În discursuri, este folosit frecvent în analizele psihologiei conflictului. [MAI MULT]."
         },
         {
           "term": "pāramī, pāramitā",
@@ -709,8 +709,8 @@
           "description_en": "Perfection of the character. A group of ten qualities developed over many lifetimes by a bodhisatta, which appear as a group in the Pali canon only in the Jataka (\"Birth Stories\"): generosity (dāna), virtue (sīla), renunciation (nekkhamma), discernment (paññā), energy/persistence (viriya), patience/forbearance (khanti), truthfulness (sacca), determination (adhiṭṭhāna), good will (mettā), and equanimity (upekkhā).",
           "letter": "P",
           "source": "accesstoinsight",
-          "description_ro": "Perfecțiunea personajului. Un grup de zece calități dezvoltate de-a lungul mai multor vieți de către un bodhisatta, care apar ca grup în canonul Pali doar în Jataka (\"Poveștile despre naștere\"): generozitate (dāna), virtute (sīla), renunțare (nekkhamma), discernământ (paññā), energie/persistență (viriya), răbdare/îngăduință (khanti), hotărâre (khanti), hotărâre (adhiṭṭhāna), bunăvoință (mettā) și equanimitate (upekkhā).",
-          "description_ro_html": "Perfecțiunea personajului. Un grup de zece calități dezvoltate de-a lungul mai multor vieți de către un bodhisatta, care apar ca grup în canonul Pali doar în Jataka (&quot;Poveștile despre naștere&quot;): generozitate (dāna), virtute (sīla), renunțare (nekkhamma), discernământ (paññā), energie/persistență (viriya), răbdare/îngăduință (khanti), hotărâre (khanti), hotărâre (adhiṭṭhāna), bunăvoință (mettā) și equanimitate (upekkhā)."
+          "description_ro": "Perfecțiunea personajului. Un grup de zece calități dezvoltate de-a lungul mai multor vieți de către un bodhisatta, care apar ca grup în canonul Pali doar în Jataka (&quot;Poveștile despre naștere&quot;): generozitate (vezi dāna), virtute (vezi sīla), renunțare (vezi nekkhamma), discernământ (vezi paññā), energie/persistență (vezi viriya), răbdare/îngăduință (vezi khanti), hotărâre (vezi khanti), hotărâre (vezi adhiṭṭhāna), bunăvoință (vezi mettā) și equanimitate (vezi upekkhā).",
+          "description_ro_html": "Perfecțiunea personajului. Un grup de zece calități dezvoltate de-a lungul mai multor vieți de către un bodhisatta, care apar ca grup în canonul Pali doar în Jataka (&quot;Poveștile despre naștere&quot;): generozitate (vezi <a href=\"#dana\">dāna</a>), virtute (vezi <a href=\"#sila\">sīla</a>), renunțare (vezi <a href=\"#nekkhamma\">nekkhamma</a>), discernământ (vezi <a href=\"#panna\">paññā</a>), energie/persistență (vezi <a href=\"#viriya\">viriya</a>), răbdare/îngăduință (vezi <a href=\"#khanti\">khanti</a>), hotărâre (vezi <a href=\"#khanti\">khanti</a>), hotărâre (vezi <a href=\"#adhitthana\">adhiṭṭhāna</a>), bunăvoință (vezi <a href=\"#metta\">mettā</a>) și equanimitate (vezi <a href=\"#upekkha\">upekkhā</a>)."
         },
         {
           "term": "parinibbāna",
@@ -727,8 +727,8 @@
           "description_en": "Following; assembly. The four groups of the Buddha's following that include monks, nuns, laymen, and laywomen. Compare saṅgha. See bhikkhu, bhikkhunī, upāsaka/upāsikā.",
           "letter": "P",
           "source": "accesstoinsight",
-          "description_ro": "Urmărind; asamblare. Cele patru grupuri de urmași ai lui Buddha care includ călugări, călugărițe, laici și laice. Comparați saṅgha",
-          "description_ro_html": "Urmărind; asamblare. Cele patru grupuri de urmași ai lui Buddha care includ călugări, călugărițe, laici și laice. Comparați saṅgha"
+          "description_ro": "Urmărind; asamblare. Cele patru grupuri de urmași ai lui Buddha care includ călugări, călugărițe, laici și laice. Comparați saṅgha.",
+          "description_ro_html": "Urmărind; asamblare. Cele patru grupuri de urmași ai lui Buddha care includ călugări, călugărițe, laici și laice. Comparați saṅgha."
         },
         {
           "term": "paṭicca-samuppāda",
@@ -736,8 +736,8 @@
           "description_en": "Dependent co-arising; dependent origination. A map showing the way the aggregates (khandha) and sense media (āyatana) interact with ignorance (avijjā) and craving (taṇhā) to bring about stress and suffering (dukkha). As the interactions are complex, there are several versions of paṭicca-samuppāda given in the suttas. In the most common one, the map starts with ignorance. In another common one, the map starts with the interrelation between name (nāma) and form (rūpa) on the one hand, and sensory consciousness (viññāṇa) on the other. [MORE: SN 12.2, DN 15 ]",
           "letter": "P",
           "source": "accesstoinsight",
-          "description_ro": "Co-apariție dependentă; origine dependentă. O hartă care arată modul în care agregatele (khandha) și mediile senzoriale (āyatana) interacționează cu ignoranța (avijjā) și pofta (taṇhā) pentru a provoca stres și suferință (dukkha). Întrucât interacțiunile sunt complexe, există mai multe versiuni de paṭicca-samuppāda date în suttas. În cea mai comună, harta începe cu ignoranță. Într-o altă hartă comună, harta începe cu interrelația dintre nume (nāma) și formă (rūpa), pe de o parte, și conștiința senzorială (viññāṇa), pe de altă parte. [MAI MULT: SN 12.2, DN 15]",
-          "description_ro_html": "Co-apariție dependentă; origine dependentă. O hartă care arată modul în care agregatele (khandha) și mediile senzoriale (āyatana) interacționează cu ignoranța (avijjā) și pofta (taṇhā) pentru a provoca stres și suferință (dukkha). Întrucât interacțiunile sunt complexe, există mai multe versiuni de paṭicca-samuppāda date în suttas. În cea mai comună, harta începe cu ignoranță. Într-o altă hartă comună, harta începe cu interrelația dintre nume (nāma) și formă (rūpa), pe de o parte, și conștiința senzorială (viññāṇa), pe de altă parte. [MAI MULT: SN 12.2, DN 15]"
+          "description_ro": "Co-apariție dependentă; origine dependentă. O hartă care arată modul în care agregatele (vezi khandha) și mediile senzoriale (vezi āyatana) interacționează cu ignoranța (vezi avijjā) și pofta (vezi taṇhā) pentru a provoca stres și suferință (vezi dukkha). Întrucât interacțiunile sunt complexe, există mai multe versiuni de paṭicca-samuppāda date în suttas. În cea mai comună, harta începe cu ignoranță. Într-o altă hartă comună, harta începe cu interrelația dintre nume (vezi nāma) și formă (vezi rūpa), pe de o parte, și conștiința senzorială (vezi viññāṇa), pe de altă parte. [MAI MULT: SN 12.2, DN 15].",
+          "description_ro_html": "Co-apariție dependentă; origine dependentă. O hartă care arată modul în care agregatele (vezi <a href=\"#khandha\">khandha</a>) și mediile senzoriale (vezi <a href=\"#ayatana\">āyatana</a>) interacționează cu ignoranța (vezi <a href=\"#avijja\">avijjā</a>) și pofta (vezi <a href=\"#tanha\">taṇhā</a>) pentru a provoca stres și suferință (vezi <a href=\"#dukkha\">dukkha</a>). Întrucât interacțiunile sunt complexe, există mai multe versiuni de paṭicca-samuppāda date în suttas. În cea mai comună, harta începe cu ignoranță. Într-o altă hartă comună, harta începe cu interrelația dintre nume (vezi <a href=\"#nama\">nāma</a>) și formă (vezi <a href=\"#rupa\">rūpa</a>), pe de o parte, și conștiința senzorială (vezi <a href=\"#vinnana\">viññāṇa</a>), pe de altă parte. [MAI MULT: SN 12.2, DN 15]"
         },
         {
           "term": "Pātimokkha",
@@ -745,8 +745,8 @@
           "description_en": "The basic code of monastic discipline, consisting of 227 rules for monks (bhikkhus) and 311 for nuns (bhikkhunīs). See Vinaya.",
           "letter": "P",
           "source": "accesstoinsight",
-          "description_ro": "Codul de bază al disciplinei monahale, constând din 227 de reguli pentru călugări (bhikkhus) și 311 pentru călugărițe (bhikkhunīs) Vezi Vinaya.",
-          "description_ro_html": "Codul de bază al disciplinei monahale, constând din 227 de reguli pentru călugări (bhikkhus) și 311 pentru călugărițe (bhikkhunīs) Vezi <a href=\"#vinaya\">Vinaya</a>."
+          "description_ro": "Codul de bază al disciplinei monahale, constând din 227 de reguli pentru călugări (bhikkhus) și 311 pentru călugărițe (bhikkhunīs). Vezi Vinaya.",
+          "description_ro_html": "Codul de bază al disciplinei monahale, constând din 227 de reguli pentru călugări (bhikkhus) și 311 pentru călugărițe (bhikkhunīs). Vezi <a href=\"#vinaya\">Vinaya</a>."
         },
         {
           "term": "paṭipadā",
@@ -763,8 +763,8 @@
           "description_en": "The practice of Dhamma, as opposed to mere theoretical knowledge (pariyatti). See also paṭivedha.",
           "letter": "P",
           "source": "accesstoinsight",
-          "description_ro": "Practica Dhammei, spre deosebire de simpla cunoaștere teoretică (pariyatti) Vezi și paṭivedha.",
-          "description_ro_html": "Practica Dhammei, spre deosebire de simpla cunoaștere teoretică (pariyatti) Vezi și <a href=\"#pativedha\">paṭivedha</a>."
+          "description_ro": "Practica Dhammei, spre deosebire de simpla cunoaștere teoretică (pariyatti). Vezi paṭivedha.",
+          "description_ro_html": "Practica Dhammei, spre deosebire de simpla cunoaștere teoretică (pariyatti). Vezi <a href=\"#pativedha\">paṭivedha</a>."
         },
         {
           "term": "paṭivedha",
@@ -772,8 +772,8 @@
           "description_en": "Direct, first-hand realization of the Dhamma. See also pariyatti and paṭipatti.",
           "letter": "P",
           "source": "accesstoinsight",
-          "description_ro": "Realizarea directă, de primă mână, a Dhammei",
-          "description_ro_html": "Realizarea directă, de primă mână, a Dhammei"
+          "description_ro": "Realizarea directă, de primă mână, a Dhammei.",
+          "description_ro_html": "Realizarea directă, de primă mână, a Dhammei."
         },
         {
           "term": "pīti",
@@ -781,8 +781,8 @@
           "description_en": "Rapture; bliss; delight. In meditation, a pleasurable quality in the mind that reaches full maturity upon the development of the second level of jhāna.",
           "letter": "P",
           "source": "accesstoinsight",
-          "description_ro": "extaziere; exaltare. Vezi și Jhāna.",
-          "description_ro_html": "extaziere; exaltare. Vezi și Jhāna."
+          "description_ro": "Extaziere; exaltare. Vezi și Jhāna.",
+          "description_ro_html": "Extaziere; exaltare. Vezi și <a href=\"#jhana\">Jhāna</a>."
         },
         {
           "term": "pūjā",
@@ -813,8 +813,8 @@
           "description_en": "Lust; greed. See lobha.",
           "letter": "R",
           "source": "accesstoinsight",
-          "description_ro": "Pofta; lăcomie",
-          "description_ro_html": "Pofta; lăcomie"
+          "description_ro": "Pofta; lăcomie.",
+          "description_ro_html": "Pofta; lăcomie."
         },
         {
           "term": "rūpa",
@@ -845,8 +845,8 @@
           "description_en": "Condition of nature; any phenomenon, event, property, or quality as experienced in and of itself.",
           "letter": "S",
           "source": "accesstoinsight",
-          "description_ro": "Starea naturii; orice fenomen, eveniment, proprietate sau calitate experimentată în sine.",
-          "description_ro_html": "Starea naturii; orice fenomen, eveniment, proprietate sau calitate experimentată în sine."
+          "description_ro": "Starea naturii; orice fenomen, eveniment, proprietate sau calitate experimentată de către sine.",
+          "description_ro_html": "Starea naturii; orice fenomen, eveniment, proprietate sau calitate experimentată către sine."
         },
         {
           "term": "sacca",
@@ -854,8 +854,8 @@
           "description_en": "Truthfulness. One of the ten perfections (pāramīs).",
           "letter": "S",
           "source": "accesstoinsight",
-          "description_ro": "Adevarul. Una dintre cele zece perfecțiuni (pāramīs).",
-          "description_ro_html": "Adevarul. Una dintre cele zece perfecțiuni (pāramīs)."
+          "description_ro": "Adevărul. Una dintre cele zece perfecțiuni (vezi pāramīs).",
+          "description_ro_html": "Adevărul. Una dintre cele zece perfecțiuni (vezi <a href=\"#parami\">pāramīs</a>)."
         },
         {
           "term": "saddhā",
@@ -864,7 +864,7 @@
           "letter": "S",
           "source": "accesstoinsight",
           "description_ro": "Convingere, credință. O încredere în Buddha care dă cuiva dorința de a-și pune în practică învățăturile. Convingerea devine de neclintit la atingerea intrării în flux (vezi sotāpanna).",
-          "description_ro_html": "Convingere, credință. O încredere în Buddha care dă cuiva dorința de a-și pune în practică învățăturile. Convingerea devine de neclintit la atingerea intrării în flux (vezi sotāpanna)."
+          "description_ro_html": "Convingere, credință. O încredere în Buddha care dă cuiva dorința de a-și pune în practică învățăturile. Convingerea devine de neclintit la atingerea intrării în flux (vezi <a href=\"#sotapanna\">sotāpanna</a>)."
         },
         {
           "term": "sādhu",
@@ -881,8 +881,8 @@
           "description_en": "Heaven, heavenly realm. The dwelling place of the devas. Rebirth in the heavens is said to be one of the rewards for practicing generosity (see dāna) and virtue (see sīla). Like all waystations in saṁsāra, however, rebirth here is temporary. See also sugati.",
           "letter": "S",
           "source": "accesstoinsight",
-          "description_ro": "Raiul, tărâmul ceresc. Locul de locuit al devasilor. Se spune că renașterea în ceruri este una dintre recompensele pentru practicarea generozității (vezi dāna) și virtuții (vezi sīla). La fel ca toate stațiile din saṁsāra, totuși, renașterea aici este temporară",
-          "description_ro_html": "Raiul, tărâmul ceresc. Locul de locuit al devasilor. Se spune că renașterea în ceruri este una dintre recompensele pentru practicarea generozității (vezi dāna) și virtuții (vezi sīla). La fel ca toate stațiile din saṁsāra, totuși, renașterea aici este temporară"
+          "description_ro": "Raiul, tărâmul ceresc. Locul de locuit al devasilor. Se spune că renașterea în ceruri este una dintre recompensele pentru practicarea generozității (vezi dāna) și virtuții (vezi sīla). La fel ca toate stațiile din saṁsāra, totuși, renașterea aici este temporară.",
+          "description_ro_html": "Raiul, tărâmul ceresc. Locul de locuit al devasilor. Se spune că renașterea în ceruri este una dintre recompensele pentru practicarea generozității (vezi <a href=\"#dana\">dāna</a>) și virtuții (vezi <a href=\"#sila\">sīla</a>). La fel ca toate stațiile din saṁsāra, totuși, renașterea aici este temporară."
         },
         {
           "term": "sakadāgāmī",
@@ -890,8 +890,8 @@
           "description_en": "Once-returner. A person who has abandoned the first three of the fetters that bind the mind to the cycle of rebirth (see saṁyojana), has weakened the fetters of sensual passion and resistance, and who after death is destined to be reborn in this world only once more.",
           "letter": "S",
           "source": "accesstoinsight",
-          "description_ro": "Odată întors. O persoană care a abandonat primele trei dintre cătușele care leagă mintea de ciclul renașterii (vezi saṁyojana), a slăbit legăturile pasiunii senzuale și ale rezistenței și care, după moarte, este destinată să renaască în această lume doar o dată.",
-          "description_ro_html": "Odată întors. O persoană care a abandonat primele trei dintre cătușele care leagă mintea de ciclul renașterii (vezi saṁyojana), a slăbit legăturile pasiunii senzuale și ale rezistenței și care, după moarte, este destinată să renaască în această lume doar o dată."
+          "description_ro": "Odată întors. O persoană care a abandonat primele trei dintre cătușele care leagă mintea de ciclul renașterii, a slăbit legăturile pasiunii senzuale și ale rezistenței și care, după moarte, este destinată să renaască în această lume doar o dată.",
+          "description_ro_html": "Odată întors. O persoană care a abandonat primele trei dintre cătușele care leagă mintea de ciclul renașterii, a slăbit legăturile pasiunii senzuale și ale rezistenței și care, după moarte, este destinată să renaască în această lume doar o dată."
         },
         {
           "term": "sakkāya-diṭṭhi",
@@ -900,7 +900,7 @@
           "letter": "S",
           "source": "accesstoinsight",
           "description_ro": "Vedere de autoidentificare. Opinia care identifică în mod greșit oricare dintre khandha ca „sine”; primul dintre cele zece cătușe (saṁyojana). Abandonul de sakkāya-diṭṭhi este unul dintre semnele distinctive ale intrării în flux (vezi sotāpanna).",
-          "description_ro_html": "Vedere de autoidentificare. Opinia care identifică în mod greșit oricare dintre khandha ca „sine”; primul dintre cele zece cătușe (saṁyojana). Abandonul de sakkāya-diṭṭhi este unul dintre semnele distinctive ale intrării în flux (vezi sotāpanna)."
+          "description_ro_html": "Vedere de autoidentificare. Opinia care identifică în mod greșit oricare dintre khandha ca „sine”; primul dintre cele zece cătușe (saṁyojana). Abandonul de sakkāya-diṭṭhi este unul dintre semnele distinctive ale intrării în flux (vezi <a href=\"#sotapanna\">sotāpanna</a>)."
         },
         {
           "term": "sākya-putta",
@@ -944,8 +944,8 @@
           "description_en": "Literally, a small samaṇa; a novice monk (nun) who observes ten precepts and who is a candidate for admission to the order of bhikkhus (bhikkhunīs). See pabbajjā.",
           "letter": "S",
           "source": "accesstoinsight",
-          "description_ro": "Un călugăr novice. Literal, un mic samaṇa. Acesta respectă zece precepte este candidat pentru admiterea în ordinul călugărilor. Vezi pabbajjā.",
-          "description_ro_html": "Un călugăr novice. Literal, un mic samaṇa. Acesta respectă zece precepte este candidat pentru admiterea în ordinul călugărilor. Vezi <a href=\"#pabbajja\">pabbajjā</a>."
+          "description_ro": "Un călugăr novice. Literal, un mic samaṇa. Acesta respectă zece precepte și este candidat pentru admiterea în ordinul călugărilor. Vezi pabbajjā.",
+          "description_ro_html": "Un călugăr novice. Literal, un mic samaṇa. Acesta respectă zece precepte și este candidat pentru admiterea în ordinul călugărilor. Vezi <a href=\"#pabbajja\">pabbajjā</a>."
         },
         {
           "term": "sampajañña",
@@ -953,8 +953,8 @@
           "description_en": "Alertness; self-awareness; presence of mind; clear comprehension. See sati.",
           "letter": "S",
           "source": "accesstoinsight",
-          "description_ro": "Vigilenţă; conștientizarea de sine; prezenţă de spirit; înţelegere clară Vezi sati.",
-          "description_ro_html": "Vigilenţă; conștientizarea de sine; prezenţă de spirit; înţelegere clară Vezi <a href=\"#sati\">sati</a>."
+          "description_ro": "Vigilenţă; conștientizarea de sine; prezenţă de spirit; înţelegere clară. Vezi sati.",
+          "description_ro_html": "Vigilenţă; conștientizarea de sine; prezenţă de spirit; înţelegere clară. Vezi <a href=\"#sati\">sati</a>."
         },
         {
           "term": "saṁsāra",
@@ -962,14 +962,14 @@
           "description_en": "Transmigration; the round of death and rebirth. See vaṭṭa.",
           "letter": "S",
           "source": "accesstoinsight",
-          "description_ro": "Transmigrația; ciclul morții și a renașterii Vezi vaṭṭa.",
-          "description_ro_html": "Transmigrația; ciclul morții și a renașterii Vezi <a href=\"#vatta\">vaṭṭa</a>."
+          "description_ro": "Transmigrația; ciclul morții și a renașterii. Vezi vaṭṭa.",
+          "description_ro_html": "Transmigrația; ciclul morții și a renașterii. Vezi <a href=\"#vatta\">vaṭṭa</a>."
         },
         {
           "term": "saṁvega",
-          "description_ro": "descurajare",
+          "description_ro": "Descurajare.",
           "description_en": "",
-          "description_ro_html": "descurajare",
+          "description_ro_html": "Descurajare.",
           "slug": "samvega",
           "letter": "S",
           "source": "local"
@@ -989,8 +989,8 @@
           "description_en": "On the conventional (sammuti) level, this term denotes the communities of Buddhist monks and nuns; on the ideal (ariya) level, it denotes those followers of the Buddha, lay or ordained, who have attained at least stream-entry (see sotāpanna), the first of the transcendent paths (see magga) culminating in nibbāna. Recently, particularly in the West, the term \"sangha\" has been popularly adapted to mean the wider sense of \"community of followers on the Buddhist path,\" although this usage finds no basis in the Pali canon. The term \"parisā\" may be more appropriate for this much broader meaning.",
           "letter": "S",
           "source": "accesstoinsight",
-          "description_ro": "1. Obștea monahală; 2. Comunitatea Celor Treziți. Vezi și Monastic life; Tirataṇa (Tripla Giuvaierie).",
-          "description_ro_html": "1. Obștea monahală; 2. Comunitatea Celor Treziți. Vezi și Monastic life; Tirataṇa (Tripla Giuvaierie)."
+          "description_ro": "Obștea monahală; Comunitatea Celor Treziți.",
+          "description_ro_html": "Obștea monahală; Comunitatea Celor Treziți."
         },
         {
           "term": "saṅkhāra",
@@ -1007,14 +1007,14 @@
           "description_en": "Label; perception; allusion; act of memory or recognition; interpretation. See khandha.",
           "letter": "S",
           "source": "accesstoinsight",
-          "description_ro": "Eticheta; percepţie; aluzie; act de memorie sau recunoaștere; interpretare Vezi khandha.",
-          "description_ro_html": "Eticheta; percepţie; aluzie; act de memorie sau recunoaștere; interpretare Vezi <a href=\"#khandha\">khandha</a>."
+          "description_ro": "Eticheta; percepţie; aluzie; act de memorie sau recunoaștere; interpretare. Vezi khandha.",
+          "description_ro_html": "Eticheta; percepţie; aluzie; act de memorie sau recunoaștere; interpretare. Vezi <a href=\"#khandha\">khandha</a>."
         },
         {
           "term": "saññamo",
-          "description_ro": "înfrânare",
+          "description_ro": "Înfrânare.",
           "description_en": "",
-          "description_ro_html": "înfrânare",
+          "description_ro_html": "Înfrânare.",
           "slug": "sannamo",
           "letter": "S",
           "source": "local"
@@ -1025,8 +1025,8 @@
           "description_en": "Literally, \"message.\" The dispensation, doctrine, and legacy of the Buddha; the Buddhist religion (see Dhamma-vinaya).",
           "letter": "S",
           "source": "accesstoinsight",
-          "description_ro": "Literal, „mesaj”. Dispensa, doctrina și moștenirea lui Buddha; religia budistă (vezi Dhamma-vinaya).",
-          "description_ro_html": "Literal, „mesaj”. Dispensa, doctrina și moștenirea lui Buddha; religia budistă (vezi Dhamma-vinaya)."
+          "description_ro": "Literal, „mesaj”. Dispensa, doctrina și moștenirea lui Buddha; religia budistă.",
+          "description_ro_html": "Literal, „mesaj”. Dispensa, doctrina și moștenirea lui Buddha; religia budistă."
         },
         {
           "term": "sati",
@@ -1034,8 +1034,8 @@
           "description_en": "Mindfulness, self-collectedness, powers of reference and retention. In some contexts, the word sati when used alone covers alertness (sampajañña) as well.",
           "letter": "S",
           "source": "accesstoinsight",
-          "description_ro": "Mindfulness, auto-adunare, puteri de referință și reținere. În unele contexte, cuvântul sati atunci când este folosit singur acoperă și starea de vigilență (sampajañña).",
-          "description_ro_html": "Mindfulness, auto-adunare, puteri de referință și reținere. În unele contexte, cuvântul sati atunci când este folosit singur acoperă și starea de vigilență (sampajañña)."
+          "description_ro": "Mindfulness, auto-adunare, puteri de referință și reținere. În unele contexte, cuvântul sati atunci când este folosit singur acoperă și starea de vigilență (vezi sampajañña).",
+          "description_ro_html": "Mindfulness, auto-adunare, puteri de referință și reținere. În unele contexte, cuvântul sati atunci când este folosit singur acoperă și starea de vigilență (vezi <a href=\"#sampajanna\">sampajañña</a>)."
         },
         {
           "term": "satipaṭṭhāna",
@@ -1052,14 +1052,14 @@
           "description_en": "Literally, \"hearer.\" A disciple of the Buddha, especially a noble disciple (see ariya-puggala.)",
           "letter": "S",
           "source": "accesstoinsight",
-          "description_ro": "Literal, „ascultător”. Un discipol al lui Buddha, în special un discipol nobil (vezi ariya-puggala.)",
-          "description_ro_html": "Literal, „ascultător”. Un discipol al lui Buddha, în special un discipol nobil (vezi ariya-puggala.)"
+          "description_ro": "Literal, „ascultător”. Un discipol al lui Buddha, în special un discipol nobil.",
+          "description_ro_html": "Literal, „ascultător”. Un discipol al lui Buddha, în special un discipol nobil."
         },
         {
           "term": "sevanā",
-          "description_ro": "urma, întovărăși, a-și face de lucru(?)",
+          "description_ro": "Urma, întovărăși, a-și face de lucru(?).",
           "description_en": "",
-          "description_ro_html": "urma, întovărăși, a-și face de lucru(?)",
+          "description_ro_html": "Urma, întovărăși, a-și face de lucru(?).",
           "slug": "sevana",
           "letter": "S",
           "source": "local"
@@ -1071,7 +1071,7 @@
           "letter": "S",
           "source": "accesstoinsight",
           "description_ro": "Virtute, moralitate. Calitatea purității etice și morale care împiedică o persoană să se îndepărteze de calea optică. De asemenea, preceptele de antrenament care o împiedică pe cineva să efectueze acțiuni lipsite de pricepere. Sīla este a doua temă din antrenamentul treptat (vezi anupubbī-kathā), una dintre cele zece pāramīs, a doua dintre cele șapte comori (vezi dhana) și primul dintre cele trei temeiuri pentru acțiune meritorie (vezi dāna și bhāvanā).",
-          "description_ro_html": "Virtute, moralitate. Calitatea purității etice și morale care împiedică o persoană să se îndepărteze de calea optică. De asemenea, preceptele de antrenament care o împiedică pe cineva să efectueze acțiuni lipsite de pricepere. Sīla este a doua temă din antrenamentul treptat (vezi anupubbī-kathā), una dintre cele zece pāramīs, a doua dintre cele șapte comori (vezi dhana) și primul dintre cele trei temeiuri pentru acțiune meritorie (vezi dāna și bhāvanā)."
+          "description_ro_html": "Virtute, moralitate. Calitatea purității etice și morale care împiedică o persoană să se îndepărteze de calea optică. De asemenea, preceptele de antrenament care o împiedică pe cineva să efectueze acțiuni lipsite de pricepere. Sīla este a doua temă din antrenamentul treptat (vezi <a href=\"#anupubbi\">anupubbī-kathā</a>), una dintre cele zece pāramīs, a doua dintre cele șapte comori (vezi <a href=\"#dhana\">dhana</a>) și primul dintre cele trei temeiuri pentru acțiune meritorie (vezi <a href=\"#dana\">dāna</a> și <a href=\"#bhavana\">bhāvanā</a>)."
         },
         {
           "term": "sīma",
@@ -1088,8 +1088,8 @@
           "description_en": "Stream winner. A person who has abandoned the first three of the fetters that bind the mind to the cycle of rebirth (see saṁyojana) and has thus entered the \"stream\" flowing inexorably to nibbāna, ensuring that one will be reborn at most only seven more times, and only into human or higher realms.",
           "letter": "S",
           "source": "accesstoinsight",
-          "description_ro": "Câștigător al fluxului. O persoană care a abandonat primele trei dintre cătușele care leagă mintea de ciclul renașterii (vezi saṁyojana) și a intrat astfel în „fluxul” care curge inexorabil către nibbāna, asigurându-se că cineva va renaște de cel mult încă șapte ori și numai în tărâmurile umane sau mai înalte.",
-          "description_ro_html": "Câștigător al fluxului. O persoană care a abandonat primele trei dintre cătușele care leagă mintea de ciclul renașterii (vezi saṁyojana) și a intrat astfel în „fluxul” care curge inexorabil către nibbāna, asigurându-se că cineva va renaște de cel mult încă șapte ori și numai în tărâmurile umane sau mai înalte."
+          "description_ro": "Câștigător al fluxului. O persoană care a abandonat primele trei dintre cătușele care leagă mintea de ciclul renașterii și a intrat astfel în „fluxul” care curge inexorabil către nibbāna, asigurându-se că cineva va renaște de cel mult încă șapte ori și numai în tărâmurile umane sau mai înalte.",
+          "description_ro_html": "Câștigător al fluxului. O persoană care a abandonat primele trei dintre cătușele care leagă mintea de ciclul renașterii și a intrat astfel în „fluxul” care curge inexorabil către nibbāna, asigurându-se că cineva va renaște de cel mult încă șapte ori și numai în tărâmurile umane sau mai înalte."
         },
         {
           "term": "sutta",
@@ -1120,8 +1120,8 @@
           "description_en": "Craving - for sensuality, for becoming, or for not-becoming (see bhava). See also lobha (greed; passion)",
           "letter": "T",
           "source": "accesstoinsight",
-          "description_ro": "râvnă",
-          "description_ro_html": "râvnă"
+          "description_ro": "Râvnă.",
+          "description_ro_html": "Râvnă."
         },
         {
           "term": "tāpas",
@@ -1143,9 +1143,9 @@
         },
         {
           "term": "thera",
-          "description_ro": "venerabil",
+          "description_ro": "Venerabil.",
           "description_en": "",
-          "description_ro_html": "venerabil",
+          "description_ro_html": "Venerabil.",
           "slug": "thera",
           "letter": "T",
           "source": "local"
@@ -1156,8 +1156,8 @@
           "description_en": "The \"Doctrine of the Elders\" - the only one of the early schools of Buddhism to have survived into the present; currently the dominant form of Buddhism in Thailand, Sri Lanka, and Burma. See also Hīnayāna.",
           "letter": "T",
           "source": "accesstoinsight",
-          "description_ro": "„Doctrina bătrânilor” – singura dintre primele școli ale budismului care a supraviețuit până în prezent; în prezent, forma dominantă de budism în Thailanda, Sri Lanka și Birmania Vezi și Hīnayāna.",
-          "description_ro_html": "„Doctrina bătrânilor” – singura dintre primele școli ale budismului care a supraviețuit până în prezent; în prezent, forma dominantă de budism în Thailanda, Sri Lanka și Birmania Vezi și <a href=\"#hinayana\">Hīnayāna</a>."
+          "description_ro": "„Doctrina bătrânilor” – singura dintre primele școli ale budismului care a supraviețuit până în prezent; în prezent, forma dominantă de budism în Thailanda, Sri Lanka și Birmania. Vezi Hīnayāna.",
+          "description_ro_html": "„Doctrina bătrânilor” – singura dintre primele școli ale budismului care a supraviețuit până în prezent; în prezent, forma dominantă de budism în Thailanda, Sri Lanka și Birmania. Vezi <a href=\"#hinayana\">Hīnayāna</a>."
         },
         {
           "term": "ti-lakkhaṇa",
@@ -1165,8 +1165,8 @@
           "description_en": "Three characteristics inherent in all conditioned phenomena - being inconstant (anicca), stressful (dukkha), and not-self (anattā).",
           "letter": "T",
           "source": "accesstoinsight",
-          "description_ro": "Trei caracteristici inerente tuturor fenomenelor condiționate - a fi inconstant (anicca), stresant (dukkha) și a nu-sine (anattā).",
-          "description_ro_html": "Trei caracteristici inerente tuturor fenomenelor condiționate - a fi inconstant (anicca), stresant (dukkha) și a nu-sine (anattā)."
+          "description_ro": "Trei caracteristici inerente tuturor fenomenelor condiționate - a fi inconstant (anicca), stresant (vezi dukkha) și a nu-sine (vezi anattā).",
+          "description_ro_html": "Trei caracteristici inerente tuturor fenomenelor condiționate - a fi inconstant (anicca), stresant (vezi <a href=\"#dukkha\">dukkha</a>) și a nu-sine (vezi <a href=\"#anatta\">anattā</a>)."
         },
         {
           "term": "tipiṭaka",
@@ -1174,8 +1174,8 @@
           "description_en": "The Buddhist (Pali) Canon. Literally, \"three baskets,\" in reference to the three principal divisions of the Canon: the Vinaya Piṭaka (disciplinary rules); Sutta Piṭaka (discourses); and Abhidhamma Piṭaka (abstract philosophical treatises).",
           "letter": "T",
           "source": "accesstoinsight",
-          "description_ro": "Canonul budist (Pali). Literal, „trei coșuri”, cu referire la cele trei diviziuni principale ale Canonului: Vinaya Piṭaka (reguli disciplinare); Sutta Piṭaka (discursuri); și Abhidhamma Piṭaka (tratate filozofice abstracte).",
-          "description_ro_html": "Canonul budist (Pali). Literal, „trei coșuri”, cu referire la cele trei diviziuni principale ale Canonului: Vinaya Piṭaka (reguli disciplinare); Sutta Piṭaka (discursuri); și Abhidhamma Piṭaka (tratate filozofice abstracte)."
+          "description_ro": "Canonul budist (vezi Pāḷi). Literal, „trei coșuri”, cu referire la cele trei diviziuni principale ale Canonului: Vinaya Piṭaka (reguli disciplinare); Sutta Piṭaka (discursuri); și Abhidhamma Piṭaka (tratate filozofice abstracte).",
+          "description_ro_html": "Canonul budist (vezi <a href=\"#pali\">Pāḷi</a>). Literal, „trei coșuri”, cu referire la cele trei diviziuni principale ale Canonului: Vinaya Piṭaka (reguli disciplinare); Sutta Piṭaka (discursuri); și Abhidhamma Piṭaka (tratate filozofice abstracte)."
         },
         {
           "term": "tisaraṇa",
@@ -1183,8 +1183,8 @@
           "description_en": "The \"Threefold Refuge\" - the Buddha, Dhamma, and Saṅgha. See tiratana.",
           "letter": "T",
           "source": "accesstoinsight",
-          "description_ro": "„Refugiul triplu” - Buddha, Dhamma și Saṅgha",
-          "description_ro_html": "„Refugiul triplu” - Buddha, Dhamma și Saṅgha"
+          "description_ro": "„Refugiul triplu” - Buddha, Dhamma și Saṅgha.",
+          "description_ro_html": "„Refugiul triplu” - Buddha, Dhamma și Saṅgha."
         }
       ]
     },
@@ -1224,8 +1224,8 @@
           "description_en": "Acceptance; full ordination as a bhikkhu or bhikkhunī. See pabbajjā.",
           "letter": "U",
           "source": "accesstoinsight",
-          "description_ro": "Acceptare; hirotonire deplină ca bhikkhu sau bhikkhunī Vezi pabbajjā.",
-          "description_ro_html": "Acceptare; hirotonire deplină ca bhikkhu sau bhikkhunī Vezi <a href=\"#pabbajja\">pabbajjā</a>."
+          "description_ro": "Acceptare; hirotonire deplină ca bhikkhu sau bhikkhunī. Vezi pabbajjā.",
+          "description_ro_html": "Acceptare; hirotonire deplină ca bhikkhu sau bhikkhunī. Vezi <a href=\"#pabbajja\">pabbajjā</a>."
         },
         {
           "term": "upekkhā",
@@ -1233,8 +1233,8 @@
           "description_en": "Equanimity. One of the ten perfections (pāramīs) and one of the four \"sublime abodes\" (brahma-vihāra).",
           "letter": "U",
           "source": "accesstoinsight",
-          "description_ro": "echidistanță. Vezi și Brahmavihāra; Pāramīs;",
-          "description_ro_html": "echidistanță. Vezi și Brahmavihāra; Pāramīs;"
+          "description_ro": "Echidistanță.",
+          "description_ro_html": "Echidistanță."
         }
       ]
     },
@@ -1247,8 +1247,8 @@
           "description_en": "The cycle of birth, death, and rebirth. This denotes both the death and rebirth of living beings and the death and rebirth of defilement (kilesa) within the mind. See saṁsāra.",
           "letter": "V",
           "source": "accesstoinsight",
-          "description_ro": "Ciclul nașterii, morții și renașterii. Aceasta denotă atât moartea și renașterea ființelor vii, cât și moartea și renașterea întinarii (kilesa) în interiorul minții Vezi saṁsāra.",
-          "description_ro_html": "Ciclul nașterii, morții și renașterii. Aceasta denotă atât moartea și renașterea ființelor vii, cât și moartea și renașterea întinarii (kilesa) în interiorul minții Vezi <a href=\"#samsara\">saṁsāra</a>."
+          "description_ro": "Ciclul nașterii, morții și renașterii. Aceasta denotă atât moartea și renașterea ființelor vii, cât și moartea și renașterea întinarii (vezi kilesa) în interiorul minții. Vezi saṁsāra.",
+          "description_ro_html": "Ciclul nașterii, morții și renașterii. Aceasta denotă atât moartea și renașterea ființelor vii, cât și moartea și renașterea întinarii (vezi <a href=\"#kilesa\">kilesa</a>) în interiorul minții. Vezi <a href=\"#samsara\">saṁsāra</a>."
         },
         {
           "term": "vedanā",
@@ -1256,8 +1256,8 @@
           "description_en": "Feeling - pleasure (ease), pain (stress), or neither pleasure nor pain. See khandha.",
           "letter": "V",
           "source": "accesstoinsight",
-          "description_ro": "Sentiment - plăcere (ușurință), durere (stres), sau nici plăcere, nici durere Vezi khandha.",
-          "description_ro_html": "Sentiment - plăcere (ușurință), durere (stres), sau nici plăcere, nici durere Vezi <a href=\"#khandha\">khandha</a>."
+          "description_ro": "Sentiment - plăcere (ușurință), durere (stres), sau nici plăcere, nici durere. Vezi khandha.",
+          "description_ro_html": "Sentiment - plăcere (ușurință), durere (stres), sau nici plăcere, nici durere. Vezi <a href=\"#khandha\">khandha</a>."
         },
         {
           "term": "vicāra",
@@ -1292,8 +1292,8 @@
           "description_en": "Release; freedom from the fabrications and conventions of the mind. The suttas distinguish between two kinds of release. Discernment-release (paññā-vimutti) describes the mind of the arahant, which is free of the āsavas. Awareness-release (ceto-vimutti) is used to describe either the mundane suppression of the kilesas during the practice of jhāna and the four brahma-vihāras [see AN 6.13], or the supramundane state of concentration in the āsava-free mind of the arahant.",
           "letter": "V",
           "source": "accesstoinsight",
-          "description_ro": "izbăvire. Vezi și Awakening.",
-          "description_ro_html": "izbăvire. Vezi și Awakening."
+          "description_ro": "Izbăvire.",
+          "description_ro_html": "Izbăvire."
         },
         {
           "term": "Vinaya",
@@ -1310,8 +1310,8 @@
           "description_en": "Consciousness; cognizance; the act of taking note of sense data and ideas as they occur. There is also a type of consciousness that lies outside of the khandhas - called consciousness without feature (viññāṇaṁ anidassanaṁ) - which is not related to the six senses at all. See khandha.",
           "letter": "V",
           "source": "accesstoinsight",
-          "description_ro": "conștiință Vezi khandha.",
-          "description_ro_html": "conștiință Vezi <a href=\"#khandha\">khandha</a>."
+          "description_ro": "Conștiință. Vezi khandha.",
+          "description_ro_html": "Conștiință. Vezi <a href=\"#khandha\">khandha</a>."
         },
         {
           "term": "vipāka",
@@ -1319,8 +1319,8 @@
           "description_en": "The consequence and result of a past volitional action (kamma).",
           "letter": "V",
           "source": "accesstoinsight",
-          "description_ro": "Consecința și rezultatul unei acțiuni voliționale trecute (kamma).",
-          "description_ro_html": "Consecința și rezultatul unei acțiuni voliționale trecute (kamma)."
+          "description_ro": "Consecința și rezultatul unei acțiuni voliționale trecute (vezi kamma).",
+          "description_ro_html": "Consecința și rezultatul unei acțiuni voliționale trecute (vezi <a href=\"#kamma\">kamma</a>)."
         },
         {
           "term": "vipassanā",
@@ -1328,8 +1328,8 @@
           "description_en": "Clear intuitive insight into physical and mental phenomena as they arise and disappear, seeing them for what they actually are - in and of themselves - in terms of the three characteristics (see ti-lakkhaṇa) and in terms of stress, its origin, its disbanding, and the way leading to its disbanding (see ariya-sacca).",
           "letter": "V",
           "source": "accesstoinsight",
-          "description_ro": "introspecție. Vezi și Samatha (liniște); Tilakkhaṇa (trei caracteristici ale existenței).",
-          "description_ro_html": "introspecție. Vezi și Samatha (liniște); Tilakkhaṇa (trei caracteristici ale existenței)."
+          "description_ro": "Introspecție.",
+          "description_ro_html": "Introspecție."
         },
         {
           "term": "vipassanūpakkilesa",
@@ -1346,8 +1346,8 @@
           "description_en": "Persistence; energy. One of the ten perfections (pāramīs), the five faculties (bala; see bodhi-pakkhiya-dhammā), and the five strengths/dominant factors (indriya; see bodhi-pakkhiya-dhammā).",
           "letter": "V",
           "source": "accesstoinsight",
-          "description_ro": "Persistenţă; energie. Una dintre cele zece perfecțiuni (pāramīs), cele cinci facultăți (bala; vezi bodhi-pakkhiya-dhamma) și cei cinci puncte forte/factori dominanti (indriya; vezi bodhi-pakkhiya-dhamma).",
-          "description_ro_html": "Persistenţă; energie. Una dintre cele zece perfecțiuni (pāramīs), cele cinci facultăți (bala; vezi bodhi-pakkhiya-dhamma) și cei cinci puncte forte/factori dominanti (indriya; vezi bodhi-pakkhiya-dhamma)."
+          "description_ro": "Persistenţă; energie. Una dintre cele zece perfecțiuni (vezi pāramīs), cele cinci facultăți (bala; vezi bodhi-pakkhiya-dhamma) și cei cinci puncte forte/factori dominanti (indriya; vezi bodhi-pakkhiya-dhamma).",
+          "description_ro_html": "Persistenţă; energie. Una dintre cele zece perfecțiuni (vezi <a href=\"#parami\">pāramīs</a>), cele cinci facultăți (bala; vezi <a href=\"#bodhi-pakkhiya-dhamma\">bodhi-pakkhiya-dhamma</a>) și cei cinci puncte forte/factori dominanti (indriya; vezi <a href=\"#bodhi-pakkhiya-dhamma\">bodhi-pakkhiya-dhamma</a>)."
         },
         {
           "term": "Visākha",
