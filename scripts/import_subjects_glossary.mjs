@@ -77,6 +77,7 @@ const normalizeEntryKey = (value) =>
 const referenceAliases = new Map([
   ["paramis", "pāramī, pāramitā"],
   ["pali", "Pāḷi"],
+  ["saddha", "saddhā"],
 ]);
 
 const cleanupImportedTerm = (value) => {
@@ -225,8 +226,11 @@ const descriptionOverrides = new Map(
     ["Deva / devatā", "Zeu. Literal, „unul strălucitor” - un locuitor al tărâmurilor cerești."],
     ["Dhamma", "Eveniment; un fenomen în sine; calitate mentală; doctrină, învățătură; nibbāna. De asemenea, principii de comportament pe care ființele umane ar trebui să le urmeze pentru a se potrivi cu ordinea naturală a lucrurilor; calități ale minții pe care trebuie să le dezvolte astfel încât să realizeze calitatea inerentă a minții în sine. Prin extensie, „Dhamma” (cu majuscule) este folosită și pentru a desemna orice doctrină care învață astfel de lucruri. Astfel, Dhamma lui Buddha denotă atât învățăturile sale, cât și experiența directă a nibbāna, calitatea către care sunt îndreptate acele învățături."],
     ["Buddha", "Numele dat celui care redescoperă pentru el însuși calea eliberatoare a Dhammei, după o lungă perioadă în care a fost uitată de lume. Potrivit tradiției, un lung șir de Buddha se întinde în trecutul îndepărtat. Cel mai recent Buddha s-a născut Siddhattha Gotama în India în secolul al VI-lea î.Hr. Un tânăr bine educat și bogat, el și-a renunțat la familia și moștenirea princiară în floarea vieții sale pentru a căuta adevărata libertate și sfârșitul suferinței (dukkha). După șapte ani de austerități în pădure, a redescoperit „calea de mijloc” și și-a atins scopul, devenind Buddha."],
+    ["Brahma-vihāra", "Cele patru locuri de odihnă „sublime” sau „divine” care sunt atinse prin dezvoltarea mettā (bunăvoință), karuṇā (compasiune), muditā (bucurie apreciativă) și upekkhā (ecuanimitate)."],
     ["Hiri", "Conștiință. Vezi și Ottappa (prudență morală)"],
+    ["Karuṇā", "Compasiune; simpatie; aspirația de a găsi o modalitate de a fi cu adevărat de ajutor pentru sine și pentru ceilalți. Una dintre cele patru locuri de odihnă „sublime” sau „divine” (vezi brahma-vihāra)."],
     ["Mettā", "Bunăvoință, bunătate pașnică. Vezi și Brahmavihāra; Pāramīs."],
+    ["Muditā", "Bucurie apreciativă/compătimitoare. Să te bucuri de bunătatea proprie și a celorlalți. Una dintre cele patru locuri de odihnă „sublime” sau „divine” (vezi brahma-vihāra)."],
     ["Nekkhamma", "Renunţare; literal, „libertatea de poftă senzuală”. Unul dintre cei zece pāramīs."],
     ["Paññā-vimutti", "Izbăvire. Vezi și Awakening."],
     ["Pīti", "Extaziere; exaltare. Vezi și Jhāna."],
@@ -241,6 +245,23 @@ const descriptionOverrides = new Map(
     ["Vinaya", "Viața monahală."],
     ["Viññāṇa", "Conștiință. Vezi și Khandha (agregatele atașamentului); Paṭicca-samuppāda (origine dependentă)."],
     ["Vipassanā", "Introspecție. Vezi și Samatha (liniște); Tilakkhaṇa (trei caracteristici ale existenței)."],
+  ].map(([term, description]) => [normalizeEntryKey(term), description])
+);
+
+const descriptionHtmlOverrides = new Map(
+  [
+    [
+      "Brahma-vihāra",
+      'Cele patru locuri de odihnă „sublime” sau „divine” care sunt atinse prin dezvoltarea <a href="#metta">mettā</a> (bunăvoință), <a href="#karuna">karuṇā</a> (compasiune), <a href="#mudita">muditā</a> (bucurie apreciativă) și <a href="#upekkha">upekkhā</a> (ecuanimitate).',
+    ],
+    [
+      "Indriya",
+      'Facultăţi; factori mentali. În <a href="#sutta">sutta</a>, termenul se poate referi fie la mediile cu șase simțuri (vezi <a href="#ayatana">āyatana</a>), fie la cei cinci factori mentali: <a href="#saddha">saddhā</a> (convingere), <a href="#viriya">viriya</a> (persistență), <a href="#sati">sati</a> (conștientizare), <a href="#samadhi">samādhi</a> (concentrare) și <a href="#panna">paññā</a> (discernământ); vezi <a href="#bodhi-pakkhiya-dhamma">bodhi-pakkhiya-dhamma</a>.',
+    ],
+    [
+      "Jhāna",
+      'Absorbție mentală. O stare de concentrare puternică concentrată pe o singură senzație fizică (care are ca rezultat rūpa jhāna) sau noțiune mentală (care are ca rezultat arūpa jhāna). Dezvoltarea jhāna apare din suspendarea temporară a celor cinci obstacole (vezi <a href="#nivarana">nīvaraṇa</a>) prin dezvoltarea a cinci factori mentali: vitakka (gândire direcționată), <a href="#vicara">vicāra</a> (evaluare), <a href="#piti">pīti</a> (răpire), sukha (plăcere) și <a href="#ekaggatarammana">ekaggatārammana</a> (unicitatea preocupării).',
+    ],
   ].map(([term, description]) => [normalizeEntryKey(term), description])
 );
 
@@ -683,6 +704,10 @@ async function main() {
 
   for (const entry of translatedEntries) {
     entry.description_ro_html = buildDescriptionHtml(entry, slugMap, entryBySlug);
+    const htmlOverrideKey = normalizeEntryKey(entry.term);
+    if (descriptionHtmlOverrides.has(htmlOverrideKey)) {
+      entry.description_ro_html = descriptionHtmlOverrides.get(htmlOverrideKey);
+    }
   }
 
   const sections = buildSections(translatedEntries);

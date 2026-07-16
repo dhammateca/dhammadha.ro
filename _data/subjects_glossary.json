@@ -199,8 +199,8 @@
           "description_en": "The four \"sublime\" or \"divine\" abodes that are attained through the development of boundless mettā (goodwill), karuṇā (compassion), muditā (appreciative joy), and upekkhā (equanimity).",
           "letter": "B",
           "source": "accesstoinsight",
-          "description_ro": "Cele patru locuințe „sublime” sau „divine” care sunt atinse prin dezvoltarea mettā (bunăvoință), karuṇā (compasiune), muditā (bucurie apreciativă) și upekkhā (ecuanimitate).",
-          "description_ro_html": "Cele patru locuințe „sublime” sau „divine” care sunt atinse prin dezvoltarea mettā (bunăvoință), karuṇā (compasiune), muditā (bucurie apreciativă) și upekkhā (ecuanimitate)."
+          "description_ro": "Cele patru locuri de odihnă „sublime” sau „divine” care sunt atinse prin dezvoltarea mettā (bunăvoință), karuṇā (compasiune), muditā (bucurie apreciativă) și upekkhā (ecuanimitate).",
+          "description_ro_html": "Cele patru locuri de odihnă „sublime” sau „divine” care sunt atinse prin dezvoltarea <a href=\"#metta\">mettā</a> (bunăvoință), <a href=\"#karuna\">karuṇā</a> (compasiune), <a href=\"#mudita\">muditā</a> (bucurie apreciativă) și <a href=\"#upekkha\">upekkhā</a> (ecuanimitate)."
         },
         {
           "term": "Buddha",
@@ -356,7 +356,7 @@
           "letter": "I",
           "source": "accesstoinsight",
           "description_ro": "Facultăţi; factori mentali. În sutta, termenul se poate referi fie la mediile cu șase simțuri (vezi āyatana), fie la cei cinci factori mentali: saddha (convingere), viriya (persistență), sati (conștientizare), samādhi (concentrare) și paññā (discernământ); vezi bodhi-pakkhiya-dhamma.",
-          "description_ro_html": "Facultăţi; factori mentali. În <a href=\"#sutta\">sutta</a>, termenul se poate referi fie la mediile cu șase simțuri (vezi <a href=\"#ayatana\">āyatana</a>), fie la cei cinci factori mentali: saddha (convingere), viriya (persistență), sati (conștientizare), samādhi (concentrare) și paññā (discernământ); vezi <a href=\"#bodhi-pakkhiya-dhamma\">bodhi-pakkhiya-dhamma</a>."
+          "description_ro_html": "Facultăţi; factori mentali. În <a href=\"#sutta\">sutta</a>, termenul se poate referi fie la mediile celor șase simțuri (vezi <a href=\"#ayatana\">āyatana</a>), fie la cei cinci factori mentali: <a href=\"#saddha\">saddhā</a> (convingere), <a href=\"#viriya\">viriya</a> (persistență), <a href=\"#sati\">sati</a> (conștientizare), <a href=\"#samadhi\">samādhi</a> (concentrare) și <a href=\"#panna\">paññā</a> (discernământ); vezi <a href=\"#bodhi-pakkhiya-dhamma\">bodhi-pakkhiya-dhamma</a>."
         }
       ]
     },
@@ -370,7 +370,7 @@
           "letter": "J",
           "source": "accesstoinsight",
           "description_ro": "Absorbție mentală. O stare de concentrare puternică concentrată pe o singură senzație fizică (care are ca rezultat rūpa jhāna) sau noțiune mentală (care are ca rezultat arūpa jhāna). Dezvoltarea jhāna apare din suspendarea temporară a celor cinci obstacole (vezi nīvaraṇa) prin dezvoltarea a cinci factori mentali: vitakka (gândire direcționată), vicāra (evaluare), pīti (răpire), sukha (plăcere) și ekaggatārammana (unicitatea preocupării).",
-          "description_ro_html": "Absorbție mentală. O stare de concentrare puternică concentrată pe o singură senzație fizică (care are ca rezultat rūpa jhāna) sau noțiune mentală (care are ca rezultat arūpa jhāna). Dezvoltarea jhāna apare din suspendarea temporară a celor cinci obstacole (vezi <a href=\"#nivarana\">nīvaraṇa</a>) prin dezvoltarea a cinci factori mentali: vitakka (gândire direcționată), vicāra (evaluare), pīti (răpire), sukha (plăcere) și ekaggatārammana (unicitatea preocupării)."
+          "description_ro_html": "Absorbție mentală. O stare de concentrare puternică concentrată pe o singură senzație fizică (care are ca rezultat rūpa jhāna) sau noțiune mentală (care are ca rezultat arūpa jhāna). Dezvoltarea jhāna apare din suspendarea temporară a celor cinci obstacole (vezi <a href=\"#nivarana\">nīvaraṇa</a>) prin dezvoltarea a cinci factori mentali: vitakka (gândire direcționată), <a href=\"#vicara\">vicāra</a> (evaluare), <a href=\"#piti\">pīti</a> (răpire), sukha (plăcere) și <a href=\"#ekaggatarammana\">ekaggatārammana</a> (unicitatea preocupării)."
         }
       ]
     },
@@ -384,7 +384,7 @@
           "letter": "K",
           "source": "accesstoinsight",
           "description_ro": "Admirabil prieten; un mentor sau profesor de Dhamma.",
-          "description_ro_html": "Admirabil prieten; un mentor sau profesor de Dhamma."
+          "description_ro_html": "Prieten nobil; un mentor sau profesor de Dhamma."
         },
         {
           "term": "kāmaguṇa",
@@ -393,7 +393,7 @@
           "letter": "K",
           "source": "accesstoinsight",
           "description_ro": "Corzi de senzualitate. Obiectele celor cinci simțuri fizice: obiecte vizibile, sunete, arome, arome și senzații tactile. De obicei, se referă la experiențele senzoriale care, ca și corzile (guṇa) ale unei lăute atunci când sunt ciupite, dau naștere la sentimente plăcute (vezi vedanā).",
-          "description_ro_html": "Corzi de senzualitate. Obiectele celor cinci simțuri fizice: obiecte vizibile, sunete, arome, arome și senzații tactile. De obicei, se referă la experiențele senzoriale care, ca și corzile (guṇa) ale unei lăute atunci când sunt ciupite, dau naștere la sentimente plăcute (vezi <a href=\"#vedana\">vedanā</a>)."
+          "description_ro_html": "Corzile senzualității. Obiectele celor cinci simțuri fizice: obiecte vizibile, sunete, arome, arome și senzații tactile. De obicei, se referă la experiențele senzoriale care, ca și corzile (guṇa) ale unei lăute atunci când sunt ciupite, dau naștere la sentimente plăcute (vezi <a href=\"#vedana\">vedanā</a>)."
         },
         {
           "term": "kamma",
@@ -411,7 +411,7 @@
           "letter": "K",
           "source": "accesstoinsight",
           "description_ro": "Literal, „baza muncii” sau „locul de muncă”. Cuvântul se referă la „ocupația” unui călugăr care medita: și anume, contemplarea anumitor teme de meditație prin care forțele întinarii (vezi kilesa), pofta (vezi taṇhā) și ignoranța (vezi avijjā) pot fi smulse din minte. În procedura de hirotonire, fiecare călugăr nou este învățat cinci kamaṭṭhāna de bază care formează baza pentru contemplarea corpului: părul capului (kesā), părul corpului (lomā), unghiile (nakhā), dinții (dantā) și pielea (taco). Prin extensie, kamaṭṭhāna includ toate cele patruzeci de teme de meditație clasică. Deși se poate spune că fiecare meditator se angajează în kamaṭṭhāna, termenul este cel mai adesea folosit pentru a identifica descendența tradiției forestiere thailandeze care a fost fondată de Phra Ajaan Mun și Phra Ajaan Sao.",
-          "description_ro_html": "Literal, „baza muncii” sau „locul de muncă”. Cuvântul se referă la „ocupația” unui călugăr care medita: și anume, contemplarea anumitor teme de meditație prin care forțele întinarii (vezi <a href=\"#kilesa\">kilesa</a>), pofta (vezi <a href=\"#tanha\">taṇhā</a>) și ignoranța (vezi <a href=\"#avijja\">avijjā</a>) pot fi smulse din minte. În procedura de hirotonire, fiecare călugăr nou este învățat cinci kamaṭṭhāna de bază care formează baza pentru contemplarea corpului: părul capului (kesā), părul corpului (lomā), unghiile (nakhā), dinții (dantā) și pielea (taco). Prin extensie, kamaṭṭhāna includ toate cele patruzeci de teme de meditație clasică. Deși se poate spune că fiecare meditator se angajează în kamaṭṭhāna, termenul este cel mai adesea folosit pentru a identifica descendența tradiției forestiere thailandeze care a fost fondată de Phra Ajaan Mun și Phra Ajaan Sao."
+          "description_ro_html": "Literal, „baza muncii” sau „locul de muncă”. Cuvântul se referă la „ocupația” unui călugăr care meditează: și anume, contemplarea anumitor teme de meditație prin care forțele întinarii (vezi <a href=\"#kilesa\">kilesa</a>), pofta (vezi <a href=\"#tanha\">taṇhā</a>) și ignoranța (vezi <a href=\"#avijja\">avijjā</a>) pot fi smulse din minte. În procedura de hirotonire, fiecare călugăr nou este învățat cinci kamaṭṭhāna de bază care formează baza pentru contemplarea corpului: părul capului (kesā), părul corpului (lomā), unghiile (nakhā), dinții (dantā) și pielea (taco). Prin extensie, kamaṭṭhāna includ toate cele patruzeci de teme de meditație clasică. Deși se poate spune că fiecare meditator se angajează în kamaṭṭhāna, termenul este cel mai adesea folosit pentru a identifica descendența tradiției pădurii thailandeze care a fost fondată de Phra Ajaan Mun și Phra Ajaan Sao."
         },
         {
           "term": "kamp",
@@ -428,8 +428,8 @@
           "description_en": "Compassion; sympathy; the aspiration to find a way to be truly helpful to oneself and others. One of the four \"sublime abodes\" (brahma-vihāra).",
           "letter": "K",
           "source": "accesstoinsight",
-          "description_ro": "Compasiune; simpatie; aspirația de a găsi o modalitate de a fi cu adevărat de ajutor pentru sine și pentru ceilalți. Una dintre cele patru „locuințe sublime” (vezi brahma-vihāra).",
-          "description_ro_html": "Compasiune; simpatie; aspirația de a găsi o modalitate de a fi cu adevărat de ajutor pentru sine și pentru ceilalți. Una dintre cele patru „locuințe sublime” (vezi <a href=\"#brahma-vihara\">brahma-vihāra</a>)."
+          "description_ro": "Compasiune; simpatie; aspirația de a găsi o modalitate de a fi cu adevărat de ajutor pentru sine și pentru ceilalți. Una dintre cele patru locuri de odihnă „sublime” sau „divine” (vezi brahma-vihāra).",
+          "description_ro_html": "Compasiune; simpatie; aspirația de a găsi o modalitate de a fi cu adevărat de ajutor pentru sine și pentru ceilalți. Una dintre cele patru locuri de odihnă „sublime” sau „divine” (vezi <a href=\"#brahma-vihara\">brahma-vihāra</a>)."
         },
         {
           "term": "kaṭhina",
@@ -438,7 +438,7 @@
           "letter": "K",
           "source": "accesstoinsight",
           "description_ro": "O ceremonie, ținută în a patra lună a sezonului ploios, în care un saṅgha de bhikkhu primește un cadou de pânză de la laici, îl dăruiește unuia dintre membrii lor și apoi îl transformă într-o haină înainte de zorii zilei următoare.",
-          "description_ro_html": "O ceremonie, ținută în a patra lună a sezonului ploios, în care un saṅgha de bhikkhu primește un cadou de pânză de la laici, îl dăruiește unuia dintre membrii lor și apoi îl transformă într-o haină înainte de zorii zilei următoare."
+          "description_ro_html": "O ceremonie, ținută în a patra lună a sezonului ploios, în care o saṅgha de bhikkhu primesc un cadou de pânze/cârpe de la laici, pe care apoi, cei dintâi, îl transformă într-o haină înainte de zorii zilei următoare."
         },
         {
           "term": "kāya",
@@ -461,11 +461,11 @@
         {
           "term": "khandha",
           "slug": "khandha",
-          "description_en": "Heap; group; aggregate. Physical and mental components of the personality and of sensory experience in general. The five bases of clinging (see upadāna). See: nāma (mental phenomenon), rūpa (physical phenomenon), vedanā (feeling), saññā (perception), saṅkhāra (mental fashionings), and viññāṇa (consciousness).",
+          "description_en": "Heap; group; aggregate. Physical and mental components of the personality and of sensory experience, in general. The five bases of clinging (see upadāna). See: nāma (mental phenomenon), rūpa (physical phenomenon), vedanā (feeling), saññā (perception), saṅkhāra (mental fashionings), and viññāṇa (consciousness).",
           "letter": "K",
           "source": "accesstoinsight",
           "description_ro": "Morman; grup; agregat. Componentele fizice și mentale ale personalității și ale experienței senzoriale în general. Cele cinci baze ale agățarii (vezi upadāna). Vezi: nāma (fenomen mental), rūpa (fenomen fizic), vedanā (sentiment), saññā (percepție), saṅkhāra (conformități mentale) și viññāṇa (conștiință).",
-          "description_ro_html": "Morman; grup; agregat. Componentele fizice și mentale ale personalității și ale experienței senzoriale în general. Cele cinci baze ale agățarii (vezi <a href=\"#upadana\">upadāna</a>). Vezi: <a href=\"#nama\">nāma</a> (fenomen mental), <a href=\"#rupa\">rūpa</a> (fenomen fizic), <a href=\"#vedana\">vedanā</a> (sentiment), <a href=\"#sanna\">saññā</a> (percepție), <a href=\"#sankhara\">saṅkhāra</a> (conformități mentale) și <a href=\"#vinnana\">viññāṇa</a> (conștiință)."
+          "description_ro_html": "Agregat; grup; morman. Componentele fizice și mentale ale personalității și ale experienței senzoriale, în general. Cele cinci baze ale agățarii (vezi <a href=\"#upadana\">upadāna</a>). Vezi: <a href=\"#nama\">nāma</a> (fenomen mental), <a href=\"#rupa\">rūpa</a> (fenomen fizic), <a href=\"#vedana\">vedanā</a> (simțământ), <a href=\"#sanna\">saññā</a> (percepție), <a href=\"#sankhara\">saṅkhāra</a> (conformități mentale) și <a href=\"#vinnana\">viññāṇa</a> (conștiință)."
         },
         {
           "term": "khanti",
@@ -506,7 +506,7 @@
           "letter": "L",
           "source": "accesstoinsight",
           "description_ro": "Trei caracteristici inerente tuturor fenomenelor condiționate - a fi inconstant (anicca), stresant (vezi dukkha) și a nu-sine (vezi anattā).",
-          "description_ro_html": "Trei caracteristici inerente tuturor fenomenelor condiționate - a fi inconstant (anicca), stresant (vezi <a href=\"#dukkha\">dukkha</a>) și a nu-sine (vezi <a href=\"#anatta\">anattā</a>)."
+          "description_ro_html": "Trei caracteristici inerente tuturor fenomenelor condiționate - a fi inconstant (anicca), nesatisfăcător (vezi <a href=\"#dukkha\">dukkha</a>) și a non-sine (vezi <a href=\"#anatta\">anattā</a>)."
         },
         {
           "term": "lokavidū",
@@ -528,8 +528,8 @@
           "description_en": "\"Great elder.\" An honorific title automatically conferred upon a bhikkhu of at least twenty years' standing. Compare thera.",
           "letter": "M",
           "source": "accesstoinsight",
-          "description_ro": "— Mare bătrân. Un titlu onorific conferit automat unui bhikkhu cu o vechime de cel puțin douăzeci de ani. Comparați.",
-          "description_ro_html": "— Mare bătrân. Un titlu onorific conferit automat unui bhikkhu cu o vechime de cel puțin douăzeci de ani. Comparați."
+          "description_ro": "Mare Bătrân. Un titlu onorific conferit automat unui bhikkhu cu o vechime de cel puțin douăzeci de ani. Comparați.",
+          "description_ro_html": "Un titlu onorific conferit automat unui bhikkhu cu o vechime de cel puțin douăzeci de ani."
         },
         {
           "term": "majjhimā",
@@ -547,7 +547,7 @@
           "letter": "M",
           "source": "accesstoinsight",
           "description_ro": "Personificarea răului și a ispitei.",
-          "description_ro_html": "Personificarea răului și a ispitei."
+          "description_ro_html": "Moartea; Personificarea răului și a ispitei."
         },
         {
           "term": "mettā",
@@ -564,8 +564,8 @@
           "description_en": "Appreciative/sympathetic joy. Taking delight in one's own goodness and that of others. One of the four \"sublime abodes\" (brahma-vihāra).",
           "letter": "M",
           "source": "accesstoinsight",
-          "description_ro": "Bucurie apreciativă/compătimitoare. Să te bucuri de bunătatea proprie și a celorlalți. Una dintre cele patru „locuințe sublime” (vezi brahma-vihāra).",
-          "description_ro_html": "Bucurie apreciativă/compătimitoare. Să te bucuri de bunătatea proprie și a celorlalți. Una dintre cele patru „locuințe sublime” (vezi <a href=\"#brahma-vihara\">brahma-vihāra</a>)."
+          "description_ro": "Bucurie apreciativă/compătimitoare. Să te bucuri de bunătatea proprie și a celorlalți. Una dintre cele patru locuri de odihnă „sublime” sau „divine” (vezi brahma-vihāra).",
+          "description_ro_html": "Bucurie apreciativă/compătimitoare. A te bucura de bunătatea proprie și a celorlalți. Una dintre cele patru locuri de odihnă „sublime” sau „divine” (vezi <a href=\"#brahma-vihara\">brahma-vihāra</a>)."
         },
         {
           "term": "mūla",
@@ -574,7 +574,7 @@
           "letter": "M",
           "source": "accesstoinsight",
           "description_ro": "Literal, „rădăcină”. Condițiile fundamentale din minte care determină calitatea morală - priceput (vezi kusala) sau nepricepător (akusala) - a acțiunilor intenționate (vezi kamma). Cele trei rădăcini lipsite de pricepere sunt lobha (lacomie), dosa (aversiune) și moha (amăgire); rădăcinile iscusite sunt contrariile lor. Vezi kilesa.",
-          "description_ro_html": "Literal, „rădăcină”. Condițiile fundamentale din minte care determină calitatea morală - priceput (vezi <a href=\"#kusala\">kusala</a>) sau nepricepător (akusala) - a acțiunilor intenționate (vezi <a href=\"#kamma\">kamma</a>). Cele trei rădăcini lipsite de pricepere sunt lobha (lacomie), dosa (aversiune) și moha (amăgire); rădăcinile iscusite sunt contrariile lor. Vezi <a href=\"#kilesa\">kilesa</a>."
+          "description_ro_html": "Literal, „rădăcină”. Condițiile fundamentale din minte care determină calitatea morală - iscusit (vezi <a href=\"#kusala\">kusala</a>) sau neiscusit (akusala) - a acțiunilor intenționate (vezi <a href=\"#kamma\">kamma</a>). Cele trei rădăcini lipsite de pricepere sunt lobha (lăcomie), dosa (aversiune) și moha (amăgire); rădăcinile iscusite sunt contrariile lor. Vezi <a href=\"#kilesa\">kilesa</a>."
         }
       ]
     },
