@@ -4,8 +4,8 @@ title: Glosar
 permalink: /glosar
 ---
 
-<div class="glossary-page">
-  <nav class="glossary-index" aria-label="Index alfabetic">
+<div class="glossary-page" id="glossary-top">
+  <nav class="glossary-index" id="glossary-index" aria-label="Index alfabetic">
     {% for section in site.data.subjects_glossary.sections %}
       <a href="#glossary-{{ section.letter | downcase }}">{{ section.letter }}</a>
     {% endfor %}
@@ -14,11 +14,26 @@ permalink: /glosar
   <div class="glossary-sections">
     {% for section in site.data.subjects_glossary.sections %}
       <section class="glossary-section" id="glossary-{{ section.letter | downcase }}">
-        <h2>{{ section.letter }}</h2>
+        {% assign section_count = section.items | size %}
+        <div class="glossary-section__heading">
+          <h2>
+            <span>{{ section.letter }}</span>
+            <small>
+              {{ section_count }}
+              {% if section_count == 1 %}termen{% else %}termeni{% endif %}
+            </small>
+          </h2>
+          <a class="glossary-section__back" href="#page-top">↑ Sus</a>
+        </div>
         <dl class="glossary-list">
           {% for entry in section.items %}
             <div class="glossary-entry">
-              <dt id="{{ entry.slug }}">{{ entry.term }}</dt>
+              <dt id="{{ entry.slug }}">
+                <a class="glossary-entry__anchor" href="#{{ entry.slug }}">
+                  <span>{{ entry.term }}</span>
+                  <small>#</small>
+                </a>
+              </dt>
               {% if entry.description_ro_html and entry.description_ro_html != "" %}
                 <dd>{{ entry.description_ro_html }}</dd>
               {% elsif entry.description_ro and entry.description_ro != "" %}
