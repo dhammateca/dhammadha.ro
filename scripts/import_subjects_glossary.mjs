@@ -1,7 +1,6 @@
 import fs from "fs/promises";
 
-const SUBJECTS_JSON_URL = "https://suttacentral.net/localization/elements/subjects_en.json";
-const SUBJECTS_CHUNK_URL = "https://suttacentral.net/7749.js";
+const ATI_GLOSSARY_URL = "https://www.accesstoinsight.org/glossary.html";
 const TRANSLATE_URL = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ro&dt=t";
 
 const CACHE_DIR = new URL("../.cache/", import.meta.url);
@@ -21,7 +20,25 @@ const stripHtml = (value) =>
     .replace(/&mdash;/g, "-")
     .replace(/&nbsp;/g, " ")
     .replace(/&amp;/g, "&")
+    .replace(/&quot;/g, '"')
+    .replace(/&#257;/g, "ā")
+    .replace(/&#299;/g, "ī")
+    .replace(/&#363;/g, "ū")
+    .replace(/&#7747;/g, "ṁ")
+    .replace(/&#7751;/g, "ṇ")
+    .replace(/&#775;m/g, "ṅ")
+    .replace(/&#7789;/g, "ṭ")
+    .replace(/&#7789;h/g, "ṭh")
+    .replace(/&#241;/g, "ñ")
+    .replace(/&#775;1/g, "ṇ")
+    .replace(/&#257;/g, "ā")
+    .replace(/&#7749;/g, "ṅ")
+    .replace(/&#7779;/g, "ṣ")
     .replace(/&#39;/g, "'")
+    .replace(/&ntilde;/g, "ñ")
+    .replace(/&ocirc;/g, "ô")
+    .replace(/&mdash;/g, "-")
+    .replace(/&ndash;/g, "-")
     .replace(/\s+/g, " ")
     .trim();
 
@@ -56,6 +73,20 @@ const normalizeEntryKey = (value) =>
     .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase()
     .trim();
+
+const cleanupImportedTerm = (value) => {
+  const term = stripHtml(value).replace(/:$/, "").trim();
+
+  return (
+    {
+      "brahman (from Pali brāhmaṇa)": "brahman",
+      "deva; devatā": "deva / devatā",
+      "Pā&#7735;i": "Pāḷi",
+      "samaṇera (samaṇerī)": "samaṇera",
+      "Vesak, Vesakha, Visakha, Wesak, etc. (visākha)": "Visākha",
+    }[term] || term
+  );
+};
 
 const paliExceptions = new Set([
   "bala",
@@ -180,20 +211,22 @@ const localEntries = [
   source: "local",
 }));
 
-const descriptionOverrides = new Map([
-  ["Anattā", "non-sine. Vezi și Tilakkhaṇa (trei caracteristici ale existenței)"],
-  ["Ariya-aṭṭhaṅgika-magga", "calea de opt părți nobilă"],
-  ["Hiri", "conștiință. Vezi și Ottappa (prudență morală)"],
-  ["Mettā", "bunăvoință, bunătate pașnică. Vezi și Brahmavihāra; Pāramīs."],
-  ["Pīti", "extaziere; exaltare. Vezi și Jhāna."],
-  ["Saṅgha", "1. Obștea monahală; 2. Comunitatea Celor Treziți. Vezi și Monastic life; Tirataṇa (Tripla Giuvaierie)."],
-  ["Taṇhā", "râvnă. Vezi și Kilesa (pângăriri); Paṭicca-samuppāda (origine dependentă); Sensuality."],
-  ["Upekkhā", "echidistanță. Vezi și Brahmavihāra; Pāramīs;"],
-  ["Vimutti", "izbăvire. Vezi și Awakening."],
-  ["Vinaya", "Viața monahală."],
-  ["Viññāṇa", "conștiință. Vezi și Khandha (agregatele atașamentului); Paṭicca-samuppāda (origine dependentă)."],
-  ["Vipassanā", "introspecție. Vezi și Samatha (liniște); Tilakkhaṇa (trei caracteristici ale existenței)."],
-]);
+const descriptionOverrides = new Map(
+  [
+    ["Anattā", "non-sine. Vezi și Tilakkhaṇa (trei caracteristici ale existenței)"],
+    ["Ariya-aṭṭhaṅgika-magga", "calea de opt părți nobilă"],
+    ["Hiri", "conștiință. Vezi și Ottappa (prudență morală)"],
+    ["Mettā", "bunăvoință, bunătate pașnică. Vezi și Brahmavihāra; Pāramīs."],
+    ["Pīti", "extaziere; exaltare. Vezi și Jhāna."],
+    ["Saṅgha", "1. Obștea monahală; 2. Comunitatea Celor Treziți. Vezi și Monastic life; Tirataṇa (Tripla Giuvaierie)."],
+    ["Taṇhā", "râvnă. Vezi și Kilesa (pângăriri); Paṭicca-samuppāda (origine dependentă); Sensuality."],
+    ["Upekkhā", "echidistanță. Vezi și Brahmavihāra; Pāramīs;"],
+    ["Vimutti", "izbăvire. Vezi și Awakening."],
+    ["Vinaya", "Viața monahală."],
+    ["Viññāṇa", "conștiință. Vezi și Khandha (agregatele atașamentului); Paṭicca-samuppāda (origine dependentă)."],
+    ["Vipassanā", "introspecție. Vezi și Samatha (liniște); Tilakkhaṇa (trei caracteristici ale existenței)."],
+  ].map(([term, description]) => [normalizeEntryKey(term), description])
+);
 
 async function ensureCacheDir() {
   await fs.mkdir(CACHE_DIR, { recursive: true });
@@ -217,46 +250,38 @@ async function fetchText(url, filename) {
 
 async function loadSourceFiles() {
   await ensureCacheDir();
-  const [subjectsJsonText, subjectsChunkText] = await Promise.all([
-    fetchText(SUBJECTS_JSON_URL, "sc-subjects-en.json"),
-    fetchText(SUBJECTS_CHUNK_URL, "suttacentral-7749.js"),
-  ]);
+  const atiGlossaryHtml = await fetchText(ATI_GLOSSARY_URL, "ati-glossary.html");
 
   return {
-    dictionary: JSON.parse(subjectsJsonText),
-    chunk: subjectsChunkText,
+    html: atiGlossaryHtml,
   };
 }
 
-function extractEntries(chunk, dictionary) {
-  const matches = [
-    ...chunk.matchAll(
-      /<dt(?: id="([^"]+)")?>\$\{\(0,e\._\)\(this\.localize\("subjects:(\d+)"\)\)\}<\/dt>([\s\S]*?)(?=<dt(?: id="[^"]+")?>\$\{\(0,e\._\)\(this\.localize\("subjects:\d+"\)\)\}<\/dt>|<\/dl>)/g
-    ),
-  ];
+function extractEntries(html) {
+  const glossaryChunkMatch = html.match(/<div id='COPYRIGHTED_TEXT_CHUNK'>([\s\S]*?)<\/div>\s*<\/div>\s*<!--  #content -->/);
+  const glossaryChunk = glossaryChunkMatch ? glossaryChunkMatch[1] : html;
+  const matches = [...glossaryChunk.matchAll(/<dt[^>]*>([\s\S]*?)<\/dt>\s*<dd>([\s\S]*?)<\/dd>/g)];
 
   return matches
     .map((match) => {
-      const [, explicitSlug, titleKey, body] = match;
-      const title = stripHtml(dictionary[`subjects:${titleKey}`] || "");
-      const cleanedTitle = title.replace(/\s*\((?:[^)]*[a-z][^)]*)\)\s*$/i, "").trim();
-      const descriptionMatch =
-        body.match(/<dd class="description">\$\{\(0,e\._\)\(this\.localize\("subjects:(\d+)"\)\)\}<\/dd>/) ||
-        body.match(/<dd>\$\{\(0,e\._\)\(this\.localize\("subjects:(\d+)"\)\)\}<\/dd>/);
-      const descriptionKey = descriptionMatch?.[1];
-      const descriptionEnglish = descriptionKey ? stripHtml(dictionary[`subjects:${descriptionKey}`] || "") : "";
-      const slug = explicitSlug || slugify(cleanedTitle);
+      const [, rawTitle, rawDescription] = match;
+      const title = cleanupImportedTerm(rawTitle);
+      const cleanedTitle = title
+        .replace(/\s*\[[^\]]*\]\s*$/i, "")
+        .replace(/\s*\((?:Thai|Burmese|Skt\.[^)]*|Pali[^)]*)\)\s*$/i, "")
+        .trim();
+      const descriptionEnglish = stripHtml(rawDescription.replace(/<b>\[\s*MORE\s*\]<\/b>/gi, "").replace(/<b>\[<a[\s\S]*?<\/a>\]<\/b>/gi, ""));
+      const slugMatch = rawTitle.match(/id="([^"]+)"/);
+      const slug = slugMatch?.[1] || slugify(cleanedTitle);
 
-      if (!cleanedTitle) {
-        return null;
-      }
+      if (!cleanedTitle) return null;
 
       return {
         term: cleanedTitle,
         slug,
         description_en: descriptionEnglish,
         letter: normalizeLetter(cleanedTitle),
-        source: "suttacentral",
+        source: "accesstoinsight",
       };
     })
     .filter(Boolean)
@@ -321,8 +346,9 @@ async function translateEntries(entries) {
 
   for (const entry of entries) {
     entry.description_ro = entry.description_en ? cache[entry.description_en] || entry.description_en : entry.description_ro || "";
-    if (descriptionOverrides.has(entry.term)) {
-      entry.description_ro = descriptionOverrides.get(entry.term);
+    const overrideKey = normalizeEntryKey(entry.term);
+    if (descriptionOverrides.has(overrideKey)) {
+      entry.description_ro = descriptionOverrides.get(overrideKey);
     }
   }
 
@@ -416,9 +442,8 @@ function resolveCanonicalDescription(entry, slugMap, entryBySlug, seen = new Set
     return escapeHtml(romanian);
   }
 
-  const intro = romanian
-    .split(/Vezi(?: și)?|Vezi,\s*de asemenea/i)[0]
-    .trim()
+  const seeMarkerMatch = romanian.match(/(?:^|[.!?])\s*(Vezi(?: și)?|Vezi,\s*de asemenea)\b/i);
+  const intro = (seeMarkerMatch ? romanian.slice(0, seeMarkerMatch.index).trim() : romanian.trim())
     .replace(/[;,:\-–]\s*$/, "");
 
   if (intro) {
@@ -447,7 +472,8 @@ function buildDescriptionHtml(entry, slugMap, entryBySlug) {
     return escapeHtml(romanian);
   }
 
-  const intro = match[1] ? escapeHtml(romanian.split(/Vezi(?: și)?|Vezi,\s*de asemenea/i)[0].trimEnd()) : "";
+  const seeMarkerMatch = romanian.match(/(?:^|[.!?])\s*(Vezi(?: și)?|Vezi,\s*de asemenea)\b/i);
+  const intro = match[1] && seeMarkerMatch ? escapeHtml(romanian.slice(0, seeMarkerMatch.index).trimEnd()) : "";
   const prefix = match[2] === "See also" ? "Vezi și " : "Vezi ";
   const references = match[3].split(/\s*;\s*/);
   const linkedReferences = references
@@ -487,8 +513,8 @@ function buildDescriptionHtml(entry, slugMap, entryBySlug) {
 }
 
 async function main() {
-  const { dictionary, chunk } = await loadSourceFiles();
-  const entries = mergeEntries(extractEntries(chunk, dictionary));
+  const { html } = await loadSourceFiles();
+  const entries = mergeEntries(extractEntries(html));
   const translatedEntries = await translateEntries(entries);
   const slugMap = buildSlugMap(translatedEntries);
   const entryBySlug = buildEntryBySlug(translatedEntries);
@@ -505,9 +531,8 @@ async function main() {
     JSON.stringify(
       {
         title: "Glosar de subiecte",
-        source_url: "https://suttacentral.net/subjects?lang=en",
-        source_name: "SuttaCentral Subjects",
-        local_source_name: "Compilații proprii din timpul traducerii materialelor publicate pe acest site",
+        source_url: "https://www.accesstoinsight.org/glossary.html",
+        source_name: "Access to Insight Glossary",
         generated_at: new Date().toISOString(),
         total_entries: translatedEntries.length,
         sections,
