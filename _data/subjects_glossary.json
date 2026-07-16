@@ -118,9 +118,9 @@
         },
         {
           "term": "āsava",
-          "description_ro": "Scursuri.",
+          "description_ro": "Infiltrații mentale.",
           "description_en": "",
-          "description_ro_html": "Scursuri.",
+          "description_ro_html": "Infiltrații mentale.",
           "slug": "asava",
           "letter": "A",
           "source": "local"
@@ -172,8 +172,8 @@
           "description_en": "A Buddhist nun; a woman who has given up the householder's life to live a life of heightened virtue (see sīla) in accordance with the Vinaya in general, and the Pātimokkha rules in particular. See saṅgha, parisā, upasampadā.",
           "letter": "B",
           "source": "accesstoinsight",
-          "description_ro": "O călugăriță budistă; o femeie care a renunțat la viața gospodărului pentru a trăi o viață de virtute sporită (vezi sīla) în conformitate cu Vinaya în general și cu regulile Pātimokkha în special.",
-          "description_ro_html": "O călugăriță budistă; o femeie care a renunțat la viața gospodărului pentru a trăi o viață de virtute sporită (vezi <a href=\"#sila\">sīla</a>) în conformitate cu Vinaya în general și cu regulile Pātimokkha în special."
+          "description_ro": "O călugăriță budistă.",
+          "description_ro_html": "O călugăriță budistă."
         },
         {
           "term": "bodhi-pakkhiya-dhammā",
@@ -181,8 +181,8 @@
           "description_en": "\"Wings to Awakening\" - seven sets of principles that are conducive to Awakening and that, according to the Buddha, form the heart of his teaching: [1] the four frames of reference (see satipaṭṭhāna); [2] four right exertions (sammappadhāna) - the effort to prevent unskillful states from arising in the mind, to abandon whatever unskillful states have already arisen, to give rise to the good, and to maintain the good that has arisen; [3] four bases of success (iddhipāda) - desire, persistence, intentness, circumspection; [4] five dominant factors (indriya) - conviction, persistence, mindfulness, concentration, discernment; [5] five strengths (bala) - identical with [4]; [6] seven factors for Awakening (bojjhaṅga) - mindfulness, investigation of phenomena, persistence, rapture (see pīti), serenity, concentration, equanimity; and [7] the eightfold path (magga) - Right View, Right Attitude, Right Speech, Right Activity, Right Livelihood, Right Effort, Right Mindfulness, Right Concentration.",
           "letter": "B",
           "source": "accesstoinsight",
-          "description_ro": "„Aripi spre Trezire” - șapte seturi de principii care sunt favorabile Trezirii și care, conform lui Buddha, formează inima învățăturii sale: [1] cele patru cadre de referință (vezi satipaṭṭhāna); [2] patru eforturi corecte (sammappadhāna) - efortul de a preveni apariția stărilor de neîndeplinire în minte, de a abandona orice stări de neîndeplinire au apărut deja, de a da naștere binelui și de a menține binele care a apărut; [3] patru baze ale succesului (iddhipāda) - dorința, persistența, intenția, circumspecția; [4] cinci factori dominanti (vezi indriya) - convingere, persistență, atenție, concentrare, discernământ; [5] cinci forțe (bala) - identice cu [4]; [6] șapte factori pentru Trezire (bojjhaṅga) - atenție, investigarea fenomenelor, persistență, răpire (vezi pīti), seninătate, concentrare, equanimitate; și [7] calea de opt ori (magga) - Vedere corectă, Atitudine corectă, Vorbire corectă, Activitate corectă, Trai corectă, Efort corect, Mindfulness corect, Concentrare corectă.",
-          "description_ro_html": "„Aripi spre Trezire” - șapte seturi de principii care sunt favorabile Trezirii și care, conform lui Buddha, formează inima învățăturii sale: [1] cele patru cadre de referință (vezi <a href=\"#satipatthana\">satipaṭṭhāna</a>); [2] patru eforturi corecte (sammappadhāna) - efortul de a preveni apariția stărilor de neîndeplinire în minte, de a abandona orice stări de neîndeplinire au apărut deja, de a da naștere binelui și de a menține binele care a apărut; [3] patru baze ale succesului (iddhipāda) - dorința, persistența, intenția, circumspecția; [4] cinci factori dominanti (vezi <a href=\"#indriya\">indriya</a>) - convingere, persistență, atenție, concentrare, discernământ; [5] cinci forțe (bala) - identice cu [4]; [6] șapte factori pentru Trezire (bojjhaṅga) - atenție, investigarea fenomenelor, persistență, răpire (vezi <a href=\"#piti\">pīti</a>), seninătate, concentrare, equanimitate; și [7] calea de opt ori (magga) - Vedere corectă, Atitudine corectă, Vorbire corectă, Activitate corectă, Trai corectă, Efort corect, Mindfulness corect, Concentrare corectă."
+          "description_ro": "„Aripi spre Trezire” - formează inima învățăturii: [1] satipaṭṭhāna; [2] sammappadhāna; [3] iddhipāda; [4] indriya; [5] bala; [6] bojjhaṅga; [7] magga.",
+          "description_ro_html": "„Aripi spre Trezire” - formează inima învățăturii: [1] <a href=\"#satipatthana\">satipaṭṭhāna</a>; [2] sammappadhāna; [3] iddhipāda; [4] <a href=\"#indriya\">indriya</a>; [5] bala; [6] bojjhaṅga; [7] magga."
         },
         {
           "term": "brahmā",
@@ -190,8 +190,8 @@
           "description_en": "\"Great One\" - an inhabitant of the non-sensual heavens of form or formlessness.",
           "letter": "B",
           "source": "accesstoinsight",
-          "description_ro": "„Marele” - un locuitor al raiului nesenzual al formei sau al lipsei de formă.",
-          "description_ro_html": "„Marele” - un locuitor al raiului nesenzual al formei sau al lipsei de formă."
+          "description_ro": "„(zeul) cel mare” - un locuitor al raiului nesenzual al formei sau al lipsei de formă.",
+          "description_ro_html": "„(zeul) cel mare” - un locuitor al raiului nesenzual al formei sau al lipsei de formă."
         },
         {
           "term": "brahma-vihāra",
@@ -208,8 +208,8 @@
           "description_en": "The name given to one who rediscovers for himself the liberating path of Dhamma, after a long period of its having been forgotten by the world. According to tradition, a long line of Buddhas stretches off into the distant past. The most recent Buddha was born Siddhattha Gotama in India in the sixth century BCE. A well-educated and wealthy young man, he relinquished his family and his princely inheritance in the prime of his life to search for true freedom and an end to suffering (dukkha). After seven years of austerities in the forest, he rediscovered the \"middle way\" and achieved his goal, becoming Buddha.",
           "letter": "B",
           "source": "accesstoinsight",
-          "description_ro": "Numele dat celui care redescoperă pentru el însuși calea eliberatoare a Dhammei, după o lungă perioadă în care a fost uitată de lume. Potrivit tradiției, un lung șir de Buddha se întinde în trecutul îndepărtat. Cel mai recent Buddha s-a născut Siddhattha Gotama în India în secolul al VI-lea î.Hr. Un tânăr bine educat și bogat, el și-a renunțat la familia și moștenirea princiară în floarea vieții sale pentru a căuta adevărata libertate și sfârșitul suferinței (vezi dukkha). După șapte ani de austerități în pădure, a redescoperit „calea de mijloc” și și-a atins scopul, devenind Buddha.",
-          "description_ro_html": "Numele dat celui care redescoperă pentru el însuși calea eliberatoare a Dhammei, după o lungă perioadă în care a fost uitată de lume. Potrivit tradiției, un lung șir de Buddha se întinde în trecutul îndepărtat. Cel mai recent Buddha s-a născut Siddhattha Gotama în India în secolul al VI-lea î.Hr. Un tânăr bine educat și bogat, el și-a renunțat la familia și moștenirea princiară în floarea vieții sale pentru a căuta adevărata libertate și sfârșitul suferinței (vezi <a href=\"#dukkha\">dukkha</a>). După șapte ani de austerități în pădure, a redescoperit „calea de mijloc” și și-a atins scopul, devenind Buddha."
+          "description_ro": "Numele dat celui care redescoperă pentru el însuși calea eliberatoare a Dhammei, după o lungă perioadă în care a fost uitată de lume. Potrivit tradiției, un lung șir de Buddha se întinde în trecutul îndepărtat. Cel mai recent Buddha s-a născut Siddharttha Gotama în India în secolul al VI-lea î.Hr. Un tânăr bine educat și bogat, el a renunțat la familia și moștenirea princiară în floarea vieții sale pentru a căuta adevărata libertate și sfârșitul suferinței (vezi dukkha). După șapte ani de austerități practicate în sălbăticie, a redescoperit „calea de mijloc” și și-a atins scopul, devenind Buddha.",
+          "description_ro_html": "Numele dat celui care redescoperă pentru el însuși calea eliberatoare a Dhammei, după o lungă perioadă în care a fost uitată de lume. Potrivit tradiției, un lung șir de Buddha se întinde în trecutul îndepărtat. Cel mai recent Buddha s-a născut Siddhattha Gotama în India în secolul al VI-lea î.Hr. Un tânăr bine educat și bogat, el a renunțat la familia și moștenirea princiară în floarea vieții sale pentru a căuta adevărata libertate și sfârșitul suferinței (vezi <a href=\"#dukkha\">dukkha</a>). După șapte ani de austerități practicate în sălbăticie, a redescoperit „calea de mijloc” și și-a atins scopul, devenind Buddha."
         }
       ]
     },
@@ -222,8 +222,8 @@
           "description_en": "Walking meditation, usually in the form of walking back and forth along a prescribed path.",
           "letter": "C",
           "source": "accesstoinsight",
-          "description_ro": "Meditație pe jos, de obicei sub forma de mers înainte și înapoi de-a lungul unei căi prescrise.",
-          "description_ro_html": "Meditație pe jos, de obicei sub forma de mers înainte și înapoi de-a lungul unei căi prescrise."
+          "description_ro": "Meditație în mers, de obicei sub forma de mers înainte și înapoi de-a lungul unei căi prestabilite.",
+          "description_ro_html": "Meditație în mers, de obicei sub forma de mers înainte și înapoi de-a lungul unei căi prestabilite."
         }
       ]
     },
@@ -240,13 +240,13 @@
           "description_ro_html": "Dăruire, liberalitate; ofrandă, pomană. Mai exact, darea ordinului monahal a oricăruia dintre cele patru cerințe. Mai general, înclinația de a da, fără a aștepta vreo formă de rambursare de la destinatar. Dana este prima temă din sistemul de pregătire treptată a lui Buddha (vezi <a href=\"#anupubbi\">anupubbī-kathā</a>), prima dintre cele zece pāramīs, una dintre cele șapte comori (vezi <a href=\"#dhana\">dhana</a>) și primul dintre cele trei temeiuri pentru acțiune meritorie (vezi <a href=\"#sila\">sīla</a> și <a href=\"#bhavana\">bhāvanā</a>)."
         },
         {
-          "term": "deva / devatā",
+          "term": "deva (masc.) / devatā (fem.)",
           "slug": "deva",
           "description_en": "Literally, \"shining one\" - an inhabitant of the heavenly realms (see sagga and sugati).",
           "letter": "D",
           "source": "accesstoinsight",
-          "description_ro": "Zeu. Literal, „unul strălucitor” - un locuitor al tărâmurilor cerești.",
-          "description_ro_html": "Zeu. Literal, „unul strălucitor” - un locuitor al tărâmurilor cerești."
+          "description_ro": "Zeu / zeiță. Literal, „unul/una strălucitor/strălucitoare” - un/o locuitor/locuitoare al tărâmurilor cerești.",
+          "description_ro": "Zeu / zeiță. Literal, „unul/una strălucitor/strălucitoare” - un/o locuitor/locuitoare al/a tărâmurilor cerești."
         },
         {
           "term": "dhamma",
@@ -254,8 +254,8 @@
           "description_en": "(1) Event; a phenomenon in and of itself; (2) mental quality; (3) doctrine, teaching; (4) nibbāna. Also, principles of behavior that human beings ought to follow so as to fit in with the right natural order of things; qualities of mind they should develop so as to realize the inherent quality of the mind in and of itself. By extension, \"Dhamma\" (usu. capitalized) is used also to denote any doctrine that teaches such things. Thus the Dhamma of the Buddha denotes both his teachings and the direct experience of nibbāna, the quality at which those teachings are aimed.",
           "letter": "D",
           "source": "accesstoinsight",
-          "description_ro": "(1) Eveniment; un fenomen în sine; (2) calitate mentală; (3) doctrină, învățătură; (4) nibbāna. De asemenea, principii de comportament pe care ființele umane ar trebui să le urmeze pentru a se potrivi cu ordinea naturală a lucrurilor; calități ale minții pe care trebuie să le dezvolte astfel încât să realizeze calitatea inerentă a minții în sine. Prin extensie, „Dhamma” (cu majuscule) este folosită și pentru a desemna orice doctrină care învață astfel de lucruri. Astfel, Dhamma lui Buddha denotă atât învățăturile sale, cât și experiența directă a nibbāna, calitatea către care sunt îndreptate acele învățături.",
-          "description_ro_html": "(1) Eveniment; un fenomen în sine; (2) calitate mentală; (3) doctrină, învățătură; (4) nibbāna. De asemenea, principii de comportament pe care ființele umane ar trebui să le urmeze pentru a se potrivi cu ordinea naturală a lucrurilor; calități ale minții pe care trebuie să le dezvolte astfel încât să realizeze calitatea inerentă a minții în sine. Prin extensie, „Dhamma” (cu majuscule) este folosită și pentru a desemna orice doctrină care învață astfel de lucruri. Astfel, Dhamma lui Buddha denotă atât învățăturile sale, cât și experiența directă a nibbāna, calitatea către care sunt îndreptate acele învățături."
+          "description_ro": "Eveniment; un fenomen în sine; calitate mentală; doctrină, învățătură; nibbāna. De asemenea, principii de comportament pe care ființele umane ar trebui să le urmeze pentru a se potrivi cu ordinea naturală a lucrurilor; calități ale minții pe care trebuie să le dezvolte astfel încât să realizeze calitatea inerentă a minții. Prin extensie, „Dhamma” (cu majuscule) este folosită și pentru a desemna orice doctrină care predă astfel de lucruri. Astfel, Dhamma lui Buddha denotă atât învățăturile sale, cât și experiența directă a nibbāna, calitatea către care sunt îndreptate acele învățături.",
+          "description_ro_html": "Eveniment; un fenomen în sine; calitate mentală; doctrină, învățătură; <a href=\"#nibbana\">nibbāna</a>. De asemenea, principii de comportament pe care ființele umane ar trebui să le urmeze pentru a se potrivi cu ordinea naturală a lucrurilor; calități ale minții pe care trebuie să le dezvolte astfel încât să realizeze calitatea inerentă a minții. Prin extensie, „Dhamma” (cu majuscule) este folosită și pentru a desemna orice doctrină care predă astfel de lucruri. Astfel, Dhamma lui Buddha denotă atât învățăturile sale, cât și experiența directă a <a href=\"#nibbana\">nibbāna</a>, calitatea către care sunt îndreptate acele învățături."
         },
         {
           "term": "dhana",
@@ -263,8 +263,8 @@
           "description_en": "Treasure(s). The seven qualities of conviction (saddhā), virtue (sīla), conscience & concern (hiri-ottappa), learning (suta), generosity (dāna), and wisdom (paññā).",
           "letter": "D",
           "source": "accesstoinsight",
-          "description_ro": "Comoara(e). Cele șapte calități ale convingerii (vezi saddhā), virtuții (vezi sīla), conștiinței și preocupării (hiri-ottappa), învățării (suta), generozității (vezi dāna) și înțelepciunii (vezi paññā).",
-          "description_ro_html": "Comoara(e). Cele șapte calități ale convingerii (vezi <a href=\"#saddha\">saddhā</a>), virtuții (vezi <a href=\"#sila\">sīla</a>), conștiinței și preocupării (hiri-ottappa), învățării (suta), generozității (vezi <a href=\"#dana\">dāna</a>) și înțelepciunii (vezi <a href=\"#panna\">paññā</a>)."
+          "description_ro": "Comoară, comori. Cele șapte calități ale convingerii (vezi saddhā), virtuții (vezi sīla), conștiinței și preocupării (hiri-ottappa), învățării (suta), generozității (vezi dāna) și înțelepciunii (vezi paññā).",
+          "description_ro_html": "Comoară, comori. Cele șapte calități ale convingerii (vezi <a href=\"#saddha\">saddhā</a>), virtuții (vezi <a href=\"#sila\">sīla</a>), conștiinței și preocupării (hiri-ottappa), învățării (suta), generozității (vezi <a href=\"#dana\">dāna</a>) și înțelepciunii (vezi <a href=\"#panna\">paññā</a>)."
         },
         {
           "term": "dhātu",
@@ -282,7 +282,7 @@
           "letter": "D",
           "source": "accesstoinsight",
           "description_ro": "Practici ascetice voluntare pe care călugării și alți meditatori le pot întreprinde din când în când sau ca un angajament pe termen lung pentru a cultiva renunțarea și mulțumirea și pentru a stârni energia. Pentru călugări, există treisprezece astfel de practici: (1) folosirea numai a hainelor petice; (2) folosirea unui singur set de trei halate; (3) a merge după pomană; (4) a nu ocoli niciun donator pe calea de pomană; (5) să nu mănânce mai mult de o masă pe zi; (6) să mănânce numai din bolul de pomană; (7) refuzul oricărei alimente oferite după pomana; (8) locuind în pădure; (9) trăind sub un copac; (10) trăind sub cerul liber; (11) locuirea într-un cimitir; (12) a fi mulțumit cu orice locuință are; (13) a nu se culca.",
-          "description_ro_html": "Practici ascetice voluntare pe care călugării și alți meditatori le pot întreprinde din când în când sau ca un angajament pe termen lung pentru a cultiva renunțarea și mulțumirea și pentru a stârni energia. Pentru călugări, există treisprezece astfel de practici: (1) folosirea numai a hainelor petice; (2) folosirea unui singur set de trei halate; (3) a merge după pomană; (4) a nu ocoli niciun donator pe calea de pomană; (5) să nu mănânce mai mult de o masă pe zi; (6) să mănânce numai din bolul de pomană; (7) refuzul oricărei alimente oferite după pomana; (8) locuind în pădure; (9) trăind sub un copac; (10) trăind sub cerul liber; (11) locuirea într-un cimitir; (12) a fi mulțumit cu orice locuință are; (13) a nu se culca."
+          "description_ro_html": "Practici ascetice voluntare pe care călugării și alți meditatori le pot întreprinde pentru a cultiva renunțarea și mulțumirea și pentru a stârni energia. Pentru călugări, există treisprezece astfel de practici: (1) folosirea numai a hainelor peticite; (2) folosirea unui singur set de trei robe; (3) mersul după pomană; (4) a nu ocoli niciun donator pe calea de pomană; (5) mâncatul unei singure mese pe zi; (6) mâncatul doar din bolul de pomană; (7) refuzul oricăror alimente oferite după mersul după pomană; (8) viețuirea în pădure; (9) viețuirea sub un copac; (10) viețuirea sub cerul liber; (11) viețuirea într-un cimitir; (12) a fi mulțumit cu orice locuință are; (13) a sta de veghe (evitarea somnului)."
         },
         {
           "term": "dukkha",
@@ -305,7 +305,7 @@
           "letter": "E",
           "source": "accesstoinsight",
           "description_ro": "Unicitatea de preocupare; „unicitate”. În meditație, calitatea mentală care permite atenției cuiva să rămână colectată și concentrată asupra obiectului de meditație ales. Ekagattārammana atinge maturitatea deplină odată cu dezvoltarea celui de-al patrulea nivel al jhāna.",
-          "description_ro_html": "Unicitatea de preocupare; „unicitate”. În meditație, calitatea mentală care permite atenției cuiva să rămână colectată și concentrată asupra obiectului de meditație ales. Ekagattārammana atinge maturitatea deplină odată cu dezvoltarea celui de-al patrulea nivel al jhāna."
+          "description_ro_html": "Singularitatea preocupării mentale. În meditație, calitatea mentală care permite atenției cuiva să rămână colectată și concentrată asupra obiectului de meditație ales. Ekagattārammana atinge maturitatea deplină odată cu dezvoltarea celui de-al patrulea nivel al <a href=\"#jhāna\">jhana</a>."
         },
         {
           "term": "ekāyana-magga",
@@ -313,8 +313,8 @@
           "description_en": "A unified path; a direct path. An epithet for the practice of being mindful of the four frames of reference: body, feelings, mind, and mental qualities.",
           "letter": "E",
           "source": "accesstoinsight",
-          "description_ro": "O cale unificată; o cale directă. Un epitet pentru practica de a fi conștient de cele patru cadre de referință: corp, sentimente, minte și calități mentale.",
-          "description_ro_html": "O cale unificată; o cale directă. Un epitet pentru practica de a fi conștient de cele patru cadre de referință: corp, sentimente, minte și calități mentale."
+          "description_ro": "O cale unificată; o cale directă. Un epitet pentru practica de a fi conștient de cele patru cadre de referință: corp, simțăminte, minte și calități mentale.",
+          "description_ro_html": "O cale unificată; o cale directă. Un epitet pentru practica de a fi conștient de cele patru cadre de referință: corp, simțăminte, minte și calități mentale."
         }
       ]
     },
@@ -327,8 +327,8 @@
           "description_en": "\"Change of lineage knowledge\": The glimpse of nibbāna that changes one from an ordinary person (puthujjana) to a Noble One (ariya-puggala).",
           "letter": "G",
           "source": "accesstoinsight",
-          "description_ro": "„Schimbarea cunoștințelor de descendență”: O privire de nibbāna care schimbă o persoană de la o persoană obișnuită (puthujjana) la una Nobilă (ariya-puggala).",
-          "description_ro_html": "„Schimbarea cunoștințelor de descendență”: O privire de nibbāna care schimbă o persoană de la o persoană obișnuită (puthujjana) la una Nobilă (ariya-puggala)."
+          "description_ro": "„Schimbarea cunoașterii de descendență”: O privire de nibbāna care schimbă o persoană de la o persoană obișnuită (puthujjana) la una Nobilă (ariya-puggala).",
+          "description_ro_html": "„Schimbarea cunoașterii de descendență”: O privire de nibbāna care schimbă o persoană de la o persoană obișnuită (puthujjana) la una Nobilă (ariya-puggala)."
         }
       ]
     },
@@ -341,8 +341,8 @@
           "description_en": "\"Inferior Vehicle,\" originally a pejorative term - coined by a group who called themselves followers of the Mahāyāna, the \"Great Vehicle\" - to denote the path of practice of those who adhered only to the earliest discourses as the word of the Buddha. Hinayanists refused to recognize the later discourses, composed by the Mahayanists, that claimed to contain teachings that the Buddha felt were too deep for his first generation of disciples, and which he thus secretly entrusted to underground serpents. The Theravāda school of today is a descendent of the Hīnayāna.",
           "letter": "H",
           "source": "accesstoinsight",
-          "description_ro": "„Vehicul inferior”, inițial un termen peiorativ – inventat de un grup care s-a autointitulat adepți ai Mahāyāna, „Marele Vehicul” – pentru a desemna calea de practică a celor care au aderat doar la primele discursuri ca fiind cuvântul lui Buddha. Hinayaniștii au refuzat să recunoască discursurile de mai târziu, compuse de mahayaniști, care pretindeau că conțin învățături pe care Buddha le-a simțit prea profunde pentru prima sa generație de discipoli și pe care le-a încredințat astfel în secret șerpilor subterani. Școala Theravāda de astăzi este un descendent al Hīnayāna.",
-          "description_ro_html": "„Vehicul inferior”, inițial un termen peiorativ – inventat de un grup care s-a autointitulat adepți ai Mahāyāna, „Marele Vehicul” – pentru a desemna calea de practică a celor care au aderat doar la primele discursuri ca fiind cuvântul lui Buddha. Hinayaniștii au refuzat să recunoască discursurile de mai târziu, compuse de mahayaniști, care pretindeau că conțin învățături pe care Buddha le-a simțit prea profunde pentru prima sa generație de discipoli și pe care le-a încredințat astfel în secret șerpilor subterani. Școala Theravāda de astăzi este un descendent al Hīnayāna."
+          "description_ro": "„Vehicul inferior”, inițial un termen peiorativ – inventat de un grup care s-a autointitulat adepți ai Mahāyāna, „Marele Vehicul” – pentru a desemna calea de practică a celor care au aderat doar la primele discursuri ca fiind cuvântul lui Buddha. Hinayaniștii au refuzat să recunoască discursurile de mai târziu, compuse de mahayaniști, care pretindeau că conțin învățături pe care Buddha le-a simțit prea profunde pentru prima sa generație de discipoli și pe care le-a încredințat astfel în secret dragonilor. Școala Theravāda de astăzi este un descendent al Hīnayāna.",
+          "description_ro_html": "„Vehicul inferior”, inițial un termen peiorativ – inventat de un grup care s-a autointitulat adepți ai Mahāyāna, „Marele Vehicul” – pentru a desemna calea de practică a celor care au aderat doar la primele discursuri ca fiind cuvântul lui Buddha. Hinayaniștii au refuzat să recunoască discursurile de mai târziu, compuse de mahayaniști, care pretindeau că conțin învățături pe care Buddha le-a simțit prea profunde pentru prima sa generație de discipoli și pe care le-a încredințat astfel în secret dragonilor (vezi <a href=\"#naga\">nāga</a>). Școala Theravāda de astăzi este un descendent al Hīnayāna."
         }
       ]
     },
@@ -350,22 +350,13 @@
       "letter": "I",
       "items": [
         {
-          "term": "idappaccayatā",
-          "slug": "idappaccayata",
-          "description_en": "This/that conditionality. This name for the causal principle the Buddha discovered on the night of his Awakening stresses the point that, for the purposes of ending suffering and stress, the processes of causality can be understood entirely in terms of forces and conditions that are experienced in the realm of direct experience, with no need to refer to forces operating outside of that realm.",
-          "letter": "I",
-          "source": "accesstoinsight",
-          "description_ro": "Această/aceea condiționalitate. Acest nume pentru principiul cauzal descoperit de Buddha în noaptea Trezirii sale subliniază faptul că, în scopul de a pune capăt suferinței și stresului, procesele cauzalității pot fi înțelese în întregime în termeni de forțe și condiții care sunt experimentate în domeniul experienței directe, fără a fi nevoie să ne referim la forțele care operează în afara acelui tărâm.",
-          "description_ro_html": "Această/aceea condiționalitate. Acest nume pentru principiul cauzal descoperit de Buddha în noaptea Trezirii sale subliniază faptul că, în scopul de a pune capăt suferinței și stresului, procesele cauzalității pot fi înțelese în întregime în termeni de forțe și condiții care sunt experimentate în domeniul experienței directe, fără a fi nevoie să ne referim la forțele care operează în afara acelui tărâm."
-        },
-        {
           "term": "indriya",
           "slug": "indriya",
           "description_en": "Faculties; mental factors. In the suttas the term can refer either to the six sense media (āyatana) or to the five mental factors of saddhā (conviction), viriya (persistence), sati (mindfulness), samādhi (concentration), and paññā (discernment); see bodhi-pakkhiya-dhammā.",
           "letter": "I",
           "source": "accesstoinsight",
           "description_ro": "Facultăţi; factori mentali. În sutta, termenul se poate referi fie la mediile cu șase simțuri (vezi āyatana), fie la cei cinci factori mentali: saddha (convingere), viriya (persistență), sati (conștientizare), samādhi (concentrare) și paññā (discernământ); vezi bodhi-pakkhiya-dhamma.",
-          "description_ro_html": "Facultăţi; factori mentali. În sutta, termenul se poate referi fie la mediile cu șase simțuri (vezi <a href=\"#ayatana\">āyatana</a>), fie la cei cinci factori mentali: saddha (convingere), viriya (persistență), sati (conștientizare), samādhi (concentrare) și paññā (discernământ); vezi <a href=\"#bodhi-pakkhiya-dhamma\">bodhi-pakkhiya-dhamma</a>."
+          "description_ro_html": "Facultăţi; factori mentali. În <a href=\"#sutta\">sutta</a>, termenul se poate referi fie la mediile cu șase simțuri (vezi <a href=\"#ayatana\">āyatana</a>), fie la cei cinci factori mentali: saddha (convingere), viriya (persistență), sati (conștientizare), samādhi (concentrare) și paññā (discernământ); vezi <a href=\"#bodhi-pakkhiya-dhamma\">bodhi-pakkhiya-dhamma</a>."
         }
       ]
     },
@@ -1097,8 +1088,8 @@
           "description_en": "Literally, \"thread\"; a discourse or sermon by the Buddha or his contemporary disciples. After the Buddha's death the suttas were passed down in the Pali language according to a well-established oral tradition, and were finally committed to written form in Sri Lanka around 100 BCE. More than 10,000 suttas are collected in the Sutta Piṭaka, one of the principal bodies of scriptural literature in Theravāda Buddhism. The Pali Suttas are widely regarded as the earliest record of the Buddha's teachings.",
           "letter": "S",
           "source": "accesstoinsight",
-          "description_ro": "Literal, „fir”; un discurs sau o predică a lui Buddha sau a discipolilor săi contemporani. După moartea lui Buddha, sutta-urile au fost transmise în limba pali, conform unei tradiții orale bine stabilite, și au fost în cele din urmă angajate în formă scrisă în Sri Lanka în jurul anului 100 î.Hr. Peste 10.000 de sutta sunt adunate în Sutta Piṭaka, unul dintre principalele corpuri ale literaturii scripturale din budismul Theravāda. Pali Suttas sunt considerate pe scară largă ca fiind cea mai veche înregistrare a învățăturilor lui Buddha.",
-          "description_ro_html": "Literal, „fir”; un discurs sau o predică a lui Buddha sau a discipolilor săi contemporani. După moartea lui Buddha, sutta-urile au fost transmise în limba pali, conform unei tradiții orale bine stabilite, și au fost în cele din urmă angajate în formă scrisă în Sri Lanka în jurul anului 100 î.Hr. Peste 10.000 de sutta sunt adunate în Sutta Piṭaka, unul dintre principalele corpuri ale literaturii scripturale din budismul Theravāda. Pali Suttas sunt considerate pe scară largă ca fiind cea mai veche înregistrare a învățăturilor lui Buddha."
+          "description_ro": "Sutră. Text scriptural canonic; înregistrări ale învățăturilor orale ale lui Gautama Buddha; diferit de conceptul de sutră din hinduism.",
+          "description_ro_html": "Sutră. Text scriptural canonic; înregistrări ale învățăturilor orale ale lui Gautama Buddha; diferit de conceptul de sutră din hinduism."
         }
       ]
     },
