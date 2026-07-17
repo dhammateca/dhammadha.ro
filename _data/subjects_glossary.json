@@ -3,7 +3,7 @@
   "source_url": "https://www.accesstoinsight.org/glossary.html",
   "source_name": "Access to Insight Glossary",
   "generated_at": "2026-07-16T06:18:57.664Z",
-  "total_entries": 145,
+  "total_entries": 142,
   "sections": [
     {
       "letter": "A",
@@ -16,6 +16,15 @@
           "source": "accesstoinsight",
           "description_ro": "Puteri supranaturale.",
           "description_ro_html": "Puteri supranaturale."
+        },
+        {
+          "term": "anāgāmī",
+          "description_ro": "Nu se întoarce niciodată. O persoană care a abandonat primele cinci dintre cătușele (saṁyojana) care leagă mintea de ciclul renașterii și care nu se va mai renaște în tărâmul senzorial.",
+          "description_en": "",
+          "description_ro_html": "Nu se întoarce niciodată. O persoană care a abandonat primele cinci dintre cătușele (<a href=\"#samyojana\">saṁyojana</a>) care leagă mintea de ciclul renașterii și care nu se va mai renaște în tărâmul senzorial.",
+          "slug": "anagami",
+          "letter": "A",
+          "source": "local"
         },
         {
           "term": "ācariya",
@@ -854,8 +863,8 @@
           "description_en": "Conviction, faith. A confidence in the Buddha that gives one the willingness to put his teachings into practice. Conviction becomes unshakeable upon the attainment of stream-entry (see sotāpanna).",
           "letter": "S",
           "source": "accesstoinsight",
-          "description_ro": "Convingere, credință. O încredere în Buddha care dă cuiva dorința de a-și pune în practică învățăturile. Convingerea devine de neclintit la atingerea intrării în flux (vezi sotāpanna).",
-          "description_ro_html": "Convingere, credință. Încrederea în Buddha care dă dorința de a-i pune în practică învățăturile. Convingerea devine de neclintit la atingerea intrării în flux (vezi <a href=\"#sotapanna\">sotāpanna</a>)."
+          "description_ro": "Convingere, credință. Încrederea în Buddha care dă dorința de a-i pune în practică învățăturile. Convingerea devine de neclintit la atingerea intrării în flux.",
+          "description_ro_html": "Convingere, credință. Încrederea în Buddha care dă dorința de a-i pune în practică învățăturile. Convingerea devine de neclintit la atingerea <a href=\"#sotapatti\">intrării în flux</a>."
         },
         {
           "term": "sādhu",
@@ -881,8 +890,8 @@
           "description_en": "Once-returner. A person who has abandoned the first three of the fetters that bind the mind to the cycle of rebirth (see saṁyojana), has weakened the fetters of sensual passion and resistance, and who after death is destined to be reborn in this world only once more.",
           "letter": "S",
           "source": "accesstoinsight",
-          "description_ro": "Odată întors. O persoană care a abandonat primele trei dintre cătușele care leagă mintea de ciclul renașterii, a slăbit legăturile pasiunii senzuale și ale rezistenței și care, după moarte, este destinată să renaască în această lume doar o dată.",
-          "description_ro_html": "Se-Întoarce-O-Dată. O persoană care a abandonat primele trei dintre cătușele care leagă mintea de ciclul renașterii, a slăbit legăturile pasiunii senzuale și ale rezistenței și care, după moarte, este destinată să se renască în această lume doar o dată."
+          "description_ro": "Se întoarce o dată. O persoană care a abandonat primele trei dintre cătușele (saṁyojana) care leagă mintea de ciclul renașterii, a slăbit legăturile pasiunii senzuale și ale rezistenței și care, după moarte, este destinată să renaască în această lume doar o dată.",
+          "description_ro_html": "Se întoarce o dată. O persoană care a abandonat primele trei dintre cătușele (<a href=\"#samyojana\">saṁyojana</a>) care leagă mintea de ciclul renașterii, a slăbit legăturile pasiunii senzuale și ale rezistenței și care, după moarte, este destinată să renaască în această lume doar o dată."
         },
         {
           "term": "sakkāya-diṭṭhi",
@@ -890,8 +899,8 @@
           "description_en": "Self-identification view. The view that mistakenly identifies any of the khandha as \"self\"; the first of the ten fetters (saṁyojana). Abandonment of sakkāya-diṭṭhi is one of the hallmarks of stream-entry (see sotāpanna).",
           "letter": "S",
           "source": "accesstoinsight",
-          "description_ro": "Vedere de autoidentificare. Opinia care identifică în mod greșit oricare dintre khandha ca „sine”; primul dintre cele zece cătușe (saṁyojana). Abandonul de sakkāya-diṭṭhi este unul dintre semnele distinctive ale intrării în flux (vezi sotāpanna).",
-          "description_ro_html": "Vedere de autoidentificare. Opinia care identifică în mod greșit oricare dintre khandha ca „sine”; primul dintre cele zece cătușe (saṁyojana). Abandonul de sakkāya-diṭṭhi este unul dintre semnele distinctive ale intrării în flux (vezi <a href=\"#sotapanna\">sotāpanna</a>)."
+          "description_ro": "Puncte de vedere care pornesc din autoidentificare. Opinia care identifică în mod greșit oricare dintre khandha ca „sine”; primul dintre cele zece cătușe (saṁyojana). Abandonul a sakkāya-diṭṭhi este unul dintre semnele distinctive ale intrării în flux.",
+          "description_ro_html": "Puncte de vedere care pornesc din autoidentificare. Opinia care identifică în mod greșit oricare dintre khandha ca „sine”; primul dintre cele zece cătușe (<a href=\"#samyojana\">saṁyojana</a>). Abandonul a sakkāya-diṭṭhi este unul dintre semnele distinctive ale <a href=\"#sotapatti\">intrării în flux</a>."
         },
         {
           "term": "sākya-putta",
@@ -900,7 +909,7 @@
           "letter": "S",
           "source": "accesstoinsight",
           "description_ro": "Fiul Sakyanului. Un epitet pentru călugării budiști, Buddha fiind originar din Republica Sakyan.",
-          "description_ro_html": "Fiul Sakyanului. Un epitet pentru călugării budiști, Buddha fiind originar din Republica Sakyan."
+          "description_ro_html": "Fiul Sakyanului. Un epitet pentru călugării budiști, Buddha fiind originar din Republica Sakya (India Antică)."
         },
         {
           "term": "Sākyamuni",
@@ -918,7 +927,7 @@
           "letter": "S",
           "source": "accesstoinsight",
           "description_ro": "Concentraţie; practica de a centra mintea într-o singură senzație sau preocupare, de obicei până la jhāna.",
-          "description_ro_html": "Concentraţie; practica de a centra mintea într-o singură senzație sau preocupare, de obicei până la jhāna."
+          "description_ro_html": "Concentraţie; practica de a centra mintea pe singură senzație sau preocupare, de obicei până la jhāna."
         },
         {
           "term": "samaṇa",
@@ -927,7 +936,7 @@
           "letter": "S",
           "source": "accesstoinsight",
           "description_ro": "Contemplativ. Literal, o persoană care abandonează obligațiile convenționale ale vieții sociale pentru a găsi un mod de viață mai „în acord” (sama) cu căile naturii.",
-          "description_ro_html": "Contemplativ. Literal, o persoană care abandonează obligațiile convenționale ale vieții sociale pentru a găsi un mod de viață mai „în acord” (sama) cu căile naturii."
+          "description_ro_html": "Un contemplativ. Literal, o persoană care abandonează obligațiile convenționale ale vieții sociale pentru a găsi un mod de viață „în acord” (sama) cu căile naturii."
         },
         {
           "term": "samaṇera",
@@ -989,8 +998,8 @@
           "description_en": "Formation, compound, fashioning, fabrication - the forces and factors that fashion things (physical or mental), the process of fashioning, and the fashioned things that result. Saṅkhāra can refer to anything formed or fashioned by conditions, or, more specifically, (as one of the five khandhas) thought-formations within the mind.",
           "letter": "S",
           "source": "accesstoinsight",
-          "description_ro": "Formare, compus, modelare, fabricare - forțele și factorii care modelează lucrurile (fizice sau mentale), procesul de modelare și lucrurile modelate care rezultă. Saṅkhāra se poate referi la orice format sau modelat de condiții sau, mai precis, (ca unul dintre cele cinci khandha) formațiuni-gând din interiorul minții.",
-          "description_ro_html": "Formare, compus, modelare, fabricare - forțele și factorii care modelează lucrurile (fizice sau mentale), procesul de modelare și lucrurile modelate care rezultă. Saṅkhāra se poate referi la orice format sau modelat de condiții sau, mai precis, (ca unul dintre cele cinci khandha) formațiuni-gând din interiorul minții."
+          "description_ro": "Formare, compus, modelare, fabricare - forțele și factorii care modelează lucrurile (fizice sau mentale), procesul de modelare și lucrurile modelate care rezultă. Saṅkhāra se poate referi la orice format sau model de condiții sau, mai precis, (ca unul dintre cele cinci khandha) formațiuni-gând din interiorul minții.",
+          "description_ro_html": "Formare, compus, modelare, fabricare - forțele și factorii care modelează lucrurile (fizice sau mentale), procesul de modelare și lucrurile modelate care rezultă. Saṅkhāra se poate referi la orice format sau model de condiții sau, mai precis, (ca unul dintre cele cinci khandha) formațiuni-gând din interiorul minții."
         },
         {
           "term": "saññā",
@@ -999,7 +1008,7 @@
           "letter": "S",
           "source": "accesstoinsight",
           "description_ro": "Eticheta; percepţie; aluzie; act de memorie sau recunoaștere; interpretare. Vezi khandha.",
-          "description_ro_html": "Eticheta; percepţie; aluzie; act de memorie sau recunoaștere; interpretare. Vezi <a href=\"#khandha\">khandha</a>."
+          "description_ro_html": "Percepţie; etichetă; aluzie; act de memorie sau recunoaștere; interpretare. Vezi <a href=\"#khandha\">khandha</a>."
         },
         {
           "term": "saññamo",
@@ -1016,8 +1025,17 @@
           "description_en": "Literally, \"message.\" The dispensation, doctrine, and legacy of the Buddha; the Buddhist religion (see Dhamma-vinaya).",
           "letter": "S",
           "source": "accesstoinsight",
-          "description_ro": "Literal, „mesaj”. Dispensa, doctrina și moștenirea lui Buddha; religia budistă.",
+          "description_ro": "Sistem religios; doctrina și moștenirea lui Buddha; religia budistă. Literal, „mesaj”",
           "description_ro_html": "Literal, „mesaj”. Dispensa, doctrina și moștenirea lui Buddha; religia budistă."
+        },
+        {
+          "term": "saṁyojana",
+          "description_ro": "Cătușe; legături mentale care leagă mintea de ciclul renașterii.",
+          "description_en": "",
+          "description_ro_html": "Cătușe; legături mentale care leagă mintea de ciclul renașterii.",
+          "slug": "samyojana",
+          "letter": "S",
+          "source": "local"
         },
         {
           "term": "sati",
@@ -1026,7 +1044,7 @@
           "letter": "S",
           "source": "accesstoinsight",
           "description_ro": "Mindfulness, auto-adunare, puteri de referință și reținere. În unele contexte, cuvântul sati atunci când este folosit singur acoperă și starea de vigilență (vezi sampajañña).",
-          "description_ro_html": "Mindfulness, auto-adunare, puteri de referință și reținere. În unele contexte, cuvântul sati atunci când este folosit singur acoperă și starea de vigilență (vezi <a href=\"#sampajanna\">sampajañña</a>)."
+          "description_ro_html": "Mindfulness, reculegerea sinelui, putere de referință și reținere. În unele contexte, cuvântul sati atunci când este folosit singur acoperă și starea de vigilență (vezi <a href=\"#sampajanna\">sampajañña</a>)."
         },
         {
           "term": "satipaṭṭhāna",
@@ -1044,7 +1062,7 @@
           "letter": "S",
           "source": "accesstoinsight",
           "description_ro": "Literal, „ascultător”. Un discipol al lui Buddha, în special un discipol nobil.",
-          "description_ro_html": "Literal, „ascultător”. Un discipol al lui Buddha, în special un discipol nobil."
+          "description_ro_html": "Un discipol al lui Buddha, în special un discipol nobil. Literal, „ascultător”."
         },
         {
           "term": "sevanā",
@@ -1062,7 +1080,7 @@
           "letter": "S",
           "source": "accesstoinsight",
           "description_ro": "Virtute, moralitate. Calitatea purității etice și morale care împiedică o persoană să se îndepărteze de calea optică. De asemenea, preceptele de antrenament care o împiedică pe cineva să efectueze acțiuni lipsite de pricepere. Sīla este a doua temă din antrenamentul treptat (vezi anupubbī-kathā), una dintre cele zece pāramīs, a doua dintre cele șapte comori (vezi dhana) și primul dintre cele trei temeiuri pentru acțiune meritorie (vezi dāna și bhāvanā).",
-          "description_ro_html": "Virtute, moralitate. Calitatea purității etice și morale care împiedică o persoană să se îndepărteze de calea optică. De asemenea, preceptele de antrenament care o împiedică pe cineva să efectueze acțiuni lipsite de pricepere. Sīla este a doua temă din antrenamentul treptat (vezi <a href=\"#anupubbi\">anupubbī-kathā</a>), una dintre cele zece pāramīs, a doua dintre cele șapte comori (vezi <a href=\"#dhana\">dhana</a>) și primul dintre cele trei temeiuri pentru acțiune meritorie (vezi <a href=\"#dana\">dāna</a> și <a href=\"#bhavana\">bhāvanā</a>)."
+          "description_ro_html": "Virtute, moralitate. Calitatea purității etice și morale care împiedică o persoană să se îndepărteze de calea optică. De asemenea, preceptele de antrenament care o împiedică pe cineva să efectueze acțiuni lipsite de pricepere. <a href=\"#sila\">Sīla</a> este a doua temă din antrenamentul treptat (vezi <a href=\"#anupubbi\">anupubbī-kathā</a>), una dintre cele zece <a href=\"#parami\">pāramīs</a>, a doua dintre cele șapte comori (vezi <a href=\"#dhana\">dhana</a>) și primul dintre cele trei temeiuri pentru acțiune meritorie (vezi <a href=\"#dana\">dāna</a> și <a href=\"#bhavana\">bhāvanā</a>)."
         },
         {
           "term": "sīma",
@@ -1071,7 +1089,16 @@
           "letter": "S",
           "source": "accesstoinsight",
           "description_ro": "Granița sau teritoriul în care actele formale ale saṅgha monahal (upasampadā, recitarea pātimokkha, soluționarea disputelor etc.) trebuie să fie îndeplinite pentru a fi valabile.",
-          "description_ro_html": "Granița sau teritoriul în care actele formale ale saṅgha monahal (upasampadā, recitarea pātimokkha, soluționarea disputelor etc.) trebuie să fie îndeplinite pentru a fi valabile."
+          "description_ro_html": "Granița sau teritoriul în care actele formale ale saṅgha monahală (upasampadā, recitarea pātimokkha, soluționarea disputelor etc.) trebuie să fie îndeplinite pentru a fi valabile."
+        },
+        {
+          "term": "sotāpatti",
+          "description_ro": "Intrarea în flux. Prima realizare supramundană; pătrunderea pe calea ireversibilă către nibbāna.",
+          "description_en": "",
+          "description_ro_html": "Intrarea în flux. Prima realizare supramundană; pătrunderea pe calea ireversibilă către <a href=\"#nibbana\">nibbāna</a>.",
+          "slug": "sotapatti",
+          "letter": "S",
+          "source": "local"
         },
         {
           "term": "sotāpanna",
@@ -1079,8 +1106,8 @@
           "description_en": "Stream winner. A person who has abandoned the first three of the fetters that bind the mind to the cycle of rebirth (see saṁyojana) and has thus entered the \"stream\" flowing inexorably to nibbāna, ensuring that one will be reborn at most only seven more times, and only into human or higher realms.",
           "letter": "S",
           "source": "accesstoinsight",
-          "description_ro": "Câștigător al fluxului. O persoană care a abandonat primele trei dintre cătușele care leagă mintea de ciclul renașterii și a intrat astfel în „fluxul” care curge inexorabil către nibbāna, asigurându-se că cineva va renaște de cel mult încă șapte ori și numai în tărâmurile umane sau mai înalte.",
-          "description_ro_html": "Câștigător al fluxului. O persoană care a abandonat primele trei dintre cătușele care leagă mintea de ciclul renașterii și a intrat astfel în „fluxul” care curge inexorabil către nibbāna, asigurându-se că cineva va renaște de cel mult încă șapte ori și numai în tărâmurile umane sau mai înalte."
+          "description_ro": "Cel intrat în flux. O persoană care a realizat intrarea în flux (sotāpatti), a abandonat primele trei dintre cătușele (saṁyojana) care leagă mintea de ciclul renașterii și a intrat astfel în „fluxul” care curge inexorabil către nibbāna, asigurându-se că va renaște de cel mult încă șapte ori și numai în tărâmurile umane sau mai înalte.",
+          "description_ro_html": "Cel intrat în flux. O persoană care a realizat <a href=\"#sotapatti\">intrarea în flux</a>, a abandonat primele trei dintre cătușele (<a href=\"#samyojana\">saṁyojana</a>) care leagă mintea de ciclul renașterii și a intrat astfel în „fluxul” care curge inexorabil către <a href=\"#nibbana\">nibbāna</a>, asigurându-se că va renaște de cel mult încă șapte ori și numai în tărâmurile umane sau mai înalte."
         },
         {
           "term": "sutta",
