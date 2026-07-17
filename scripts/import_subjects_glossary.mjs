@@ -262,6 +262,14 @@ const descriptionHtmlOverrides = new Map(
       "Jhāna",
       'Absorbție mentală. O stare de concentrare puternică concentrată pe o singură senzație fizică (care are ca rezultat rūpa jhāna) sau noțiune mentală (care are ca rezultat arūpa jhāna). Dezvoltarea jhāna apare din suspendarea temporară a celor cinci obstacole (vezi <a href="#nivarana">nīvaraṇa</a>) prin dezvoltarea a cinci factori mentali: vitakka (gândire direcționată), <a href="#vicara">vicāra</a> (evaluare), <a href="#piti">pīti</a> (răpire), sukha (plăcere) și <a href="#ekaggatarammana">ekaggatārammana</a> (unicitatea preocupării).',
     ],
+    [
+      "Nāma",
+      'Fenomene mentale. Un termen colectiv pentru <a href="#vedana">vedanā</a> (sentiment), <a href="#sanna">saññā</a> (percepție), cetana (intenție, voință), phassa (contact senzorial) și manasikāra (atenție, reclamă).',
+    ],
+    [
+      "Nekkhamma",
+      'Renunţare; literal, „libertatea de poftă senzuală”. Unul dintre cei zece <a href="#parami">pāramīs</a>.',
+    ],
   ].map(([term, description]) => [normalizeEntryKey(term), description])
 );
 
