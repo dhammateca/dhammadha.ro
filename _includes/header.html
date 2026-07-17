@@ -2,9 +2,9 @@
 {%- assign is_home = current_url == "/" -%}
 {%- assign is_tipitaka = current_url contains "/tipitaka" -%}
 {%- assign is_biblioteca = current_url contains "/biblioteca" -%}
+{%- assign is_glosar = current_url contains "/glosar" -%}
 {%- assign is_meditatie = current_url contains "/meditatie" -%}
 {%- assign is_contact = current_url contains "/contact" -%}
-{%- assign is_glosar = current_url contains "/glosar" -%}
 {%- assign is_calendar = current_url contains "/calendar-uposatha" -%}
 
 <header class="site-header">
@@ -53,14 +53,26 @@
             </div>
           </div>
         </li>
-        <li class="site-nav__item">
-          <a class="site-nav__link{% if is_biblioteca %} is-active{% endif %}" href="{{ "/biblioteca" | relative_url }}">Bibliotecă</a>
+        <li class="site-nav__item site-nav__item--has-children">
+          <button
+            class="site-nav__link site-nav__submenu-toggle{% if is_biblioteca or is_glosar %} is-active{% endif %}"
+            type="button"
+            aria-expanded="false"
+            aria-controls="biblioteca-menu"
+            data-submenu-toggle>
+            <span>Bibliotecă</span>
+            <span class="site-nav__chevron" aria-hidden="true"></span>
+          </button>
+          <div class="site-nav__submenu" id="biblioteca-menu" data-submenu hidden>
+            <div class="site-nav__submenu-group">
+              <a href="{{ "/biblioteca" | relative_url }}">Publicații online</a>
+              <a href="{{ "/biblioteca#raft-fizic" | relative_url }}">Raft fizic</a>
+              <a href="{{ "/glosar" | relative_url }}">Glosar</a>
+            </div>
+          </div>
         </li>
         <li class="site-nav__item">
           <a class="site-nav__link{% if is_meditatie %} is-active{% endif %}" href="{{ "/meditatie" | relative_url }}">Meditație</a>
-        </li>
-        <li class="site-nav__item">
-          <a class="site-nav__link{% if is_glosar %} is-active{% endif %}" href="{{ "/glosar" | relative_url }}">Glosar</a>
         </li>
         <li class="site-nav__item">
           <a class="site-nav__link{% if is_calendar %} is-active{% endif %}" href="{{ "/calendar-uposatha" | relative_url }}">Calendar</a>
