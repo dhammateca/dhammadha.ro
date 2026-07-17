@@ -1,0 +1,34 @@
+<section class="library-section lending-library" id="raft-fizic" aria-labelledby="lending-library-title">
+  <div class="library-section__header">
+    <p class="section-kicker">Raft fizic</p>
+    <p class="library-section__lede" id="lending-library-title">
+      Aceste exemplare sunt cărți fizice din bibliotecă și pot fi împrumutate. Pentru rezervare sau detalii,
+      scrie-ne pe pagina de <a href="{{ "/contact" | relative_url }}">contact</a>.
+    </p>
+  </div>
+
+  <div class="lending-grid">
+    {% for item in site.data.library_lending %}
+      <article class="lending-card">
+        <div class="lending-card__cover">
+          <img
+            src="{{ "/assets/images/library/" | append: item.image | relative_url }}"
+            alt="Coperta cărții {{ item.title }}">
+          <span class="lending-card__badge">Împrumut</span>
+        </div>
+        <div class="lending-card__content">
+          <h3>{{ item.title }}</h3>
+          {% if item.subtitle %}
+            <p class="lending-card__subtitle">{{ item.subtitle }}</p>
+          {% endif %}
+          {% if item.author %}
+            <p class="lending-card__author">{{ item.author }}</p>
+          {% endif %}
+          <div class="lending-card__actions">
+            <a class="button button--secondary" href="{{ "/contact" | relative_url }}">Solicită împrumutul</a>
+          </div>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</section>
