@@ -425,6 +425,26 @@ small,
   margin-top: 1rem;
 }
 
+.library-section + .library-section {
+  margin-top: clamp(2.25rem, 5vw, 3.5rem);
+}
+
+.library-section__header {
+  margin-bottom: 1.5rem;
+}
+
+.library-section__title {
+  margin-bottom: 0.5rem;
+  font-family: var(--font-serif);
+  font-size: clamp(1.65rem, 2.8vw, 2.4rem);
+}
+
+.library-section__lede {
+  margin: 0;
+  max-width: 58ch;
+  color: var(--color-text-muted);
+}
+
 .book-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -535,6 +555,98 @@ small,
 .media-stack {
   display: grid;
   gap: 1.25rem;
+}
+
+.lending-library {
+  padding: clamp(1.2rem, 3vw, 1.7rem);
+  border: 1px dashed rgba(135, 80, 38, 0.45);
+  border-radius: calc(var(--radius-card) + 4px);
+  background:
+    linear-gradient(180deg, rgba(255, 248, 233, 0.95), rgba(255, 252, 245, 0.92)),
+    url("/assets/images/halftone-yellow.png");
+  background-size: auto, 240px;
+}
+
+.lending-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.1rem;
+}
+
+.lending-card {
+  display: grid;
+  gap: 0.95rem;
+  padding: 1rem;
+  border: 1px solid rgba(135, 80, 38, 0.22);
+  border-radius: 18px;
+  background: rgba(255, 253, 248, 0.88);
+  box-shadow: 0 12px 24px rgba(77, 52, 30, 0.05);
+}
+
+.lending-card__cover {
+  position: relative;
+  aspect-ratio: 4 / 5.6;
+  overflow: hidden;
+  border-radius: 14px;
+  background: #e7d7b6;
+}
+
+.lending-card__cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.lending-card__badge {
+  position: absolute;
+  left: 0.8rem;
+  top: 0.8rem;
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 0.35rem 0.7rem;
+  border-radius: var(--radius-pill);
+  background: rgba(41, 37, 31, 0.84);
+  color: #fffdf8;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.lending-card__content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.lending-card h3 {
+  margin-bottom: 0.4rem;
+  font-family: var(--font-serif);
+  font-size: 1.22rem;
+}
+
+.lending-card__subtitle,
+.lending-card__author {
+  margin: 0;
+}
+
+.lending-card__subtitle {
+  color: var(--color-text);
+  font-size: 0.98rem;
+  line-height: 1.45;
+}
+
+.lending-card__author {
+  margin-top: 0.45rem;
+  color: var(--color-text-muted);
+  font-size: 0.96rem;
+  font-weight: 600;
+}
+
+.lending-card__actions {
+  margin-top: auto;
+  padding-top: 1rem;
 }
 
 .media-card__meta {
@@ -855,6 +967,18 @@ small,
 
 .info-card__action {
   margin-top: 1rem;
+}
+
+.contact-channel__title {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.contact-channel__title .icon {
+  margin: 0;
+  color: var(--color-accent);
+  font-size: 1.1em;
 }
 
 .text-card-grid {
@@ -1243,6 +1367,7 @@ footer {
   .feature-grid,
   .resource-grid,
   .book-grid,
+  .lending-grid,
   .info-grid,
   .text-card-grid {
     grid-template-columns: 1fr;
@@ -1254,6 +1379,10 @@ footer {
 
   .book-card__cover {
     max-width: 220px;
+  }
+
+  .lending-card__cover {
+    max-width: 280px;
   }
 
   .uposatha-calendar__toolbar {

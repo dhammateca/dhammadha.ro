@@ -716,6 +716,7 @@ async function main() {
     if (descriptionHtmlOverrides.has(htmlOverrideKey)) {
       entry.description_ro_html = descriptionHtmlOverrides.get(htmlOverrideKey);
     }
+    entry.description_ro = stripHtml(entry.description_ro_html);
   }
 
   const sections = buildSections(translatedEntries);
