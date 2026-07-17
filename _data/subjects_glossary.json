@@ -588,7 +588,7 @@
           "letter": "N",
           "source": "accesstoinsight",
           "description_ro": "Un termen folosit în mod obișnuit pentru a se referi la animale puternice, impunătoare și eroice, cum ar fi elefanții și șerpii magici. În budism, este folosit și pentru a se referi la cei care au atins scopul practicii.",
-          "description_ro_html": "Un termen folosit în mod obișnuit pentru a se referi la animale puternice, impunătoare și eroice, cum ar fi elefanții și șerpii magici. În budism, este folosit și pentru a se referi la cei care au atins scopul practicii."
+          "description_ro_html": "Un termen folosit în mod obișnuit pentru a se referi la animale puternice, impunătoare și eroice, cum ar fi elefanții, șerpii magici și dragonii. În budism, este folosit și pentru a se referi la cei care au atins scopul practicii, ca și epitet."
         },
         {
           "term": "nāma",
@@ -597,7 +597,7 @@
           "letter": "N",
           "source": "accesstoinsight",
           "description_ro": "Fenomene mentale. Un termen colectiv pentru vedanā (sentiment), saññā (percepție), cetana (intenție, voință), phassa (contact senzorial) și manasikāra (atenție, reclamă). Comparați rūpa. Unii comentatori folosesc, de asemenea, nāma pentru a se referi la componentele mentale ale celor cinci khandha.",
-          "description_ro_html": "Fenomene mentale. Un termen colectiv pentru vedanā (sentiment), saññā (percepție), cetana (intenție, voință), phassa (contact senzorial) și manasikāra (atenție, reclamă). Comparați rūpa. Unii comentatori folosesc, de asemenea, nāma pentru a se referi la componentele mentale ale celor cinci khandha."
+          "description_ro_html": "Fenomene mentale. Un termen colectiv pentru <a href=\"#vedana\">vedanā</a> (sentiment), <a href=\"#sanna\">saññā</a> (percepție), cetana (intenție, voință), phassa (contact senzorial) și manasikāra (atenție, reclamă)."
         },
         {
           "term": "nāma-rūpa",
@@ -606,7 +606,7 @@
           "letter": "N",
           "source": "accesstoinsight",
           "description_ro": "Nume și formă; minte-și-materie; mentalitate-fizic. Unirea fenomenelor mentale (vezi nāma) și a fenomenelor fizice (vezi rūpa), condiționate de conștiință (vezi viññāṇa) în lanțul cauzal al co-apariției dependente (vezi paṭicca-samuppāda).",
-          "description_ro_html": "Nume și formă; minte-și-materie; mentalitate-fizic. Unirea fenomenelor mentale (vezi <a href=\"#nama\">nāma</a>) și a fenomenelor fizice (vezi <a href=\"#rupa\">rūpa</a>), condiționate de conștiință (vezi <a href=\"#vinnana\">viññāṇa</a>) în lanțul cauzal al co-apariției dependente (vezi <a href=\"#ps\">paṭicca-samuppāda</a>)."
+          "description_ro_html": "Nume și formă; minte-și-materie; mentalitate-materialitate. Unirea fenomenelor mentale (vezi <a href=\"#nama\">nāma</a>) și a fenomenelor fizice (vezi <a href=\"#rupa\">rūpa</a>), condiționate de conștiință (vezi <a href=\"#vinnana\">viññāṇa</a>) în lanțul cauzal al co-apariției dependente (vezi <a href=\"#ps\">paṭicca-samuppāda</a>)."
         },
         {
           "term": "nekkhamma",
@@ -615,7 +615,7 @@
           "letter": "N",
           "source": "accesstoinsight",
           "description_ro": "Renunţare; literal, „libertatea de poftă senzuală”. Unul dintre cei zece pāramīs.",
-          "description_ro_html": "Renunţare; literal, „libertatea de poftă senzuală”. Unul dintre cei zece pāramīs."
+          "description_ro_html": "Renunţare; literal, „libertatea de poftă senzuală”. Unul dintre cei zece <a href=\"#parami\">pāramīs</a>."
         },
         {
           "term": "nibbāna",
@@ -624,7 +624,7 @@
           "letter": "N",
           "source": "accesstoinsight",
           "description_ro": "Eliberare; literal, „dezlegarea” minții de efluenții mentale (vezi āsava), pângăriri (vezi kilesa) și runda renașterii (vezi vaṭṭa) și de tot ceea ce poate fi descris sau definit. Deoarece acest termen denotă, de asemenea, stingerea unui incendiu, are conotațiile de calmare, răcire și pace. (Conform fizicii predate pe vremea lui Buddha, un foc care arde prind sau aderă la combustibilul său; atunci când este stins, este nelegat.) „Nibbāna totală” în unele contexte denotă experiența Trezirii; în altele, moartea definitivă a unui arahant.",
-          "description_ro_html": "Eliberare; literal, „dezlegarea” minții de efluenții mentale (vezi <a href=\"#asava\">āsava</a>), pângăriri (vezi <a href=\"#kilesa\">kilesa</a>) și runda renașterii (vezi <a href=\"#vatta\">vaṭṭa</a>) și de tot ceea ce poate fi descris sau definit. Deoarece acest termen denotă, de asemenea, stingerea unui incendiu, are conotațiile de calmare, răcire și pace. (Conform fizicii predate pe vremea lui Buddha, un foc care arde prind sau aderă la combustibilul său; atunci când este stins, este nelegat.) „Nibbāna totală” în unele contexte denotă experiența Trezirii; în altele, moartea definitivă a unui arahant."
+          "description_ro_html": "Eliberare; literal, „dezlegarea” minții de efluenții mentale (<a href=\"#asava\">āsava</a>), pângăriri (<a href=\"#kilesa\">kilesa</a>) și runda renașterii (<a href=\"#vatta\">vaṭṭa</a>) și de tot ceea ce poate fi descris sau definit. Deoarece acest termen denotă, de asemenea, stingerea unui incendiu, are conotațiile de calmare, răcire și pace. (Conform fizicii predate pe vremea lui Buddha, un foc care arde prind sau aderă la combustibilul său; atunci când este stins, este nelegat.) „Nibbāna totală” în unele contexte denotă experiența Trezirii; în altele, moartea definitivă a unui arahant."
         },
         {
           "term": "nibbidā",
@@ -632,7 +632,7 @@
           "description_en": "Disenchantment; aversion; disgust; weariness. The skillful turning-away of the mind from the conditioned samsaric world towards the unconditioned, the transcendent - nibbāna",
           "letter": "N",
           "source": "accesstoinsight",
-          "description_ro": "Descântare; aversiune; dezgust; oboseală. Îndepărtarea abil a minții de la lumea condiționată samsaric către necondiționat, transcendent - nibbāna.",
+          "description_ro": "Descântare; aversiune; dezgust; oboseală. Îndepărtarea iscusită a minții de la lumea condiționată samsaric către necondiționat, transcendent - nibbāna.",
           "description_ro_html": "Descântare; aversiune; dezgust; oboseală. Îndepărtarea abil a minții de la lumea condiționată samsaric către necondiționat, transcendent - nibbāna."
         },
         {
@@ -656,7 +656,7 @@
           "letter": "P",
           "source": "accesstoinsight",
           "description_ro": "„Ieșirea (de acasă la viața fără adăpost)”; hirotonire ca samaṇera (samaṇeri) sau călugăr novice (călugăriță). Vezi upasampadā.",
-          "description_ro_html": "„Ieșirea (de acasă la viața fără adăpost)”; hirotonire ca samaṇera (samaṇeri) sau călugăr novice (călugăriță). Vezi <a href=\"#upasampada\">upasampadā</a>."
+          "description_ro_html": "„Plecarea (de acasă spre viața fără locuință)”; hirotonire ca samaṇera (samaṇeri) sau călugăr novice (călugăriță). Vezi <a href=\"#upasampada\">upasampadā</a>."
         },
         {
           "term": "Pāḷi",
@@ -665,7 +665,7 @@
           "letter": "P",
           "source": "accesstoinsight",
           "description_ro": "Canonul textelor (vezi Tipiṭaka) păstrat de tradiția Theravāda și, prin extensie, limba în care sunt compuse aceste texte.",
-          "description_ro_html": "Canonul textelor (vezi <a href=\"#tipitaka\">Tipiṭaka</a>) păstrat de tradiția Theravāda și, prin extensie, limba în care sunt compuse aceste texte."
+          "description_ro_html": "Canonul textelor (<a href=\"#tipitaka\">Tipiṭaka</a>) păstrat de tradiția Theravāda și, prin extensie, limba în care sunt compuse aceste texte."
         },
         {
           "term": "paññā",
@@ -692,7 +692,7 @@
           "letter": "P",
           "source": "accesstoinsight",
           "description_ro": "Complicație, proliferare, obiectivare. Tendința minții de a prolifera probleme din sensul de „sine”. Acest termen poate fi tradus și ca gândire autoreflexivă, reificare, falsificare, denaturare, elaborare sau exagerare. În discursuri, este folosit frecvent în analizele psihologiei conflictului. [MAI MULT].",
-          "description_ro_html": "Complicație, proliferare, obiectivare. Tendința minții de a prolifera probleme din sensul de „sine”. Acest termen poate fi tradus și ca gândire autoreflexivă, reificare, falsificare, denaturare, elaborare sau exagerare. În discursuri, este folosit frecvent în analizele psihologiei conflictului. [MAI MULT]."
+          "description_ro_html": "Complicație, proliferare, obiectivare. Tendința minții de a prolifera probleme din sentimentul de „sine”. Acest termen poate fi tradus și ca gândire autoreflexivă, reificare, falsificare, denaturare, elaborare sau exagerare. În discursuri, este folosit frecvent în analizele psihologiei conflictului."
         },
         {
           "term": "pāramī, pāramitā",
@@ -701,7 +701,7 @@
           "letter": "P",
           "source": "accesstoinsight",
           "description_ro": "Perfecțiunea personajului. Un grup de zece calități dezvoltate de-a lungul mai multor vieți de către un bodhisatta, care apar ca grup în canonul Pali doar în Jataka (&quot;Poveștile despre naștere&quot;): generozitate (vezi dāna), virtute (vezi sīla), renunțare (vezi nekkhamma), discernământ (vezi paññā), energie/persistență (vezi viriya), răbdare/îngăduință (vezi khanti), hotărâre (vezi khanti), hotărâre (vezi adhiṭṭhāna), bunăvoință (vezi mettā) și equanimitate (vezi upekkhā).",
-          "description_ro_html": "Perfecțiunea personajului. Un grup de zece calități dezvoltate de-a lungul mai multor vieți de către un bodhisatta, care apar ca grup în canonul Pali doar în Jataka (&quot;Poveștile despre naștere&quot;): generozitate (vezi <a href=\"#dana\">dāna</a>), virtute (vezi <a href=\"#sila\">sīla</a>), renunțare (vezi <a href=\"#nekkhamma\">nekkhamma</a>), discernământ (vezi <a href=\"#panna\">paññā</a>), energie/persistență (vezi <a href=\"#viriya\">viriya</a>), răbdare/îngăduință (vezi <a href=\"#khanti\">khanti</a>), hotărâre (vezi <a href=\"#khanti\">khanti</a>), hotărâre (vezi <a href=\"#adhitthana\">adhiṭṭhāna</a>), bunăvoință (vezi <a href=\"#metta\">mettā</a>) și equanimitate (vezi <a href=\"#upekkha\">upekkhā</a>)."
+          "description_ro_html": "Perfecționările caracterului. Un grup de zece calități dezvoltate de-a lungul mai multor vieți de către un bodhisatta, care apar ca grup în canonul Pali doar în Jataka (&quot;Poveștile despre naștere&quot;): generozitate (<a href=\"#dana\">dāna</a>), virtute (<a href=\"#sila\">sīla</a>), renunțare (<a href=\"#nekkhamma\">nekkhamma</a>), discernământ (<a href=\"#panna\">paññā</a>), energie/persistență (<a href=\"#viriya\">viriya</a>), răbdare/îngăduință (<a href=\"#khanti\">khanti</a>), hotărâre (<a href=\"#khanti\">khanti</a>), hotărâre (<a href=\"#adhitthana\">adhiṭṭhāna</a>), bunăvoință (<a href=\"#metta\">mettā</a>) și equanimitate (<a href=\"#upekkha\">upekkhā</a>)."
         },
         {
           "term": "parinibbāna",
@@ -710,7 +710,7 @@
           "letter": "P",
           "source": "accesstoinsight",
           "description_ro": "Nelegare totală; încetarea completă a khandha-urilor care are loc la moartea unui arahant.",
-          "description_ro_html": "Nelegare totală; încetarea completă a khandha-urilor care are loc la moartea unui arahant."
+          "description_ro_html": "Dezlegarea totală; încetarea completă a khandha-urilor, care are loc la moartea unui arahant."
         },
         {
           "term": "parisā",
@@ -718,8 +718,8 @@
           "description_en": "Following; assembly. The four groups of the Buddha's following that include monks, nuns, laymen, and laywomen. Compare saṅgha. See bhikkhu, bhikkhunī, upāsaka/upāsikā.",
           "letter": "P",
           "source": "accesstoinsight",
-          "description_ro": "Urmărind; asamblare. Cele patru grupuri de urmași ai lui Buddha care includ călugări, călugărițe, laici și laice. Comparați saṅgha.",
-          "description_ro_html": "Urmărind; asamblare. Cele patru grupuri de urmași ai lui Buddha care includ călugări, călugărițe, laici și laice. Comparați saṅgha."
+          "description_ro": "Discipoli; adepți. Cele patru grupuri de urmași ai lui Buddha care includ călugări, călugărițe, laici și laice. Comparați saṅgha.",
+          "description_ro_html": "Discipoli; adepți. Cele patru grupuri de urmași ai lui Buddha care includ călugări, călugărițe, laici și laice."
         },
         {
           "term": "paṭicca-samuppāda",
@@ -728,7 +728,7 @@
           "letter": "P",
           "source": "accesstoinsight",
           "description_ro": "Co-apariție dependentă; origine dependentă. O hartă care arată modul în care agregatele (vezi khandha) și mediile senzoriale (vezi āyatana) interacționează cu ignoranța (vezi avijjā) și pofta (vezi taṇhā) pentru a provoca stres și suferință (vezi dukkha). Întrucât interacțiunile sunt complexe, există mai multe versiuni de paṭicca-samuppāda date în suttas. În cea mai comună, harta începe cu ignoranță. Într-o altă hartă comună, harta începe cu interrelația dintre nume (vezi nāma) și formă (vezi rūpa), pe de o parte, și conștiința senzorială (vezi viññāṇa), pe de altă parte. [MAI MULT: SN 12.2, DN 15].",
-          "description_ro_html": "Co-apariție dependentă; origine dependentă. O hartă care arată modul în care agregatele (vezi <a href=\"#khandha\">khandha</a>) și mediile senzoriale (vezi <a href=\"#ayatana\">āyatana</a>) interacționează cu ignoranța (vezi <a href=\"#avijja\">avijjā</a>) și pofta (vezi <a href=\"#tanha\">taṇhā</a>) pentru a provoca stres și suferință (vezi <a href=\"#dukkha\">dukkha</a>). Întrucât interacțiunile sunt complexe, există mai multe versiuni de paṭicca-samuppāda date în suttas. În cea mai comună, harta începe cu ignoranță. Într-o altă hartă comună, harta începe cu interrelația dintre nume (vezi <a href=\"#nama\">nāma</a>) și formă (vezi <a href=\"#rupa\">rūpa</a>), pe de o parte, și conștiința senzorială (vezi <a href=\"#vinnana\">viññāṇa</a>), pe de altă parte. [MAI MULT: SN 12.2, DN 15]"
+          "description_ro_html": "Co-apariție dependentă; originare dependentă. O hartă care arată modul în care agregatele (<a href=\"#khandha\">khandha</a>) și mediile senzoriale (<a href=\"#ayatana\">āyatana</a>) interacționează cu ignoranța (<a href=\"#avijja\">avijjā</a>) și pofta (<a href=\"#tanha\">taṇhā</a>) pentru a provoca stres și suferință (<a href=\"#dukkha\">dukkha</a>). Întrucât interacțiunile sunt complexe, există mai multe versiuni de paṭicca-samuppāda date în suttas. În cea mai comună, harta începe cu ignoranță. Într-o altă hartă comună, harta începe cu interrelația dintre nume (<a href=\"#nama\">nāma</a>) și formă (<a href=\"#rupa\">rūpa</a>), pe de o parte, și conștiința senzorială (<a href=\"#vinnana\">viññāṇa</a>), pe de altă parte."
         },
         {
           "term": "Pātimokkha",
@@ -764,7 +764,7 @@
           "letter": "P",
           "source": "accesstoinsight",
           "description_ro": "Realizarea directă, de primă mână, a Dhammei.",
-          "description_ro_html": "Realizarea directă, de primă mână, a Dhammei."
+          "description_ro_html": "Cunoașterea directă a Dhammei."
         },
         {
           "term": "pīti",
@@ -782,7 +782,7 @@
           "letter": "P",
           "source": "accesstoinsight",
           "description_ro": "Onora; respect; respectarea devoțională. Cel mai frecvent, oficiile devoționale care se desfășoară la mănăstiri zilnic (dimineața și seara), în zilele uposatha sau cu alte ocazii speciale.",
-          "description_ro_html": "Onora; respect; respectarea devoțională. Cel mai frecvent, oficiile devoționale care se desfășoară la mănăstiri zilnic (dimineața și seara), în zilele uposatha sau cu alte ocazii speciale."
+          "description_ro_html": "Onora; respect; respectarea devoțională. Cel mai frecvent, serviciile religioase care se desfășoară la mănăstiri zilnic (dimineața și seara), în zilele uposatha sau cu alte ocazii speciale."
         },
         {
           "term": "puñña",
@@ -790,8 +790,8 @@
           "description_en": "Merit; worth; the inner sense of well-being that comes from having acted rightly or well and that enables one to continue acting well.",
           "letter": "P",
           "source": "accesstoinsight",
-          "description_ro": "Merit; valoare; sentimentul interior de bunăstare care vine din faptul că ați acționat corect sau bine și care vă permite să continuați să acționați bine.",
-          "description_ro_html": "Merit; valoare; sentimentul interior de bunăstare care vine din faptul că ați acționat corect sau bine și care vă permite să continuați să acționați bine."
+          "description_ro": "Merit; valoare; sentimentul interior de bunăstare care vine din faptul că ai acționat corect sau bine și care permite continuarea binelui.",
+          "description_ro_html": "Merit; valoare; sentimentul interior de bunăstare care vine din acțiunea corectă sau bună și care permite continuarea binelui."
         }
       ]
     },
