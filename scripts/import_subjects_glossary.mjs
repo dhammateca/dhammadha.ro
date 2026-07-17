@@ -199,12 +199,15 @@ const normalizeLetter = (value) => {
 
 const localEntries = [
   { term: "appamādo", description_ro: "Lucid." },
+  { term: "anāgāmī", description_ro: "Nu se întoarce niciodată. O persoană care a abandonat primele cinci dintre cătușele (saṁyojana) care leagă mintea de ciclul renașterii și care nu se va mai renaște în tărâmul senzorial." },
   { term: "āsava", description_ro: "Scursuri." },
   { term: "araha", description_ro: "Vrednic." },
   { term: "kamp", description_ro: "A tremura, a zdruncina." },
+  { term: "saṁyojana", description_ro: "Cătușe; legături mentale care leagă mintea de ciclul renașterii." },
   { term: "sevanā", description_ro: "Urma, întovărăși, a-și face de lucru(?)." },
   { term: "saññamo", description_ro: "Înfrânare." },
   { term: "saṁvega", description_ro: "Descurajare." },
+  { term: "sotāpatti", description_ro: "Intrarea în flux. Prima realizare supramundană; pătrunderea pe calea ireversibilă către nibbāna." },
   { term: "thera", description_ro: "Venerabil." },
   { term: "vi", description_ro: "Răzleț." },
   { term: "vi-", description_ro: "Dis-.", slug: "vi-prefix" },
@@ -220,7 +223,7 @@ const localEntries = [
 const descriptionOverrides = new Map(
   [
     ["Anattā", "Non-sine. Vezi și Tilakkhaṇa (trei caracteristici ale existenței)"],
-    ["Ariya-aṭṭhaṅgika-magga", "Calea de opt părți nobilă"],
+    ["Ariya-aṭṭhaṅgika-magga", "Calea din opt părți nobilă"],
     ["Avijjā", "Neconștientizare; ignoranţă; conștientizare întunecată; amăgire despre natura minții."],
     ["Bodhi-pakkhiya-dhammā", "„Aripi spre Trezire” - formează inima învățăturii sale: [1] satipaṭṭhāna; [2] sammappadhāna; [3] iddhipāda; [4] indriya; [5] bala; [6] bojjhaṅga; [7] magga."],
     ["Deva / devatā", "Zeu. Literal, „unul strălucitor” - un locuitor al tărâmurilor cerești."],
@@ -238,7 +241,9 @@ const descriptionOverrides = new Map(
     ["Saṅgha", "Obștea monahală; Comunitatea Celor Treziți. Vezi și Monastic life; Tirataṇa (Tripla Giuvaierie)."],
     ["Sāvaka", "Literal, „ascultător”. Un discipol al lui Buddha, în special un discipol nobil."],
     ["Sacca", "Adevărul. Una dintre cele zece perfecțiuni (pāramīs)."],
+    ["Sakadāgāmī", "Se întoarce o dată. O persoană care a abandonat primele trei dintre cătușele (saṁyojana) care leagă mintea de ciclul renașterii, a slăbit legăturile pasiunii senzuale și ale rezistenței și care, după moarte, este destinată să renaască în această lume doar o dată."],
     ["Sutta", "Sutră. Text scriptural canonic; înregistrări ale învățăturilor orale ale lui Gautama Buddha; diferit de conceptul de sutră din hinduism."],
+    ["Sotāpanna", "Cel intrat în flux. O persoană care a realizat intrarea în flux (sotāpatti), a abandonat primele trei dintre cătușele (saṁyojana) care leagă mintea de ciclul renașterii și a intrat astfel în „fluxul” care curge inexorabil către nibbāna, asigurându-se că va renaște de cel mult încă șapte ori și numai în tărâmurile umane sau mai înalte."],
     ["Taṇhā", "Râvnă. Vezi și Kilesa (pângăriri); Paṭicca-samuppāda (origine dependentă); Sensuality."],
     ["Upekkhā", "Echidistanță. Vezi și Brahmavihāra; Pāramīs."],
     ["Vimutti", "Izbăvire. Vezi și Awakening."],
@@ -269,6 +274,34 @@ const descriptionHtmlOverrides = new Map(
     [
       "Nekkhamma",
       'Renunţare; literal, „libertatea de poftă senzuală”. Unul dintre cei zece <a href="#parami">pāramīs</a>.',
+    ],
+    [
+      "Saddhā",
+      'Convingere, credință. Încrederea în Buddha care dă dorința de a-i pune în practică învățăturile. Convingerea devine de neclintit la atingerea <a href="#sotapatti">intrării în flux</a>.',
+    ],
+    [
+      "Sakkāya-diṭṭhi",
+      'Puncte de vedere care pornesc din autoidentificare. Opinia care identifică în mod greșit oricare dintre khandha ca „sine”; primul dintre cele zece cătușe (<a href="#samyojana">saṁyojana</a>). Abandonul a sakkāya-diṭṭhi este unul dintre semnele distinctive ale <a href="#sotapatti">intrării în flux</a>.',
+    ],
+    [
+      "Sakadāgāmī",
+      'Se întoarce o dată. O persoană care a abandonat primele trei dintre cătușele (<a href="#samyojana">saṁyojana</a>) care leagă mintea de ciclul renașterii, a slăbit legăturile pasiunii senzuale și ale rezistenței și care, după moarte, este destinată să renaască în această lume doar o dată.',
+    ],
+    [
+      "Anāgāmī",
+      'Nu se întoarce niciodată. O persoană care a abandonat primele cinci dintre cătușele (<a href="#samyojana">saṁyojana</a>) care leagă mintea de ciclul renașterii și care nu se va mai renaște în tărâmul senzorial.',
+    ],
+    [
+      "Sīla",
+      'Virtute, moralitate. Calitatea purității etice și morale care împiedică o persoană să se îndepărteze de calea optică. De asemenea, preceptele de antrenament care o împiedică pe cineva să efectueze acțiuni lipsite de pricepere. <a href="#sila">Sīla</a> este a doua temă din antrenamentul treptat (vezi <a href="#anupubbi">anupubbī-kathā</a>), una dintre cele zece <a href="#parami">pāramīs</a>, a doua dintre cele șapte comori (vezi <a href="#dhana">dhana</a>) și primul dintre cele trei temeiuri pentru acțiune meritorie (vezi <a href="#dana">dāna</a> și <a href="#bhavana">bhāvanā</a>).',
+    ],
+    [
+      "Sotāpatti",
+      'Intrarea în flux. Prima realizare supramundană; pătrunderea pe calea ireversibilă către <a href="#nibbana">nibbāna</a>.',
+    ],
+    [
+      "Sotāpanna",
+      'Cel intrat în flux. O persoană care a realizat <a href="#sotapatti">intrarea în flux</a>, a abandonat primele trei dintre cătușele (<a href="#samyojana">saṁyojana</a>) care leagă mintea de ciclul renașterii și a intrat astfel în „fluxul” care curge inexorabil către <a href="#nibbana">nibbāna</a>, asigurându-se că va renaște de cel mult încă șapte ori și numai în tărâmurile umane sau mai înalte.',
     ],
   ].map(([term, description]) => [normalizeEntryKey(term), description])
 );

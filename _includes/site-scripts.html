@@ -31,22 +31,54 @@
       syncNavState();
     }
 
-    var submenuToggle = document.querySelector('[data-submenu-toggle]');
-    var submenu = document.querySelector('[data-submenu]');
+    var submenuToggles = document.querySelectorAll('[data-submenu-toggle]');
 
-    if (submenuToggle && submenu) {
-      submenu.hidden = true;
-      submenuToggle.addEventListener('click', function () {
-        var expanded = submenuToggle.getAttribute('aria-expanded') === 'true';
-        submenuToggle.setAttribute('aria-expanded', String(!expanded));
-        submenu.hidden = expanded;
+    if (submenuToggles.length) {
+      var closeSubmenu = function (toggle) {
+        var submenuId = toggle.getAttribute('aria-controls');
+        var controlledSubmenu = submenuId ? document.getElementById(submenuId) : null;
+        toggle.setAttribute('aria-expanded', 'false');
+        if (controlledSubmenu) {
+          controlledSubmenu.hidden = true;
+        }
+      };
+
+      submenuToggles.forEach(function (submenuToggle) {
+        var submenuId = submenuToggle.getAttribute('aria-controls');
+        var submenu = submenuId ? document.getElementById(submenuId) : null;
+
+        if (!submenu) {
+          return;
+        }
+
+        submenu.hidden = true;
+        submenuToggle.addEventListener('click', function () {
+          var expanded = submenuToggle.getAttribute('aria-expanded') === 'true';
+
+          submenuToggles.forEach(function (otherToggle) {
+            if (otherToggle !== submenuToggle) {
+              closeSubmenu(otherToggle);
+            }
+          });
+
+          submenuToggle.setAttribute('aria-expanded', String(!expanded));
+          submenu.hidden = expanded;
+        });
       });
 
       document.addEventListener('click', function (event) {
-        if (!submenu.contains(event.target) && !submenuToggle.contains(event.target)) {
-          submenuToggle.setAttribute('aria-expanded', 'false');
-          submenu.hidden = true;
-        }
+        submenuToggles.forEach(function (submenuToggle) {
+          var submenuId = submenuToggle.getAttribute('aria-controls');
+          var submenu = submenuId ? document.getElementById(submenuId) : null;
+
+          if (!submenu) {
+            return;
+          }
+
+          if (!submenu.contains(event.target) && !submenuToggle.contains(event.target)) {
+            closeSubmenu(submenuToggle);
+          }
+        });
       });
     }
 

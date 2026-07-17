@@ -176,6 +176,19 @@ small,
   text-transform: uppercase;
 }
 
+.section-kicker__anchor {
+  margin-left: 0.35rem;
+  color: inherit;
+  opacity: 0.55;
+  text-decoration: none;
+  transition: opacity 180ms ease;
+}
+
+.section-kicker__anchor:hover,
+.section-kicker__anchor:focus-visible {
+  opacity: 1;
+}
+
 .page-header {
   margin-bottom: 2rem;
 }
@@ -1287,6 +1300,17 @@ small,
 
 .site-footer__description {
   margin: 0;
+}
+
+.site-footer__note {
+  margin: 0;
+  max-width: 64ch;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.site-footer__note a {
+  font-weight: 600;
 }
 
 .site-footer__nav {
