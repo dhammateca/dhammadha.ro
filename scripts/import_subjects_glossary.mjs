@@ -248,6 +248,7 @@ const descriptionOverrides = new Map(
     ["Upekkhā", "Echidistanță. Vezi și Brahmavihāra; Pāramīs."],
     ["Vimutti", "Izbăvire. Vezi și Awakening."],
     ["Vinaya", "Viața monahală."],
+    ["Vijjā-caraṇa-sampanno", "Desăvârșit în înțelegere și conduită. Un epitet pentru Buddha."],
     ["Viññāṇa", "Conștiință. Vezi și Khandha (agregatele atașamentului); Paṭicca-samuppāda (origine dependentă)."],
     ["Vipassanā", "Introspecție. Vezi și Samatha (liniște); Tilakkhaṇa (trei caracteristici ale existenței)."],
   ].map(([term, description]) => [normalizeEntryKey(term), description])
@@ -302,6 +303,10 @@ const descriptionHtmlOverrides = new Map(
     [
       "Sotāpanna",
       'Cel intrat în flux. O persoană care a realizat <a href="#sotapatti">intrarea în flux</a>, a abandonat primele trei dintre cătușele (<a href="#samyojana">saṁyojana</a>) care leagă mintea de ciclul renașterii și a intrat astfel în „fluxul” care curge inexorabil către <a href="#nibbana">nibbāna</a>, asigurându-se că va renaște de cel mult încă șapte ori și numai în tărâmurile umane sau mai înalte.',
+    ],
+    [
+      "Tipiṭaka",
+      'Canonul budist (vezi <a href="#pali">Pāḷi</a>). Literal, „trei coșuri”, cu referire la cele trei diviziuni principale ale Canonului: Vinaya Piṭaka (reguli disciplinare); <a href="#sutta">Sutta Piṭaka</a> (discursuri); și Abhidhamma Piṭaka (tratate filozofice abstracte).',
     ],
   ].map(([term, description]) => [normalizeEntryKey(term), description])
 );
