@@ -1,0 +1,48 @@
+---
+layout: null
+permalink: /cauta.json
+---
+{%- assign search_documents = site.kn_dhp | concat: site.mn | concat: site.sn | concat: site.an | concat: site.kn_ud | concat: site.book_basic_method | concat: site.book_divine_mantra -%}
+[
+{%- assign is_first = true -%}
+{%- for item in search_documents -%}
+  {%- unless is_first -%},{%- endunless -%}
+  {%- assign is_first = false -%}
+  {
+    "title": {%- if item.collection == "kn_dhp" -%}{{ "Dhammapada — " | append: item.title | jsonify }}{%- else -%}{{ item.romanian_title | default: item.title | jsonify }}{%- endif -%},
+    "url": {%- if item.collection == "kn_dhp" -%}{{ item.url | append: "#majjhe" | relative_url | jsonify }}{%- else -%}{{ item.url | relative_url | jsonify }}{%- endif -%},
+    "section": {%- if item.collection == "book_basic_method" or item.collection == "book_divine_mantra" -%} "Bibliotecă" {%- else -%} "Tipiṭaka" {%- endif -%},
+    "filter": {%- if item.collection == "book_basic_method" or item.collection == "book_divine_mantra" -%} "biblioteca" {%- else -%} "tipitaka" {%- endif -%},
+    "content": {{ item.content | strip_html | normalize_whitespace | jsonify }}
+  }
+{%- endfor -%}
+{%- for item in site.pages -%}
+  {%- if item.title and item.url != "/cauta.json" -%}
+    {%- assign page_filter = "" -%}
+    {%- if item.title == "Meditație" -%}{%- assign page_filter = "meditatie" -%}
+    {%- elsif item.title == "Glosar" -%}{%- assign page_filter = "glosar" -%}
+    {%- elsif item.title == "Bibliotecă" -%}{%- assign page_filter = "biblioteca" -%}
+    {%- endif -%}
+    {%- if page_filter != "" and item.title != "Glosar" -%}
+      ,{
+        "title": {{ item.title | jsonify }},
+        "url": {{ item.url | relative_url | jsonify }},
+        "section": {%- if page_filter == "meditatie" -%} "Meditație" {%- elsif page_filter == "glosar" -%} "Glosar" {%- else -%} "Bibliotecă" {%- endif -%},
+        "filter": {{ page_filter | jsonify }},
+        "content": {{ item.content | strip_html | normalize_whitespace | jsonify }}
+      }
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- for section in site.data.subjects_glossary.sections -%}
+  {%- for item in section.items -%}
+    ,{
+      "title": {{ item.term | jsonify }},
+      "url": {{ "/glosar#" | append: item.slug | relative_url | jsonify }},
+      "section": "Glosar",
+      "filter": "glosar",
+      "content": {{ item.description_ro | append: " " | append: item.description_en | jsonify }}
+    }
+  {%- endfor -%}
+{%- endfor -%}
+]
