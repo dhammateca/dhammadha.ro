@@ -31,6 +31,122 @@
       syncNavState();
     }
 
+    var searchToggle = document.querySelector('[data-search-toggle]');
+    var searchPanel = document.querySelector('[data-search-panel]');
+    var searchInput = document.querySelector('[data-search-input]');
+    var searchClose = document.querySelector('[data-search-close]');
+    var searchResults = document.querySelector('[data-search-results]');
+    var searchFilters = document.querySelectorAll('[data-search-filter]');
+    var searchSummary = document.querySelector('[data-search-summary]');
+    var searchResultList = document.querySelector('[data-search-result-list]');
+    var searchDocuments = [];
+    var activeSearchFilter = 'all';
+
+    var normalizeSearchText = function (value) {
+      return value.toLocaleLowerCase('ro').normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    };
+
+    var escapeSearchHtml = function (value) {
+      return value.replace(/[&<>"']/g, function (character) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' }[character];
+      });
+    };
+
+    var searchScore = function (document, terms) {
+      return terms.reduce(function (score, term) {
+        var exactWord = new RegExp('(^|[^a-z0-9])' + term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '([^a-z0-9]|$)', 'g');
+        var title = normalizeSearchText(document.title);
+        var content = normalizeSearchText(document.content);
+        return score + (title.indexOf(term) !== -1 ? 100 : 0) + ((content.match(exactWord) || []).length * 10);
+      }, 0);
+    };
+
+    var searchExcerpt = function (document, query) {
+      var text = document.content.replace(/\\+/g, ' ').replace(/\s+/g, ' ').trim();
+      var matchAt = normalizeSearchText(text).indexOf(normalizeSearchText(query));
+      var start = Math.max(0, matchAt - 90);
+      var end = Math.min(text.length, matchAt + query.length + 150);
+      return (start ? '…' : '') + text.slice(start, end) + (end < text.length ? '…' : '');
+    };
+
+    var renderSearch = function () {
+      if (!searchInput || !searchResults || !searchSummary || !searchResultList) return;
+      var query = searchInput.value.trim();
+      searchResults.hidden = !query;
+      if (!query) return;
+
+      var normalizedQuery = normalizeSearchText(query);
+      var queryTerms = normalizedQuery.split(/\s+/).filter(Boolean);
+      var matches = searchDocuments.filter(function (document) {
+        var searchable = document.searchText;
+        return (activeSearchFilter === 'all' || document.filter === activeSearchFilter) && queryTerms.every(function (term) {
+          return searchable.indexOf(term) !== -1;
+        });
+      }).map(function (document) {
+        document.score = searchScore(document, queryTerms);
+        return document;
+      }).sort(function (first, second) {
+        return second.score - first.score;
+      }).slice(0, 20);
+
+      searchSummary.textContent = matches.length ? matches.length + ' rezultate pentru „' + query + '”' : 'Niciun rezultat pentru „' + query + '”';
+      var groupedMatches = {};
+      matches.forEach(function (document) {
+        (groupedMatches[document.section] = groupedMatches[document.section] || []).push(document);
+      });
+      searchResultList.innerHTML = Object.keys(groupedMatches).map(function (section) {
+        return '<section class="site-search__group"><h2>' + escapeSearchHtml(section) + '</h2>' + groupedMatches[section].map(function (document) {
+          return '<a href="' + escapeSearchHtml(document.url) + '"><strong>' + escapeSearchHtml(document.title) + '</strong><span>' + escapeSearchHtml(searchExcerpt(document, query)) + '</span></a>';
+        }).join('') + '</section>';
+      }).join('');
+    };
+
+    var closeSearch = function () {
+      if (!searchToggle || !searchPanel) return;
+      searchToggle.setAttribute('aria-expanded', 'false');
+      searchPanel.hidden = true;
+    };
+
+    if (searchToggle && searchPanel) {
+      searchToggle.addEventListener('click', function () {
+        var isOpen = searchToggle.getAttribute('aria-expanded') === 'true';
+        searchToggle.setAttribute('aria-expanded', String(!isOpen));
+        searchPanel.hidden = isOpen;
+        if (!isOpen && searchInput) searchInput.focus();
+      });
+
+      if (searchClose) searchClose.addEventListener('click', closeSearch);
+      document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') closeSearch();
+      });
+      if (searchInput && searchResults) {
+        searchInput.addEventListener('input', renderSearch);
+      }
+
+      fetch('{{ "/cauta.json" | relative_url }}').then(function (response) {
+        return response.json();
+      }).then(function (documents) {
+        searchDocuments = documents.map(function (document) {
+          document.searchText = normalizeSearchText(document.title + ' ' + document.content);
+          return document;
+        });
+        renderSearch();
+      });
+
+      searchFilters.forEach(function (filter) {
+        filter.addEventListener('click', function () {
+          var selectedFilter = filter.getAttribute('data-search-filter');
+          searchFilters.forEach(function (otherFilter) {
+            var isSelected = otherFilter === filter;
+            otherFilter.classList.toggle('is-active', isSelected);
+            otherFilter.setAttribute('aria-pressed', String(isSelected));
+          });
+          activeSearchFilter = selectedFilter;
+          renderSearch();
+        });
+      });
+    }
+
     var submenuToggles = document.querySelectorAll('[data-submenu-toggle]');
 
     if (submenuToggles.length) {

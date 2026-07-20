@@ -24,6 +24,16 @@
       <span class="site-nav-toggle__icon" aria-hidden="true"></span>
     </button>
 
+    <button
+      class="site-search-toggle"
+      type="button"
+      aria-expanded="false"
+      aria-controls="site-search"
+      data-search-toggle>
+      <span class="site-search-toggle__icon" aria-hidden="true"></span>
+      <span class="site-search-toggle__label">Caută</span>
+    </button>
+
     <nav class="site-nav" id="site-nav" aria-label="Navigație principală" data-nav hidden>
       <ul class="site-nav__list">
         <li class="site-nav__item site-nav__item--has-children">
@@ -84,3 +94,29 @@
     </nav>
   </div>
 </header>
+
+<section class="site-search" id="site-search" aria-label="Caută în site" data-search-panel hidden>
+  <div class="site-search__inner site-shell">
+    <div class="site-search__bar">
+      <label class="site-search__label" for="site-search-input">Caută în site</label>
+      <div class="site-search__input-wrap">
+        <span class="site-search-toggle__icon" aria-hidden="true"></span>
+        <input id="site-search-input" type="search" placeholder="Caută în sutre, cărți și resurse..." data-search-input>
+        <button class="site-search__close" type="button" aria-label="Închide căutarea" data-search-close>×</button>
+      </div>
+    </div>
+
+    <div class="site-search__filters" aria-label="Filtrează rezultatele">
+      <button class="is-active" type="button" aria-pressed="true" data-search-filter="all">Toate</button>
+      <button type="button" aria-pressed="false" data-search-filter="tipitaka">Tipiṭaka</button>
+      <button type="button" aria-pressed="false" data-search-filter="biblioteca">Bibliotecă</button>
+      <button type="button" aria-pressed="false" data-search-filter="meditatie">Meditație</button>
+      <button type="button" aria-pressed="false" data-search-filter="glosar">Glosar</button>
+    </div>
+
+    <div class="site-search__results" data-search-results hidden>
+      <p class="site-search__summary" data-search-summary></p>
+      <div data-search-result-list></div>
+    </div>
+  </div>
+</section>
