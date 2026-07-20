@@ -31,6 +31,54 @@
       syncNavState();
     }
 
+    var searchToggle = document.querySelector('[data-search-toggle]');
+    var searchPanel = document.querySelector('[data-search-panel]');
+    var searchInput = document.querySelector('[data-search-input]');
+    var searchClose = document.querySelector('[data-search-close]');
+    var searchResults = document.querySelector('[data-search-results]');
+    var searchFilters = document.querySelectorAll('[data-search-filter]');
+    var searchGroups = document.querySelectorAll('[data-search-group]');
+
+    var closeSearch = function () {
+      if (!searchToggle || !searchPanel) return;
+      searchToggle.setAttribute('aria-expanded', 'false');
+      searchPanel.hidden = true;
+    };
+
+    if (searchToggle && searchPanel) {
+      searchToggle.addEventListener('click', function () {
+        var isOpen = searchToggle.getAttribute('aria-expanded') === 'true';
+        searchToggle.setAttribute('aria-expanded', String(!isOpen));
+        searchPanel.hidden = isOpen;
+        if (!isOpen && searchInput) searchInput.focus();
+      });
+
+      if (searchClose) searchClose.addEventListener('click', closeSearch);
+      document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') closeSearch();
+      });
+      if (searchInput && searchResults) {
+        searchInput.addEventListener('input', function () {
+          searchResults.hidden = !searchInput.value.trim();
+        });
+      }
+
+      searchFilters.forEach(function (filter) {
+        filter.addEventListener('click', function () {
+          var selectedFilter = filter.getAttribute('data-search-filter');
+          searchFilters.forEach(function (otherFilter) {
+            var isSelected = otherFilter === filter;
+            otherFilter.classList.toggle('is-active', isSelected);
+            otherFilter.setAttribute('aria-pressed', String(isSelected));
+          });
+          searchGroups.forEach(function (group) {
+            var isMatch = selectedFilter === 'all' || group.getAttribute('data-search-group') === selectedFilter;
+            group.hidden = !isMatch;
+          });
+        });
+      });
+    }
+
     var submenuToggles = document.querySelectorAll('[data-submenu-toggle]');
 
     if (submenuToggles.length) {

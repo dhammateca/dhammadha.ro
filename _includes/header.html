@@ -24,6 +24,16 @@
       <span class="site-nav-toggle__icon" aria-hidden="true"></span>
     </button>
 
+    <button
+      class="site-search-toggle"
+      type="button"
+      aria-expanded="false"
+      aria-controls="site-search"
+      data-search-toggle>
+      <span class="site-search-toggle__icon" aria-hidden="true"></span>
+      <span class="site-search-toggle__label">Caută</span>
+    </button>
+
     <nav class="site-nav" id="site-nav" aria-label="Navigație principală" data-nav hidden>
       <ul class="site-nav__list">
         <li class="site-nav__item site-nav__item--has-children">
@@ -84,3 +94,41 @@
     </nav>
   </div>
 </header>
+
+<section class="site-search" id="site-search" aria-label="Caută în site" data-search-panel hidden>
+  <div class="site-search__inner site-shell">
+    <div class="site-search__bar">
+      <label class="site-search__label" for="site-search-input">Caută în site</label>
+      <div class="site-search__input-wrap">
+        <span class="site-search-toggle__icon" aria-hidden="true"></span>
+        <input id="site-search-input" type="search" placeholder="Caută în sutre, cărți și resurse..." data-search-input>
+        <button class="site-search__close" type="button" aria-label="Închide căutarea" data-search-close>×</button>
+      </div>
+    </div>
+
+    <div class="site-search__filters" aria-label="Filtrează rezultatele">
+      <button class="is-active" type="button" aria-pressed="true" data-search-filter="all">Toate</button>
+      <button type="button" aria-pressed="false" data-search-filter="tipitaka">Tipiṭaka</button>
+      <button type="button" aria-pressed="false" data-search-filter="biblioteca">Bibliotecă</button>
+      <button type="button" aria-pressed="false" data-search-filter="meditatie">Meditație</button>
+      <button type="button" aria-pressed="false" data-search-filter="glosar">Glosar</button>
+    </div>
+
+    <div class="site-search__results" data-search-results hidden>
+      <p class="site-search__summary">Rezultate pentru „atenție”</p>
+      <section class="site-search__group" data-search-group="tipitaka">
+        <h2>Tipiṭaka</h2>
+        <a href="{{ "/tipitaka/mn" | relative_url }}"><strong>MN 19 — Două feluri de a gândi</strong><span>O sută despre felul în care atenția modelează gândirea.</span></a>
+        <a href="{{ "/tipitaka/kn/dhammapada" | relative_url }}"><strong>Dhammapada — Mintea</strong><span>Versete despre minte, veghe și atenție.</span></a>
+      </section>
+      <section class="site-search__group" data-search-group="biblioteca">
+        <h2>Bibliotecă</h2>
+        <a href="{{ "/biblioteca/ajahn-brahm-tehnica-de-baza-a-meditatiei" | relative_url }}"><strong>Tehnica de bază a meditației — Ajahn Brahm</strong><span>Îndrumări practice pentru atenția asupra respirației.</span></a>
+      </section>
+      <section class="site-search__group" data-search-group="glosar">
+        <h2>Glosar</h2>
+        <a href="{{ "/glosar" | relative_url }}"><strong>sati</strong><span>Atenție, prezență conștientă, aducere-aminte.</span></a>
+      </section>
+    </div>
+  </div>
+</section>
