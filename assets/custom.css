@@ -1284,6 +1284,7 @@ small,
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+  flex-shrink: 0;
   min-width: 44px;
   min-height: 44px;
   padding: 0.7rem;
@@ -1292,6 +1293,7 @@ small,
   background: transparent;
   color: var(--color-text);
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .site-search-toggle:hover,
@@ -1300,6 +1302,7 @@ small,
 }
 
 .site-search-toggle__icon {
+  flex: 0 0 0.95rem;
   width: 0.95rem;
   height: 0.95rem;
   border: 2px solid currentColor;
@@ -1372,8 +1375,9 @@ small,
 }
 
 .site-search__close {
-  width: 2rem;
-  height: 2rem;
+  flex: 0 0 44px;
+  width: 44px;
+  height: 44px;
   border: 0;
   background: transparent;
   color: var(--color-text);
@@ -1390,6 +1394,7 @@ small,
 }
 
 .site-search__filters button {
+  min-height: 44px;
   padding: 0.45rem 0.8rem;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-pill);
@@ -1423,6 +1428,7 @@ small,
 }
 
 .site-search__group a {
+  min-width: 0;
   display: grid;
   gap: 0.25rem;
   padding: 0.85rem 0;
@@ -1436,6 +1442,7 @@ small,
 }
 
 .site-search__group span {
+  overflow-wrap: anywhere;
   color: var(--color-text-muted);
   font-size: 0.94rem;
 }
@@ -1515,11 +1522,22 @@ footer {
   }
 }
 
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 1080px) {
   .site-header__inner {
     min-height: 76px;
     flex-wrap: wrap;
+    gap: 0.5rem;
     padding: 0.75rem 0;
+  }
+
+  .site-brand {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .site-brand__text {
+    min-width: 0;
+    white-space: nowrap;
   }
 
   .site-nav-toggle {
@@ -1537,7 +1555,8 @@ footer {
   }
 
   .site-search {
-    top: 77px;
+    top: 0;
+    z-index: 45;
     padding-top: 1.5rem;
   }
 
@@ -1613,6 +1632,10 @@ footer {
 
   .site-brand__text {
     font-size: 1.28rem;
+  }
+
+  .site-search-toggle__label {
+    display: none;
   }
 
   .hero,
