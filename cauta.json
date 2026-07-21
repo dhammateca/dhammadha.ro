@@ -3,13 +3,27 @@ layout: null
 permalink: /cauta.json
 ---
 {%- assign search_documents = site.kn_dhp | concat: site.mn | concat: site.sn | concat: site.an | concat: site.kn_ud | concat: site.book_basic_method | concat: site.book_divine_mantra -%}
+{%- assign basic_method_metadata = site.book_basic_method | first -%}
+{%- assign divine_mantra_metadata = site.book_divine_mantra | first -%}
 [
 {%- assign is_first = true -%}
 {%- for item in search_documents -%}
   {%- unless is_first -%},{%- endunless -%}
   {%- assign is_first = false -%}
   {
-    "title": {%- if item.collection == "kn_dhp" -%}{{ "Dhammapada — " | append: item.title | jsonify }}{%- else -%}{{ item.romanian_title | default: item.title | jsonify }}{%- endif -%},
+    "title": {%- if item.collection == "kn_dhp" -%}
+      {{ "Dhammapada — " | append: item.title | jsonify }}
+      {%- elsif item.collection == "book_basic_method" and item.author == nil -%}
+      {{ basic_method_metadata.title | append: " — " | append: item.title | append: " · " | append: basic_method_metadata.author | jsonify }}
+      {%- elsif item.collection == "book_divine_mantra" and item.author == nil -%}
+      {{ divine_mantra_metadata.title | append: " — " | append: item.title | append: " · " | append: divine_mantra_metadata.author | jsonify }}
+      {%- elsif item.collection == "book_basic_method" -%}
+      {{ basic_method_metadata.title | append: " · " | append: basic_method_metadata.author | jsonify }}
+      {%- elsif item.collection == "book_divine_mantra" -%}
+      {{ divine_mantra_metadata.title | append: " · " | append: divine_mantra_metadata.author | jsonify }}
+      {%- else -%}
+      {{ item.romanian_title | default: item.title | jsonify }}
+      {%- endif -%},
     "url": {%- if item.collection == "kn_dhp" -%}{{ item.url | append: "#majjhe" | relative_url | jsonify }}{%- else -%}{{ item.url | relative_url | jsonify }}{%- endif -%},
     "section": {%- if item.collection == "book_basic_method" or item.collection == "book_divine_mantra" -%} "Bibliotecă" {%- else -%} "Tipiṭaka" {%- endif -%},
     "filter": {%- if item.collection == "book_basic_method" or item.collection == "book_divine_mantra" -%} "biblioteca" {%- else -%} "tipitaka" {%- endif -%},
