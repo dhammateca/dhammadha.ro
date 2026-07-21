@@ -2,7 +2,33 @@
   (function () {
     var navToggle = document.querySelector('[data-nav-toggle]');
     var nav = document.querySelector('[data-nav]');
-    var mobileMedia = window.matchMedia('(max-width: 820px)');
+    var mobileMedia = window.matchMedia('(max-width: 1080px)');
+    var brandText = document.querySelector('.site-brand__text');
+    var headerInner = document.querySelector('.site-header__inner');
+
+    var fitBrandText = function () {
+      if (!brandText) return;
+
+      brandText.style.fontSize = '';
+      var availableWidth = brandText.clientWidth;
+      var requiredWidth = brandText.scrollWidth;
+
+      if (!availableWidth || requiredWidth <= availableWidth) return;
+
+      var fontSize = parseFloat(window.getComputedStyle(brandText).fontSize);
+      brandText.style.fontSize = (fontSize * (availableWidth * 0.9 / requiredWidth)).toFixed(2) + 'px';
+    };
+
+    fitBrandText();
+    window.addEventListener('resize', fitBrandText);
+
+    if (window.ResizeObserver && headerInner) {
+      new ResizeObserver(fitBrandText).observe(headerInner);
+    }
+
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(fitBrandText);
+    }
 
     if (navToggle && nav) {
       var syncNavState = function () {
@@ -14,6 +40,8 @@
           nav.hidden = false;
           navToggle.setAttribute('aria-expanded', 'false');
         }
+
+        fitBrandText();
       };
 
       navToggle.addEventListener('click', function () {
