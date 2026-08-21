@@ -37,6 +37,38 @@ This writes:
 - `_data/uposatha.json`
 - `assets/calendars/uposatha-ro.ics`
 
+## Dhammapada audio
+
+Local recordings use `assets/audio/dhammapada/<chapter>/<verse>.mp3`, with
+zero-padded chapter and verse numbers (for example,
+`assets/audio/dhammapada/01/001.mp3`). A recording has these metadata fields:
+
+```yaml
+audio: /assets/audio/dhammapada/01/001.mp3
+audio_length: 323012
+audio_duration: "00:00:19"
+audio_guid: dhammapada-01-001
+```
+
+`audio` may instead be an absolute URL such as
+`https://audio.example.org/dhammapada/01/001.mp3`. The audio include uses
+`relative_url` for local paths and leaves absolute URLs unchanged. For a
+podcast enclosure, capture `{% include audio-absolute-url.html audio=page.audio %}`;
+the include uses `absolute_url` for local paths (including `site.url` and
+`site.baseurl`) and leaves an external URL unchanged.
+
+The current Dhammapada edition stores one document per chapter, so its
+per-verse metadata is in `_data/dhammapada_audio.yml`. Standalone verse pages
+can put the same fields directly in front matter. To inspect new local MP3s
+without involving the Jekyll build, run:
+
+```sh
+./scripts/audio_metadata.sh assets/audio/dhammapada/01/001.mp3
+```
+
+The helper requires `ffprobe` from FFmpeg and reports exact bytes plus a
+rounded `HH:MM:SS` duration.
+
 ## License
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)

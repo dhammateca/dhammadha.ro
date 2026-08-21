@@ -4,7 +4,7 @@ title: Perechile
 ---
 #### Perechile
 
-1\\
+1 {% include dhammapada-audio.html record=site.data.dhammapada_audio.chapter_01.verse_001 inline=true %}\\
 Toate stările care iau ființă\\
 sunt determinate\\
 de inimă.\\
@@ -16,7 +16,7 @@ cu siguranță\\
 când vorbim sau acționăm impulsiv\\
 dintr-o inimă impură.
 
-2\\
+2 {% include dhammapada-audio.html record=site.data.dhammapada_audio.chapter_01.verse_002 inline=true %}\\
 Toate stările care iau ființă\\
 sunt determinate\\
 de inimă.\\
@@ -27,7 +27,7 @@ așa bunăstarea va urma\\
 când vorbim sau acționăm\\
 cu o inimă pură.
 
-3\\
+3 {% include dhammapada-audio.html record=site.data.dhammapada_audio.chapter_01.verse_003 inline=true %}\\
 Când ne ținem strâns\\
 de asemenea gânduri precum\\
 „M-au abuzat,\\
@@ -36,7 +36,7 @@ m-au brutalizat,\\
 m-au jefuit”\\
 păstrăm ura vie.
 
-4\\
+4 {% include dhammapada-audio.html record=site.data.dhammapada_audio.chapter_01.verse_004 inline=true %}\\
 Dacă ne eliberăm complet\\
 de gânduri precum\\
 „M-au abuzat,\\
@@ -45,12 +45,12 @@ m-au brutalizat,\\
 m-au jefuit”,\\
 ura e cucerită.
 
-5\\
+5 {% include dhammapada-audio.html record=site.data.dhammapada_audio.chapter_01.verse_005 inline=true %}\\
 Niciodată ura nu e prin ură cucerită,\\
 ci doar prin disponibilitatea de a iubi.\\
 Aceasta e lege eternă.
 
-6\\
+6 {% include dhammapada-audio.html record=site.data.dhammapada_audio.chapter_01.verse_006 inline=true %}\\
 Cei ce sunt litigioși\\
 au uitat\\
 că murim cu toții.
@@ -58,7 +58,7 @@ Pentru cei înțelepți,\\
 ce reflectă asupra acestui fapt,\\
 nu există cârcoteli.
 
-7\\
+7 {% include dhammapada-audio.html record=site.data.dhammapada_audio.chapter_01.verse_007 inline=true %}\\
 La fel cum rafala unei furtuni\\
 poate dezrădăcina\\
 un copac firav,\\
@@ -68,7 +68,7 @@ cel care se răsfață cu mâncare\\
 și e nepăsător\\
 poate fi dezrădăcinat de Mara.
 
-8\\
+8 {% include dhammapada-audio.html record=site.data.dhammapada_audio.chapter_01.verse_008 inline=true %}\\
 La fel cum rafala unei furtuni\\
 nu poate urni un munte de piatră,\\
 așa cel care contemplă\\
@@ -76,39 +76,39 @@ realitatea corpului,\\
 care dezvoltă credință și energie,\\
 e nemișcat de Mara.
 
-9\\
+9 {% include dhammapada-audio.html record=site.data.dhammapada_audio.chapter_01.verse_009 inline=true %}\\
 Purtarea robei unuia care a renunțat,\\
 în sine, nu-l face pe ins pur.\\
 Acei care o poartă,\\
 dar le lipsește încă sârguința,\\
 sunt lipsiți de băgare de seamă.
 
-10\\
+10 {% include dhammapada-audio.html record=site.data.dhammapada_audio.chapter_01.verse_010 inline=true %}\\
 Fiind posedat de autocontrol,\\
 onest și sârguincios în conduită,\\
 un ins e astfel demn\\
 de roba unuia care a renunțat.
 
-11\\
+11 {% include dhammapada-audio.html record=site.data.dhammapada_audio.chapter_01.verse_011 inline=true %}\\
 Încurcând falsul cu realul,\\
 și realul cu falsul,\\
 insul suferă de o viață\\
 a falsității.
 
-12\\
+12 {% include dhammapada-audio.html record=site.data.dhammapada_audio.chapter_01.verse_012 inline=true %}\\
 Dar văzând\\
 falsul ca fals\\
 și realul ca real,\\
 insul trăiește\\
 în perfectul real.
 
-13\\
+13 {% include dhammapada-audio.html record=site.data.dhammapada_audio.chapter_01.verse_013 inline=true %}\\
 Asemeni ploii infiltrându-se\\
 printr-un acoperiș prost împăiat,\\
 pasiunile nesupuse se preling\\
 într-o inimă neîmblânzită.
 
-14\\
+14 {% include dhammapada-audio.html record=site.data.dhammapada_audio.chapter_01.verse_014 inline=true %}\\
 Cum ploaia nu poate penetra\\
 un acoperiș bine împăiat,\\
 așa pasiunile nu pot intra\\

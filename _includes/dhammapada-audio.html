@@ -1,0 +1,26 @@
+{%- assign recording = include.record -%}
+{%- assign audio = include.audio | default: recording.audio | default: page.audio -%}
+{%- if audio -%}
+  {%- assign audio_prefix = audio | slice: 0, 2 -%}
+  {%- if audio contains '://' or audio_prefix == '//' -%}
+    {%- assign audio_src = audio -%}
+  {%- else -%}
+    {%- assign audio_src = audio | relative_url -%}
+  {%- endif -%}
+  {%- assign audio_label = include.label | default: 'Ascultă înregistrarea audio' -%}
+  {%- if include.inline -%}
+  <span class="dhammapada-audio dhammapada-audio--inline">
+  {%- else -%}
+  <div class="dhammapada-audio">
+    <p class="dhammapada-audio__label">{{ audio_label }}</p>
+  {%- endif -%}
+    <audio controls preload="none">
+      <source src="{{ audio_src | escape }}" type="audio/mpeg">
+      Browserul tău nu acceptă redarea audio.
+    </audio>
+  {%- if include.inline -%}
+  </span>
+  {%- else -%}
+  </div>
+  {%- endif -%}
+{%- endif -%}

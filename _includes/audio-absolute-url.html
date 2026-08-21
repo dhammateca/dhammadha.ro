@@ -1,0 +1,10 @@
+{%- assign recording = include.record -%}
+{%- assign audio = include.audio | default: recording.audio | default: page.audio -%}
+{%- if audio -%}
+  {%- assign audio_prefix = audio | slice: 0, 2 -%}
+  {%- if audio contains '://' or audio_prefix == '//' -%}
+    {{- audio -}}
+  {%- else -%}
+    {{- audio | absolute_url -}}
+  {%- endif -%}
+{%- endif -%}
