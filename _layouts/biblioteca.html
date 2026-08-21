@@ -22,6 +22,9 @@
           </div>
         </div>
       </section>
+      {% if page.show_newsletter %}
+        {% include newsletter.html %}
+      {% endif %}
     </main>
 
     {%- include footer.html -%}
