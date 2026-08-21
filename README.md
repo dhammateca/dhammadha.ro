@@ -82,6 +82,15 @@ and omit `<pubDate>` rather than using an invented timestamp.
 Set `podcast.image` in `_config.yml` to a site-relative podcast artwork path
 when artwork is available. The feed converts it to an absolute URL.
 
+Podcast-level attribution (original title, Ajahn Munindo as author, and the
+Romanian translators/adapters) is configured under `podcast` in `_config.yml`
+and is emitted in the channel and each episode description.
+
+The feed declares the Apple Podcasts `Religion & Spirituality` / `Buddhism`
+category, is a serial podcast, and uses each verse's canonical global number
+as `itunes:episode`. The public `site.email` is emitted as the podcast owner's
+email for ownership verification by services such as Spotify.
+
 ## License
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)

@@ -3,14 +3,25 @@ layout: null
 permalink: /podcast.xml
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ site.podcast.title | xml_escape }}</title>
     <link>{{ '/' | absolute_url | xml_escape }}</link>
+    <atom:link href="{{ '/podcast.xml' | absolute_url | xml_escape }}" rel="self" type="application/rss+xml" />
     <description>{{ site.podcast.description | xml_escape }}</description>
     <language>{{ site.podcast.language | xml_escape }}</language>
     <itunes:author>{{ site.podcast.author | xml_escape }}</itunes:author>
+    <itunes:title>{{ site.podcast.title | xml_escape }}</itunes:title>
     <itunes:summary>{{ site.podcast.description | xml_escape }}</itunes:summary>
+    <copyright>&#xA9; {{ site.podcast.copyright | xml_escape }}</copyright>
+    <itunes:owner>
+      <itunes:name>{{ site.podcast.publisher | xml_escape }}</itunes:name>
+      <itunes:email>{{ site.email | xml_escape }}</itunes:email>
+    </itunes:owner>
+    <itunes:type>{{ site.podcast.type | xml_escape }}</itunes:type>
+    <itunes:category text="{{ site.podcast.category | xml_escape }}">
+      <itunes:category text="{{ site.podcast.subcategory | xml_escape }}" />
+    </itunes:category>
     <itunes:explicit>{{ site.podcast.explicit }}</itunes:explicit>
     {% if site.podcast.image %}<itunes:image href="{{ site.podcast.image | absolute_url | xml_escape }}" />{% endif %}
     {% assign dated_recordings = site.data.dhammapada_audio | where_exp: 'recording', 'recording.date' %}
@@ -35,10 +46,12 @@ permalink: /podcast.xml
           {% capture episode_path %}{{ chapter_document.url }}#dhp-{{ recording.chapter }}-{{ recording.verse }}{% endcapture %}
           <item>
             <title>Dhammapada {{ chapter_number }}.{{ verse_number }} - {{ chapter_document.title | xml_escape }}</title>
+            <itunes:title>Dhammapada {{ chapter_number }}.{{ verse_number }} - {{ chapter_document.title | xml_escape }}</itunes:title>
             <guid isPermaLink="false">{{ recording.audio_guid | xml_escape }}</guid>
             {% if recording.date %}<pubDate>{{ recording.date | date_to_rfc822 }}</pubDate>{% endif %}
+            <itunes:episode>{{ verse_number }}</itunes:episode>
             <link>{{ episode_path | absolute_url | xml_escape }}</link>
-            <description>{{ site.podcast.title | xml_escape }}, capitolul {{ chapter_number }} - {{ chapter_document.title | xml_escape }}, versul {{ verse_number }}.</description>
+            <description>Dhammapada {{ chapter_number }}.{{ verse_number }} - {{ chapter_document.title | xml_escape }}. Din „{{ site.podcast.title | xml_escape }}” (titlul original: „{{ site.podcast.original_title | xml_escape }}”), interpretare de {{ site.podcast.author | xml_escape }}. Traducere și adaptare română: {{ site.podcast.translator | xml_escape }}.</description>
             <enclosure url="{% include audio-absolute-url.html audio=recording.audio %}" length="{{ recording.audio_length }}" type="audio/mpeg" />
             {% if recording.audio_duration %}<itunes:duration>{{ recording.audio_duration | xml_escape }}</itunes:duration>{% endif %}
           </item>

@@ -21,11 +21,18 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: https://dhammadha.ro # the base hostname & protocol for your site, e.g. http://example.com
 
 podcast:
-  title: "Dhammapada"
-  description: "Înregistrări ale versurilor din Dhammapada."
-  author: "Dhammadha.ro"
+  title: "Dhammapada: O Dhammapada pentru contemplație"
+  original_title: "A Dhammapada for Contemplation"
+  author: "Ajahn Munindo"
+  translator: "Mircea Mare și Diana D., din Comunitatea Dhammadha.ro"
+  publisher: "Dhammadha.ro"
+  description: "Înregistrări ale versurilor din interpretarea contemporană a Dhammapadei de Ajahn Munindo, în traducerea și adaptarea română de Mircea Mare și Diana D., din Comunitatea Dhammadha.ro."
+  copyright: "Aruno Publications 2016; traducerea și adaptarea română de Mircea Mare și Diana D., din Comunitatea Dhammadha.ro."
   language: "ro"
   image: "/assets/images/dhammapada-podcast.png"
+  category: "Religion & Spirituality"
+  subcategory: "Buddhism"
+  type: "serial"
   explicit: false
 # twitter_username: jekyllrb
 # github_username:  jekyll
