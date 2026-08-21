@@ -19,6 +19,13 @@ description: >- # this means to ignore newlines until "baseurl:"
   Sutre budiste Theravāda și învățățuri din Tradiția Pădurii Thailandeze.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://dhammadha.ro # the base hostname & protocol for your site, e.g. http://example.com
+
+podcast:
+  title: "Dhammapada"
+  description: "Înregistrări ale versurilor din Dhammapada."
+  author: "Dhammadha.ro"
+  language: "ro"
+  explicit: false
 # twitter_username: jekyllrb
 # github_username:  jekyll
 

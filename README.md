@@ -69,6 +69,19 @@ without involving the Jekyll build, run:
 The helper requires `ffprobe` from FFmpeg and reports exact bytes plus a
 rounded `HH:MM:SS` duration.
 
+## Dhammapada podcast feed
+
+The static podcast feed is published at `/podcast.xml`. It uses the recording
+records in `_data/dhammapada_audio.yml`; every entry requires `audio`,
+`audio_length`, and `audio_guid`, while `audio_duration` and `date` are
+optional. Add an explicit `date` when publishing each recording: once all
+published entries have dates, the feed sorts them newest first. Until dates
+are supplied, the current recordings remain in canonical chapter/verse order
+and omit `<pubDate>` rather than using an invented timestamp.
+
+Set `podcast.image` in `_config.yml` to a site-relative podcast artwork path
+when artwork is available. The feed converts it to an absolute URL.
+
 ## License
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)

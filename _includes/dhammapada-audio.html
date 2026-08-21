@@ -1,4 +1,12 @@
 {%- assign recording = include.record -%}
+{%- if include.chapter and include.verse -%}
+  {%- for candidate in site.data.dhammapada_audio -%}
+    {%- if candidate.chapter == include.chapter and candidate.verse == include.verse -%}
+      {%- assign recording = candidate -%}
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
 {%- assign audio = include.audio | default: recording.audio | default: page.audio -%}
 {%- if audio -%}
   {%- assign audio_prefix = audio | slice: 0, 2 -%}
