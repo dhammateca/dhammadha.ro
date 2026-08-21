@@ -25,6 +25,7 @@ podcast:
   description: "Înregistrări ale versurilor din Dhammapada."
   author: "Dhammadha.ro"
   language: "ro"
+  image: "/assets/images/dhammapada-podcast.png"
   explicit: false
 # twitter_username: jekyllrb
 # github_username:  jekyll
