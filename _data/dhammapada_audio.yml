@@ -1,0 +1,102 @@
+# This edition has one Jekyll document per chapter, while recordings are
+# attached per verse. Chapter titles remain in the existing chapter documents.
+# Add an explicit `date` when a recording is published; the feed then sorts it
+# newest first. Standalone verse pages may use the same fields in front matter.
+- chapter: "01"
+  verse: "001"
+  audio: /assets/audio/dhammapada/01/001.mp3
+  audio_length: 323012
+  audio_duration: "00:00:19"
+  audio_guid: dhammapada-01-001
+  date: 2026-08-09 08:00:00 +0300
+- chapter: "01"
+  verse: "002"
+  audio: /assets/audio/dhammapada/01/002.mp3
+  audio_length: 287485
+  audio_duration: "00:00:17"
+  audio_guid: dhammapada-01-002
+  date: 2026-08-10 08:00:00 +0300
+- chapter: "01"
+  verse: "003"
+  audio: /assets/audio/dhammapada/01/003.mp3
+  audio_length: 174636
+  audio_duration: "00:00:10"
+  audio_guid: dhammapada-01-003
+  date: 2026-08-11 08:00:00 +0300
+- chapter: "01"
+  verse: "004"
+  audio: /assets/audio/dhammapada/01/004.mp3
+  audio_length: 172128
+  audio_duration: "00:00:10"
+  audio_guid: dhammapada-01-004
+  date: 2026-08-12 08:00:00 +0300
+- chapter: "01"
+  verse: "005"
+  audio: /assets/audio/dhammapada/01/005.mp3
+  audio_length: 156664
+  audio_duration: "00:00:09"
+  audio_guid: dhammapada-01-005
+  date: 2026-08-13 08:00:00 +0300
+- chapter: "01"
+  verse: "006"
+  audio: /assets/audio/dhammapada/01/006.mp3
+  audio_length: 183831
+  audio_duration: "00:00:10"
+  audio_guid: dhammapada-01-006
+  date: 2026-08-14 08:00:00 +0300
+- chapter: "01"
+  verse: "007"
+  audio: /assets/audio/dhammapada/01/007.mp3
+  audio_length: 268259
+  audio_duration: "00:00:16"
+  audio_guid: dhammapada-01-007
+  date: 2026-08-15 08:00:00 +0300
+- chapter: "01"
+  verse: "008"
+  audio: /assets/audio/dhammapada/01/008.mp3
+  audio_length: 214342
+  audio_duration: "00:00:12"
+  audio_guid: dhammapada-01-008
+  date: 2026-08-16 08:00:00 +0300
+- chapter: "01"
+  verse: "009"
+  audio: /assets/audio/dhammapada/01/009.mp3
+  audio_length: 209327
+  audio_duration: "00:00:12"
+  audio_guid: dhammapada-01-009
+  date: 2026-08-17 08:00:00 +0300
+- chapter: "01"
+  verse: "010"
+  audio: /assets/audio/dhammapada/01/010.mp3
+  audio_length: 170874
+  audio_duration: "00:00:10"
+  audio_guid: dhammapada-01-010
+  date: 2026-08-18 08:00:00 +0300
+- chapter: "01"
+  verse: "011"
+  audio: /assets/audio/dhammapada/01/011.mp3
+  audio_length: 137438
+  audio_duration: "00:00:08"
+  audio_guid: dhammapada-01-011
+  date: 2026-08-19 08:00:00 +0300
+- chapter: "01"
+  verse: "012"
+  audio: /assets/audio/dhammapada/01/012.mp3
+  audio_length: 133676
+  audio_duration: "00:00:07"
+  audio_guid: dhammapada-01-012
+  date: 2026-08-20 08:00:00 +0300
+- chapter: "01"
+  verse: "013"
+  audio: /assets/audio/dhammapada/01/013.mp3
+  audio_length: 160425
+  audio_duration: "00:00:09"
+  audio_guid: dhammapada-01-013
+  date: 2026-08-21 08:00:00 +0300
+- chapter: "01"
+  verse: "014"
+  audio: /assets/audio/dhammapada/01/014.mp3
+  audio_length: 154156
+  audio_duration: "00:00:09"
+  audio_guid: dhammapada-01-014
+  date: 2026-08-22 08:00:00 +0300
