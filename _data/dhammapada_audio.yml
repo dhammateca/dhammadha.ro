@@ -100,3 +100,45 @@
   audio_duration: "00:00:09"
   audio_guid: dhammapada-01-014
   date: 2026-08-22 08:00:00 +0300
+- chapter: "01"
+  verse: "015"
+  audio: /assets/audio/dhammapada/01/015.mp3
+  audio_length: 151648
+  audio_duration: "00:00:08"
+  audio_guid: dhammapada-01-015
+  date: 2026-08-23 08:00:00 +0300
+- chapter: "01"
+  verse: "016"
+  audio: /assets/audio/dhammapada/01/016.mp3
+  audio_length: 204311
+  audio_duration: "00:00:12"
+  audio_guid: dhammapada-01-016
+  date: 2026-08-23 08:00:00 +0300
+- chapter: "01"
+  verse: "017"
+  audio: /assets/audio/dhammapada/01/017.mp3
+  audio_length: 229807
+  audio_duration: "00:00:13"
+  audio_guid: dhammapada-01-017
+  date: 2026-08-23 08:00:00 +0300
+- chapter: "01"
+  verse: "018"
+  audio: /assets/audio/dhammapada/01/018.mp3
+  audio_length: 214342
+  audio_duration: "00:00:12"
+  audio_guid: dhammapada-01-018
+  date: 2026-08-23 08:00:00 +0300
+- chapter: "01"
+  verse: "019"
+  audio: /assets/audio/dhammapada/01/019.mp3
+  audio_length: 254048
+  audio_duration: "00:00:15"
+  audio_guid: dhammapada-01-019
+  date: 2026-08-23 08:00:00 +0300
+- chapter: "01"
+  verse: "020"
+  audio: /assets/audio/dhammapada/01/020.mp3
+  audio_length: 320504
+  audio_duration: "00:00:19"
+  audio_guid: dhammapada-01-020
+  date: 2026-08-23 08:00:00 +0300
