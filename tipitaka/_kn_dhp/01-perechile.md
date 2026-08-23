@@ -114,20 +114,20 @@ un acoperiș bine împăiat,\\
 așa pasiunile nu pot intra\\
 într-o inimă bine instruită.
 
-15\\
+<span id="dhp-01-015">15</span> {% include dhammapada-audio.html chapter="01" verse="015" inline=true %}\\
 Când vedem clar\\
 propria noastră lipsă de virtute\\
 suntem umpluți cu mâhnire;\\
 de acum și înainte ne mâhnim.
 
-16\\
+<span id="dhp-01-016">16</span> {% include dhammapada-audio.html chapter="01" verse="016" inline=true %}\\
 Când apreciem complet beneficiul\\
 propriilor noastre fapte pure,\\
 suntem plini de bucurie;\\
 de acum și înainte\\
 are loc o celebrare a bucuriei.
 
-17\\
+<span id="dhp-01-017">17</span> {% include dhammapada-audio.html chapter="01" verse="017" inline=true %}\\
 De acum și înainte\\
 cei care înfăptuiesc rău\\
 își creează propria suferință.\\
@@ -136,7 +136,7 @@ cu gândul „Am făcut rău”\\
 le posedă mintea\\
 și cad în haos.
 
-18\\
+<span id="dhp-01-018">18</span> {% include dhammapada-audio.html chapter="01" verse="018" inline=true %}\\
 De acum și înainte\\
 cei care își trăiesc viața bine\\
 își duc veacul în fericire.\\
@@ -144,7 +144,7 @@ Ei sunt plini\\
 de o apreciere naturală a virtuții\\
 și trăiesc cu încântare.
 
-19\\
+<span id="dhp-01-019">19</span> {% include dhammapada-audio.html chapter="01" verse="019" inline=true %}\\
 Cu toate că insul poate cunoaște\\
 multe despre Dhamma,\\
 dacă insul nu trăiește propice –\\
@@ -154,7 +154,7 @@ insul nu va afla\\
 niciunul din beneficiile\\
 de a umbla Calea.
 
-20\\
+<span id="dhp-01-020">20</span> {% include dhammapada-audio.html chapter="01" verse="020" inline=true %}\\
 Cunoscând doar puțin\\
 despre Dhamma,\\
 dar conformându-se cu toată inima,\\
