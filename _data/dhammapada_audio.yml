@@ -142,3 +142,87 @@
   audio_duration: "00:00:19"
   audio_guid: dhammapada-01-020
   date: 2026-08-23 08:00:00 +0300
+- chapter: "02"
+  verse: "021"
+  audio: /assets/audio/dhammapada/02/021.mp3
+  audio_length: 259064
+  audio_duration: "00:00:15"
+  audio_guid: dhammapada-02-021
+  date: 2026-09-12 08:00:00 +0300
+- chapter: "02"
+  verse: "022"
+  audio: /assets/audio/dhammapada/02/022.mp3
+  audio_length: 155410
+  audio_duration: "00:00:09"
+  audio_guid: dhammapada-02-022
+  date: 2026-09-12 08:00:00 +0300
+- chapter: "02"
+  verse: "023"
+  audio: /assets/audio/dhammapada/02/023.mp3
+  audio_length: 193862
+  audio_duration: "00:00:11"
+  audio_guid: dhammapada-02-023
+  date: 2026-09-12 08:00:00 +0300
+- chapter: "02"
+  verse: "024"
+  audio: /assets/audio/dhammapada/02/024.mp3
+  audio_length: 188847
+  audio_duration: "00:00:11"
+  audio_guid: dhammapada-02-024
+  date: 2026-09-12 08:00:00 +0300
+- chapter: "02"
+  verse: "025"
+  audio: /assets/audio/dhammapada/02/025.mp3
+  audio_length: 238584
+  audio_duration: "00:00:14"
+  audio_guid: dhammapada-02-025
+  date: 2026-09-12 08:00:00 +0300
+- chapter: "02"
+  verse: "026"
+  audio: /assets/audio/dhammapada/02/026.mp3
+  audio_length: 187593
+  audio_duration: "00:00:11"
+  audio_guid: dhammapada-02-026
+  date: 2026-09-12 08:00:00 +0300
+- chapter: "02"
+  verse: "027"
+  audio: /assets/audio/dhammapada/02/027.mp3
+  audio_length: 197624
+  audio_duration: "00:00:11"
+  audio_guid: dhammapada-02-027
+  date: 2026-09-12 08:00:00 +0300
+- chapter: "02"
+  verse: "028"
+  audio: /assets/audio/dhammapada/02/028.mp3
+  audio_length: 264497
+  audio_duration: "00:00:15"
+  audio_guid: dhammapada-02-028
+  date: 2026-09-12 08:00:00 +0300
+- chapter: "02"
+  verse: "029"
+  audio: /assets/audio/dhammapada/02/029.mp3
+  audio_length: 203057
+  audio_duration: "00:00:12"
+  audio_guid: dhammapada-02-029
+  date: 2026-09-12 08:00:00 +0300
+- chapter: "02"
+  verse: "030"
+  audio: /assets/audio/dhammapada/02/030.mp3
+  audio_length: 228553
+  audio_duration: "00:00:13"
+  audio_guid: dhammapada-02-030
+  date: 2026-09-12 08:00:00 +0300
+- chapter: "02"
+  verse: "031"
+  audio: /assets/audio/dhammapada/02/031.mp3
+  audio_length: 213088
+  audio_duration: "00:00:12"
+  audio_guid: dhammapada-02-031
+  date: 2026-09-12 08:00:00 +0300
+- chapter: "02"
+  verse: "032"
+  audio: /assets/audio/dhammapada/02/032.mp3
+  audio_length: 121137
+  audio_duration: "00:00:07"
+  audio_guid: dhammapada-02-032
+  date: 2026-09-12 08:00:00 +0300
